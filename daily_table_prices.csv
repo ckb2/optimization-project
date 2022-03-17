@@ -1,1295 +1,1298 @@
-Item,Price,Units
-Baby Carrots,$ 1.29,each
-Baby Spinach,$ 1.99,lb
-Beets,$ 0.69,lb
-Broccoli,$ 1.29,lb
-Brussels Sprouts,$ 1.49,lb
-Butternut Squash,$ 0.79,lb
-Carrots,$ 0.69,lb
-Cauliflower,$ 3.29,each
-Celery Bunch,$ 1.49,each
-Collard Greens,$ 1.89,lb
-Cucumber,$ 0.69,each
-Eggplant,$ 1.49,lb
-Garlic,$ 4.49,lb
-Ginger Root,$ 1.99,lb
-Grape Tomatoes,$ 1.99,each
-Green Asparagus Bunch,$ 3.69,each
-Green Bell Peppers,$ 1.49,lb
-Green Cabbage,$ 0.69,lb
-Jalapeno Peppers,$ 1.99,lb
-Kale,$ 1.29,lb
-Leeks,$ 1.29,lb
-Little Leaf Farms Baby Crispy Green Leaf Lettuce,$ 1.99,each
-Little Leaf Farms Baby Red & Green Leaf Lettuce,$ 1.99,each
-Little Leaf Farms Baby Spring Mix,$ 1.99,each
-Organic Baby Carrots,$ 2.29,each
-Portobello Mushrooms,$ 1.79,lb
-Red Bell Peppers,$ 1.99,lb
-Red Cabbage,$ 0.69,lb
-Red Onions,$ 1.69,lb
-Red Potatoes,$ 0.59,lb
-Romaine Lettuce Hearts,$ 4.99,each
-Russet Chef Potatoes,$ 0.99,lb
-Scallions / Green Onions (bunch),$ 1.49,each
-Serrano Chili,$ 1.99,lb
-Yuca,$ 0.99,lb
-Chayote,$ 1.29,lb
-Malanga Eddoe,$ 1.69,lb
-Sweet Potatoes,$ 0.69,lb
-Tomato Medley,$ 2.49,each
-Tomatoes on the Vine,$ 1.99,lb
-White Mushrooms,$ 1.99,each
-Yellow Onions,$ 0.79,lb
-Yellow Bell Peppers,$ 2.99,lb
-Zucchini Squash,$ 0.99,lb
-Beefsteak Tomatoes,$ 0.99,lb
-"Baby White Potato, 24oz",$ 3.99,each
-Loose Yukon Gold Potato,$ 0.99,lb
-"Potatoes, 5lb bag",$ 2.49,each
-"Russet Potatoes, 5lb bag",$ 2.49,each
-Baby Bok Choy,$ 1.49,lb
-White Onions,$ 1.49,lb
-Orange Bell Peppers,$ 2.99,lb
-Asian Pears,$ 1.69,lb
-Avocados,$ 0.99,each
-Bananas,$ 0.39,lb
-Blood Oranges,$ 0.79,each
-Blueberries (11 oz),$ 2.29,each
-Cantaloupe Melon,$ 1.99,each
-Clementines (3 lb bag),$ 4.99,each
-Fuji Apples,$ 1.59,lb
-Gala Apples,$ 1.59,lb
-Granny Smith Apples,$ 1.59,lb
-Grapefruit,$ 0.99,each
-Green Pears,$ 1.29,lb
-Green Seedless Grapes,$ 2.49,lb
-Honeycrisp Apples,$ 1.59,lb
-Kiwi,$ 0.39,each
-Lemons,$ 0.39,each
-Limes,$ 0.69,each
-Mangoes,$ 1.29,each
-Navel Oranges,$ 0.79,each
-Papayas,$ 1.49,lb
-Pineapple,$ 2.29,each
-Plantains,$ 0.39,each
-Raspberries,$ 2.49,each
-Red Pears,$ 1.29,lb
-Red Seeded Grapes,$ 3.29,lb
-Red Seedless Grapes,$ 1.99,lb
-Cara Cara,$ 0.79,each
-Strawberries,$ 2.99,each
-Blackberries,$ 3.29,each
-Pink Lady Apples,$ 1.59,each
-Cilantro Bunch,$ 0.79,each
-Parsley,$ 0.79,each
-Cilantro Bunch,$ 0.79,each
-Parsley,$ 0.79,each
-Cilantro Bunch,$ 0.79,each
-Parsley,$ 0.79,each
-Daily Table Bean And Cheese Burrito,$ 1.99,each
-Daily Table Chicken Caesar Wrap,$ 3.49,each
-Daily Table Chicken Salad With Apple,$ 2.49,each
-Daily Table Egg Salad,$ 2.49,each
-Daily Table Jerk Chicken,$ 2.29,each
-Daily Table Quiche Half,$ 2.99,each
-Daily Table Roasted Whole Chicken,$ 4.99,each
-Daily Table Tuna Salad,$ 1.99,each
-Daily Table Tuna Salad,$ 1.99,each
-Daily Table Tuna Salad Wrap,$ 2.49,each
-Daily Table Tuna Salad Wrap,$ 2.49,each
-Daily Table Turkey Sandwich with Avocado Crema,$ 2.99,each
-Daily Table Turkey Sandwich with Avocado Crema,$ 2.99,each
-Cheese Flatbread,$ 1.99,each
-Daily Table Chicken and Shrimp Gumbo,$ 2.99,each
-Daily Table Cheese Ravioli With Butternut Squash Sauce,$ 2.99,each
-Daily Table Chicken Sriracha Ranch Wrap,$ 3.49,each
-Daily Table Caprese Sandwich,$ 3.49,each
-Daily Table Bean And Cheese Burrito,$ 1.99,each
-Daily Table Chicken Caesar Wrap,$ 3.49,each
-Daily Table Chicken Salad With Apple,$ 2.49,each
-Daily Table Egg Salad,$ 2.49,each
-Daily Table Jerk Chicken,$ 2.29,each
-Daily Table Quiche Half,$ 2.99,each
-Daily Table Roasted Whole Chicken,$ 4.99,each
-Daily Table Tuna Salad,$ 1.99,each
-Daily Table Tuna Salad,$ 1.99,each
-Daily Table Tuna Salad Wrap,$ 2.49,each
-Daily Table Tuna Salad Wrap,$ 2.49,each
-Daily Table Turkey Sandwich with Avocado Crema,$ 2.99,each
-Daily Table Turkey Sandwich with Avocado Crema,$ 2.99,each
-Cheese Flatbread,$ 1.99,each
-Daily Table Chicken and Shrimp Gumbo,$ 2.99,each
-Daily Table Cheese Ravioli With Butternut Squash Sauce,$ 2.99,each
-Daily Table Chicken Sriracha Ranch Wrap,$ 3.49,each
-Daily Table Caprese Sandwich,$ 3.49,each
-Daily Table Bean And Cheese Burrito,$ 1.99,each
-Daily Table Chicken Caesar Wrap,$ 3.49,each
-Daily Table Chicken Salad With Apple,$ 2.49,each
-Daily Table Egg Salad,$ 2.49,each
-Daily Table Jerk Chicken,$ 2.29,each
-Daily Table Quiche Half,$ 2.99,each
-Daily Table Roasted Whole Chicken,$ 4.99,each
-Daily Table Tuna Salad,$ 1.99,each
-Daily Table Tuna Salad,$ 1.99,each
-Daily Table Tuna Salad Wrap,$ 2.49,each
-Daily Table Tuna Salad Wrap,$ 2.49,each
-Daily Table Turkey Sandwich with Avocado Crema,$ 2.99,each
-Daily Table Turkey Sandwich with Avocado Crema,$ 2.99,each
-Cheese Flatbread,$ 1.99,each
-Daily Table Chicken and Shrimp Gumbo,$ 2.99,each
-Daily Table Cheese Ravioli With Butternut Squash Sauce,$ 2.99,each
-Daily Table Chicken Sriracha Ranch Wrap,$ 3.49,each
-Daily Table Caprese Sandwich,$ 3.49,each
-Daily Table BBQ Chicken with Collards and Broccoli Slaw,$ 3.99,each
-Daily Table Jerk White Fish Meal,$ 3.99,each
-Daily Table Roasted Chicken with Brown Rice & Veggies,$ 1.99,each
-Daily Table Szechuan Beef Bowl,$ 3.99,each
-Daily Table Chicken Sausage Pasta Marinara,$ 2.99,each
-Daily Table Chicken Chile Verde,$ 2.99,each
-Daily Table Caribbean Curry Fish,$ 2.99,each
-Daily Table BBQ Chicken with Collards and Broccoli Slaw,$ 3.99,each
-Daily Table Jerk White Fish Meal,$ 3.99,each
-Daily Table Roasted Chicken with Brown Rice & Veggies,$ 1.99,each
-Daily Table Szechuan Beef Bowl,$ 3.99,each
-Daily Table Chicken Sausage Pasta Marinara,$ 2.99,each
-Daily Table Chicken Chile Verde,$ 2.99,each
-Daily Table Caribbean Curry Fish,$ 2.99,each
-Daily Table BBQ Chicken with Collards and Broccoli Slaw,$ 3.99,each
-Daily Table Jerk White Fish Meal,$ 3.99,each
-Daily Table Roasted Chicken with Brown Rice & Veggies,$ 1.99,each
-Daily Table Szechuan Beef Bowl,$ 3.99,each
-Daily Table Chicken Sausage Pasta Marinara,$ 2.99,each
-Daily Table Chicken Chile Verde,$ 2.99,each
-Daily Table Caribbean Curry Fish,$ 2.99,each
-"Daily Table ""The Works"" Salad",$ 3.99,each
-Daily Table Garden Salad,$ 1.99,each
-Daily Table Moroccan Chickpea Kale Salad,$ 3.49,each
-Asian Edamame Salad,$ 2.99,each
-"Daily Table ""The Works"" Salad",$ 3.99,each
-Daily Table Garden Salad,$ 1.99,each
-Daily Table Moroccan Chickpea Kale Salad,$ 3.49,each
-Asian Edamame Salad,$ 2.99,each
-"Daily Table ""The Works"" Salad",$ 3.99,each
-Daily Table Garden Salad,$ 1.99,each
-Daily Table Moroccan Chickpea Kale Salad,$ 3.49,each
-Asian Edamame Salad,$ 2.99,each
-Daily Table Beef Chili,$ 3.99,each
-Daily Table Chicken Soup with Rice,$ 2.99,each
-Daily Table Roasted Red Pepper and Tomato Soup,$ 2.49,each
-Daily Table Spicy Vegan 3 Bean Chili,$ 2.99,each
-Daily Table White Bean & Kale Soup,$ 2.99,each
-Daily Table Red Curry Butternut Squash Soup with Coconut and Lemongrass,$ 1.99,each
-Daily Table Minestrone 24 oz,$ 2.99,each
-Daily Table Beef Chili,$ 3.99,each
-Daily Table Chicken Soup with Rice,$ 2.99,each
-Daily Table Roasted Red Pepper and Tomato Soup,$ 2.49,each
-Daily Table Spicy Vegan 3 Bean Chili,$ 2.99,each
-Daily Table White Bean & Kale Soup,$ 2.99,each
-Daily Table Red Curry Butternut Squash Soup with Coconut and Lemongrass,$ 1.99,each
-Daily Table Minestrone 24 oz,$ 2.99,each
-Daily Table Beef Chili,$ 3.99,each
-Daily Table Chicken Soup with Rice,$ 2.99,each
-Daily Table Roasted Red Pepper and Tomato Soup,$ 2.49,each
-Daily Table Spicy Vegan 3 Bean Chili,$ 2.99,each
-Daily Table White Bean & Kale Soup,$ 2.99,each
-Daily Table Red Curry Butternut Squash Soup with Coconut and Lemongrass,$ 1.99,each
-Daily Table Minestrone 24 oz,$ 2.99,each
-Daily Table Garlic Roasted Potatoes,$ 1.49,each
-Daily Table Macaroni Tuna Salad,$ 1.99,each
-Daily Table Potato Salad,$ 1.99,each
-Daily Table Apple Turnover,$ 1.99,each
-"Sweet Potato Pie - 9"" Half Pie",$ 3.49,each
-Daily Table Garlic Roasted Potatoes,$ 1.49,each
-Daily Table Macaroni Tuna Salad,$ 1.99,each
-Daily Table Potato Salad,$ 1.99,each
-Daily Table Apple Turnover,$ 1.99,each
-"Sweet Potato Pie - 9"" Half Pie",$ 3.49,each
-Daily Table Garlic Roasted Potatoes,$ 1.49,each
-Daily Table Macaroni Tuna Salad,$ 1.99,each
-Daily Table Potato Salad,$ 1.99,each
-Daily Table Apple Turnover,$ 1.99,each
-"Sweet Potato Pie - 9"" Half Pie",$ 3.49,each
-Beef Sirloin Tip Steak,$ 8.99,lb
-Beef Stew Meat,$ 4.99,each
-Butterball Original Turkey Bacon,$ 2.99,each
-Ground Beef 80% Lean,$ 4.29,lb
-Ground Pork,$ 3.49,each
-Jamestown Sliced Bacon,$ 4.69,each
-Pork Chops,$ 2.99,lb
-Smithfield Maple Boneless Ham Steak,$ 2.99,each
-Shady Brook Farms 85% Ground Turkey,$ 4.79,each
-Butterball Turkey Polska Kielbasa,$ 3.19,each
-Beef Hamburger Patties 85/15,$ 6.99,each
-Pork Spare Ribs,$ 44.82,14.99 lb
-Beef Sirloin Tip Steak,$ 8.99,lb
-Beef Stew Meat,$ 4.99,each
-Butterball Original Turkey Bacon,$ 2.99,each
-Ground Beef 80% Lean,$ 4.29,lb
-Ground Pork,$ 3.49,each
-Jamestown Sliced Bacon,$ 4.69,each
-Pork Chops,$ 2.99,lb
-Smithfield Maple Boneless Ham Steak,$ 2.99,each
-Shady Brook Farms 85% Ground Turkey,$ 4.79,each
-Butterball Turkey Polska Kielbasa,$ 3.19,each
-Beef Hamburger Patties 85/15,$ 6.99,each
-Pork Spare Ribs,$ 44.82,14.99 lb
-Beef Sirloin Tip Steak,$ 8.99,lb
-Beef Stew Meat,$ 4.99,each
-Butterball Original Turkey Bacon,$ 2.99,each
-Ground Beef 80% Lean,$ 4.29,lb
-Ground Pork,$ 3.49,each
-Jamestown Sliced Bacon,$ 4.69,each
-Pork Chops,$ 2.99,lb
-Smithfield Maple Boneless Ham Steak,$ 2.99,each
-Shady Brook Farms 85% Ground Turkey,$ 4.79,each
-Butterball Turkey Polska Kielbasa,$ 3.19,each
-Beef Hamburger Patties 85/15,$ 6.99,each
-Pork Spare Ribs,$ 44.82,14.99 lb
-Chicken Breast,$ 2.99,lb
-Chicken Drumsticks,$ 1.39,lb
-Chicken Tenders,$ 3.69,lb
-Chicken Thighs Bone-In,$ 1.39,lb
-"Chicken Thighs Boneless, Skinless",$ 2.69,lb
-Chicken Wings,$ 3.99,lb
-Al Fresco Spicy Jalapeno Chicken Sausage,$ 4.99,each
-Al Fresco Sweet Italian Chicken Sausage,$ 4.99,each
-Al Fresco Roasted Pepper and Asiago Chicken Sausage,$ 4.99,each
-Al Fresco Sweet Apple Chicken Sausage,$ 4.99,each
-Chicken Breast,$ 2.99,lb
-Chicken Drumsticks,$ 1.39,lb
-Chicken Tenders,$ 3.69,lb
-Chicken Thighs Bone-In,$ 1.39,lb
-"Chicken Thighs Boneless, Skinless",$ 2.69,lb
-Chicken Wings,$ 3.99,lb
-Al Fresco Spicy Jalapeno Chicken Sausage,$ 4.99,each
-Al Fresco Sweet Italian Chicken Sausage,$ 4.99,each
-Al Fresco Roasted Pepper and Asiago Chicken Sausage,$ 4.99,each
-Al Fresco Sweet Apple Chicken Sausage,$ 4.99,each
-Chicken Breast,$ 2.99,lb
-Chicken Drumsticks,$ 1.39,lb
-Chicken Tenders,$ 3.69,lb
-Chicken Thighs Bone-In,$ 1.39,lb
-"Chicken Thighs Boneless, Skinless",$ 2.69,lb
-Chicken Wings,$ 3.99,lb
-Al Fresco Spicy Jalapeno Chicken Sausage,$ 4.99,each
-Al Fresco Sweet Italian Chicken Sausage,$ 4.99,each
-Al Fresco Roasted Pepper and Asiago Chicken Sausage,$ 4.99,each
-Al Fresco Sweet Apple Chicken Sausage,$ 4.99,each
-Fresh Haddock,$ 5.99,lb
-Fresh Salmon Farm Raised,$ 5.99,lb
-Fresh Swordfish Line Caught,$ 5.99,lb
-Fresh Haddock,$ 5.99,lb
-Fresh Salmon Farm Raised,$ 5.99,lb
-Fresh Swordfish Line Caught,$ 5.99,lb
-Fresh Haddock,$ 5.99,lb
-Fresh Salmon Farm Raised,$ 5.99,lb
-Fresh Swordfish Line Caught,$ 5.99,lb
-Hood 1% Milk,$ 3.99,each
-Hood 1% Lowfat Milk,$ 2.49,each
-Hood 2% Reduced Fat Milk,$ 3.99,each
-Hood 2% Milk,$ 2.49,each
-Hood Whole Milk,$ 3.99,each
-Hood Whole Milk,$ 2.49,each
-Hood 1% Milk,$ 3.99,each
-Hood 1% Lowfat Milk,$ 2.49,each
-Hood 2% Reduced Fat Milk,$ 3.99,each
-Hood 2% Milk,$ 2.49,each
-Hood Whole Milk,$ 3.99,each
-Hood Whole Milk,$ 2.49,each
-Hood 1% Milk,$ 3.99,each
-Hood 1% Lowfat Milk,$ 2.49,each
-Hood 2% Reduced Fat Milk,$ 3.99,each
-Hood 2% Milk,$ 2.49,each
-Hood Whole Milk,$ 3.99,each
-Hood Whole Milk,$ 2.49,each
-Extra Large Brown Eggs,$ 2.29,each
-Extra Large White Eggs,$ 2.49,each
-Large Brown Eggs,$ 1.99,each
-Large White Eggs,$ 2.29,each
-Extra Large Brown Eggs,$ 2.29,each
-Extra Large White Eggs,$ 2.49,each
-Large Brown Eggs,$ 1.99,each
-Large White Eggs,$ 2.29,each
-Extra Large Brown Eggs,$ 2.29,each
-Extra Large White Eggs,$ 2.49,each
-Large Brown Eggs,$ 1.99,each
-Large White Eggs,$ 2.29,each
-Almond Breeze Original Unsweetened Almondmilk,$ 3.49,each
-Almond Breeze Vanilla Unsweetened Almondmilk,$ 3.49,each
-Lactaid 2% Reduced Fat Milk,$ 3.99,each
-Lactaid Whole Milk,$ 3.99,each
-Planet Oat Original Oat Milk,$ 3.69,each
-Planet Oat Vanilla Oat Milk,$ 3.69,each
-Rolling Hills Farm Organic Soy Milk,$ 2.99,each
-Rolling Hills Farm Organic Vanilla Soy Milk,$ 2.99,each
-Almond Breeze Original Unsweetened Almondmilk,$ 3.49,each
-Almond Breeze Vanilla Unsweetened Almondmilk,$ 3.49,each
-Lactaid 2% Reduced Fat Milk,$ 3.99,each
-Lactaid Whole Milk,$ 3.99,each
-Planet Oat Original Oat Milk,$ 3.69,each
-Planet Oat Vanilla Oat Milk,$ 3.69,each
-Rolling Hills Farm Organic Soy Milk,$ 2.99,each
-Rolling Hills Farm Organic Vanilla Soy Milk,$ 2.99,each
-Almond Breeze Original Unsweetened Almondmilk,$ 3.49,each
-Almond Breeze Vanilla Unsweetened Almondmilk,$ 3.49,each
-Lactaid 2% Reduced Fat Milk,$ 3.99,each
-Lactaid Whole Milk,$ 3.99,each
-Planet Oat Original Oat Milk,$ 3.69,each
-Planet Oat Vanilla Oat Milk,$ 3.69,each
-Rolling Hills Farm Organic Soy Milk,$ 2.99,each
-Rolling Hills Farm Organic Vanilla Soy Milk,$ 2.99,each
-Cabot Salted Butter,$ 3.99,each
-Cabot Unsalted Butter,$ 3.99,each
-Cloverdale Salted Butter,$ 2.79,each
-Cloverdale Unsalted Butter,$ 2.79,each
-Grassland Salted Butter,$ 3.49,each
-Cabot Salted Butter,$ 3.99,each
-Cabot Unsalted Butter,$ 3.99,each
-Cloverdale Salted Butter,$ 2.79,each
-Cloverdale Unsalted Butter,$ 2.79,each
-Grassland Salted Butter,$ 3.49,each
-Cabot Salted Butter,$ 3.99,each
-Cabot Unsalted Butter,$ 3.99,each
-Cloverdale Salted Butter,$ 2.79,each
-Cloverdale Unsalted Butter,$ 2.79,each
-Grassland Salted Butter,$ 3.49,each
-Hood All Natural Sour Cream,$ 1.99,each
-Hood Country Style Cottage Cheese,$ 2.49,each
-Hood Half and Half Ultra-Pasteurized,$ 1.69,each
-Hood Ultra Pasteurized Light Cream,$ 1.99,each
-Hood All Natural Sour Cream,$ 1.99,each
-Hood Country Style Cottage Cheese,$ 2.49,each
-Hood Half and Half Ultra-Pasteurized,$ 1.69,each
-Hood Ultra Pasteurized Light Cream,$ 1.99,each
-Hood All Natural Sour Cream,$ 1.99,each
-Hood Country Style Cottage Cheese,$ 2.49,each
-Hood Half and Half Ultra-Pasteurized,$ 1.69,each
-Hood Ultra Pasteurized Light Cream,$ 1.99,each
-La Yogurt Blueberry Nonfat Yogurt,$ 0.59,each
-La Yogurt Peach Nonfat Yogurt,$ 0.59,each
-La Yogurt Plain Fat Free Unsweetened Yogurt,$ 2.49,each
-La Yogurt Plain Lowfat Unsweetened Yogurt,$ 2.49,each
-La Yogurt Plain Whole Milk Unsweetened Yogurt,$ 2.49,each
-La Yogurt Strawberry Nonfat Yogurt,$ 0.59,each
-La Yogurt Vanilla Fat Free Yogurt,$ 2.49,each
-La Yogurt Vanilla Nonfat Yogurt,$ 0.59,each
-La Yogurt Blueberry Nonfat Yogurt,$ 0.59,each
-La Yogurt Peach Nonfat Yogurt,$ 0.59,each
-La Yogurt Plain Fat Free Unsweetened Yogurt,$ 2.49,each
-La Yogurt Plain Lowfat Unsweetened Yogurt,$ 2.49,each
-La Yogurt Plain Whole Milk Unsweetened Yogurt,$ 2.49,each
-La Yogurt Strawberry Nonfat Yogurt,$ 0.59,each
-La Yogurt Vanilla Fat Free Yogurt,$ 2.49,each
-La Yogurt Vanilla Nonfat Yogurt,$ 0.59,each
-La Yogurt Blueberry Nonfat Yogurt,$ 0.59,each
-La Yogurt Peach Nonfat Yogurt,$ 0.59,each
-La Yogurt Plain Fat Free Unsweetened Yogurt,$ 2.49,each
-La Yogurt Plain Lowfat Unsweetened Yogurt,$ 2.49,each
-La Yogurt Plain Whole Milk Unsweetened Yogurt,$ 2.49,each
-La Yogurt Strawberry Nonfat Yogurt,$ 0.59,each
-La Yogurt Vanilla Fat Free Yogurt,$ 2.49,each
-La Yogurt Vanilla Nonfat Yogurt,$ 0.59,each
-BelGioioso Fontina Cheese,$ 3.99,each
-BelGioioso Fresh Mozzarella Cheese Ball,$ 3.99,each
-Belgioioso Parmesan Cheese Wedge,$ 3.99,each
-Capra Goat Cheese,$ 5.69,each
-Dutch Farms Mozzarella Cheese Bar,$ 2.49,each
-Dutch Farms Sharp Cheddar Cheese Block,$ 2.49,each
-Dutch Farms White Sharp Cheddar Cheese Block,$ 2.49,each
-Eiffel Tower Baby Brie,$ 3.99,each
-Que Gusto Cotija Cheese,$ 3.99,each
-Que Gusto Fresco Cheese,$ 3.49,each
-Dutch Farms Colby Block Cheese,$ 2.49,each
-BelGioioso Fontina Cheese,$ 3.99,each
-BelGioioso Fresh Mozzarella Cheese Ball,$ 3.99,each
-Belgioioso Parmesan Cheese Wedge,$ 3.99,each
-Capra Goat Cheese,$ 5.69,each
-Dutch Farms Mozzarella Cheese Bar,$ 2.49,each
-Dutch Farms Sharp Cheddar Cheese Block,$ 2.49,each
-Dutch Farms White Sharp Cheddar Cheese Block,$ 2.49,each
-Eiffel Tower Baby Brie,$ 3.99,each
-Que Gusto Cotija Cheese,$ 3.99,each
-Que Gusto Fresco Cheese,$ 3.49,each
-Dutch Farms Colby Block Cheese,$ 2.49,each
-BelGioioso Fontina Cheese,$ 3.99,each
-BelGioioso Fresh Mozzarella Cheese Ball,$ 3.99,each
-Belgioioso Parmesan Cheese Wedge,$ 3.99,each
-Capra Goat Cheese,$ 5.69,each
-Dutch Farms Mozzarella Cheese Bar,$ 2.49,each
-Dutch Farms Sharp Cheddar Cheese Block,$ 2.49,each
-Dutch Farms White Sharp Cheddar Cheese Block,$ 2.49,each
-Eiffel Tower Baby Brie,$ 3.99,each
-Que Gusto Cotija Cheese,$ 3.99,each
-Que Gusto Fresco Cheese,$ 3.49,each
-Dutch Farms Colby Block Cheese,$ 2.49,each
-Dutch Farms Shredded Cheddar Jack Cheese,$ 2.69,each
-Dutch Farms Shredded Mexican Cheese Blend,$ 2.69,each
-Dutch Farms Shredded Parmesan Cheese,$ 3.49,each
-Dutch Farms Shredded Pizza Cheese Blend,$ 2.69,each
-Dutch Farms Shredded Cheddar Jack Cheese,$ 2.69,each
-Dutch Farms Shredded Mexican Cheese Blend,$ 2.69,each
-Dutch Farms Shredded Parmesan Cheese,$ 3.49,each
-Dutch Farms Shredded Pizza Cheese Blend,$ 2.69,each
-Dutch Farms Shredded Cheddar Jack Cheese,$ 2.69,each
-Dutch Farms Shredded Mexican Cheese Blend,$ 2.69,each
-Dutch Farms Shredded Parmesan Cheese,$ 3.49,each
-Dutch Farms Shredded Pizza Cheese Blend,$ 2.69,each
-American Heritage Traditional Smooth & Creamy Cream Cheese,$ 1.69,each
-Dutch Farms String Cheese,$ 3.49,each
-Dutch Farms Feta,$ 2.69,each
-Chavrie Goat Cheese,$ 3.99,each
-American Heritage Traditional Smooth & Creamy Cream Cheese,$ 1.69,each
-Dutch Farms String Cheese,$ 3.49,each
-Dutch Farms Feta,$ 2.69,each
-Chavrie Goat Cheese,$ 3.99,each
-American Heritage Traditional Smooth & Creamy Cream Cheese,$ 1.69,each
-Dutch Farms String Cheese,$ 3.49,each
-Dutch Farms Feta,$ 2.69,each
-Chavrie Goat Cheese,$ 3.99,each
-Dutch Farms Gouda Cheese Slices,$ 2.69,each
-Dutch Farms Gouda Cheese Slices,$ 2.49,each
-Dutch Farms Mozzarella Cheese Slices,$ 2.69,each
-Dutch Farms Provolone Cheese Slices,$ 2.69,each
-Dutch Farms Swiss Cheese Slices,$ 2.69,each
-Great Lakes Mild Cheddar Cheese Slices,$ 5.99,each
-Great Lakes Mozzarella Cheese Slices,$ 5.99,each
-Great Lakes Pepperjack Cheese Slices,$ 5.99,each
-Great Lakes White Cheddar Cheese Slices,$ 5.99,each
-Dutch Farms Gouda Cheese Slices,$ 2.69,each
-Dutch Farms Gouda Cheese Slices,$ 2.49,each
-Dutch Farms Mozzarella Cheese Slices,$ 2.69,each
-Dutch Farms Provolone Cheese Slices,$ 2.69,each
-Dutch Farms Swiss Cheese Slices,$ 2.69,each
-Great Lakes Mild Cheddar Cheese Slices,$ 5.99,each
-Great Lakes Mozzarella Cheese Slices,$ 5.99,each
-Great Lakes Pepperjack Cheese Slices,$ 5.99,each
-Great Lakes White Cheddar Cheese Slices,$ 5.99,each
-Dutch Farms Gouda Cheese Slices,$ 2.69,each
-Dutch Farms Gouda Cheese Slices,$ 2.49,each
-Dutch Farms Mozzarella Cheese Slices,$ 2.69,each
-Dutch Farms Provolone Cheese Slices,$ 2.69,each
-Dutch Farms Swiss Cheese Slices,$ 2.69,each
-Great Lakes Mild Cheddar Cheese Slices,$ 5.99,each
-Great Lakes Mozzarella Cheese Slices,$ 5.99,each
-Great Lakes Pepperjack Cheese Slices,$ 5.99,each
-Great Lakes White Cheddar Cheese Slices,$ 5.99,each
-Cool Mints Pepper Mint,$ 0.99,each
-Cool Mints Wintergreen,$ 0.99,each
-Cool Mints Pepper Mint,$ 0.99,each
-Cool Mints Wintergreen,$ 0.99,each
-Cool Mints Pepper Mint,$ 0.99,each
-Cool Mints Wintergreen,$ 0.99,each
-Best Yet Dry Roasted Peanuts,$ 2.49,each
-Best Yet Honey Roasted Peanuts,$ 2.49,each
-Best Yet Honey Roasted Peanuts,$ 2.49,each
-Best Yet Lightly Salted Roasted Peanuts,$ 2.49,each
-Blue Diamond Bold Sriracha Almonds,$ 3.99,lb
-Blue Diamond Honey Roasted Almonds,$ 3.99,each
-Daily Table Freedom Trail Mix,$ 2.99,each
-Daily Table Freedom Trail Mix,$ 2.99,each
-Daily Table Patriots Trail Mix,$ 3.49,each
-Daily Table Raisins,$ 2.29,each
-Daily Table Raw Almonds,$ 4.99,each
-Daily Table Raw Almonds,$ 4.99,each
-Daily Table Raw Cashews,$ 5.99,each
-Daily Table Raw Cashews,$ 5.99,each
-Daily Table Roasted & Salted Almonds,$ 4.99,each
-Daily Table Roasted & Salted Almonds,$ 4.99,each
-Daily Table Roasted & Salted Cashews,$ 6.29,each
-Daily Table Roasted & Salted Cashews,$ 6.29,each
-Daily Table Roasted & Salted Peanuts,$ 2.49,each
-Daily Table Roasted & Salted Pistachios,$ 3.99,each
-Daily Table Roasted & Salted Pistachios,$ 3.99,each
-Daily Table Roasted Almonds No Salt,$ 4.99,each
-Daily Table Roasted Almonds No Salt,$ 4.99,each
-Daily Table Roasted Cashews No Salt,$ 6.29,each
-Daily Table Roasted Cashews No Salt,$ 6.29,each
-Daily Table Smoked Almonds,$ 5.49,each
-Daily Table Smoked Almonds,$ 5.49,each
-Daily Table Walnuts,$ 3.69,each
-Daily Table Walnuts,$ 3.69,each
-Wonderful In-Shell Pistachio,$ 0.99,each
-Spectrum Organic Chia Seeds,$ 2.99,each
-Annie's Cheddar Bunnies,$ 3.49,each
-Athenos Baked Whole Wheat Pita Chips,$ 2.49,each
-Athenos Original Baked Pita Chips,$ 2.49,each
-Cheez It Original,$ 3.99,each
-Club Crackers Multi Grain,$ 3.99,each
-Club Crackers Original,$ 3.99,each
-Quaker Lightly Salted Rice Cakes,$ 2.99,each
-Annie's Cheddar Bunnies,$ 3.49,each
-Athenos Baked Whole Wheat Pita Chips,$ 2.49,each
-Athenos Original Baked Pita Chips,$ 2.49,each
-Cheez It Original,$ 3.99,each
-Club Crackers Multi Grain,$ 3.99,each
-Club Crackers Original,$ 3.99,each
-Quaker Lightly Salted Rice Cakes,$ 2.99,each
-Annie's Cheddar Bunnies,$ 3.49,each
-Athenos Baked Whole Wheat Pita Chips,$ 2.49,each
-Athenos Original Baked Pita Chips,$ 2.49,each
-Cheez It Original,$ 3.99,each
-Club Crackers Multi Grain,$ 3.99,each
-Club Crackers Original,$ 3.99,each
-Quaker Lightly Salted Rice Cakes,$ 2.99,each
-Ocean Spray Reduced Sugar Craisins,$ 2.49,each
-Ocean Spray Reduced Sugar Craisins,$ 2.49,each
-Ocean Spray Reduced Sugar Craisins,$ 2.49,each
-Best Yet Corn Chips,$ 1.99,each
-Best Yet White Round Tortilla Chips,$ 1.99,each
-Chex Mix Cheddar,$ 2.99,each
-Chex Mix Traditional,$ 2.99,each
-Skinny Pop,$ 0.89,each
-PopChips BBQ,$ 1.49,each
-Terra Sweet Potato Chips No Salt,$ 1.99,each
-Barnana Lime Plantain Chips,$ 1.99,each
-Poptime,$ 1.99,each
-Skinny Pop Microwave Butter Popcorn,$ 1.99,each
-Best Yet Corn Chips,$ 1.99,each
-Best Yet White Round Tortilla Chips,$ 1.99,each
-Chex Mix Cheddar,$ 2.99,each
-Chex Mix Traditional,$ 2.99,each
-Skinny Pop,$ 0.89,each
-PopChips BBQ,$ 1.49,each
-Terra Sweet Potato Chips No Salt,$ 1.99,each
-Barnana Lime Plantain Chips,$ 1.99,each
-Poptime,$ 1.99,each
-Skinny Pop Microwave Butter Popcorn,$ 1.99,each
-Best Yet Corn Chips,$ 1.99,each
-Best Yet White Round Tortilla Chips,$ 1.99,each
-Chex Mix Cheddar,$ 2.99,each
-Chex Mix Traditional,$ 2.99,each
-Skinny Pop,$ 0.89,each
-PopChips BBQ,$ 1.49,each
-Terra Sweet Potato Chips No Salt,$ 1.99,each
-Barnana Lime Plantain Chips,$ 1.99,each
-Poptime,$ 1.99,each
-Skinny Pop Microwave Butter Popcorn,$ 1.99,each
-Cuetara Campechana Cookies,$ 0.89,each
-Cuetara Maria Cookies,$ 0.49,each
-Stauffer's Ginger Snaps,$ 2.29,each
-Stauffer's Lemon Snaps,$ 2.29,each
-Cuetara Campechana Cookies,$ 0.89,each
-Cuetara Maria Cookies,$ 0.49,each
-Stauffer's Ginger Snaps,$ 2.29,each
-Stauffer's Lemon Snaps,$ 2.29,each
-Cuetara Campechana Cookies,$ 0.89,each
-Cuetara Maria Cookies,$ 0.49,each
-Stauffer's Ginger Snaps,$ 2.29,each
-Stauffer's Lemon Snaps,$ 2.29,each
-Jose Ole Chicken Taquitos,$ 5.99,each
-Marie Callender's Chicken Pot Pie,$ 2.59,lb
-MorningStar Farms Garden Veggie Burgers 4ct,$ 3.99,each
-Nancy's Florentine Quiche,$ 2.49,each
-Tower Isle's Jamaican Patties,$ 4.99,each
-Jose Ole Chicken Taquitos,$ 5.99,each
-Marie Callender's Chicken Pot Pie,$ 2.59,lb
-MorningStar Farms Garden Veggie Burgers 4ct,$ 3.99,each
-Nancy's Florentine Quiche,$ 2.49,each
-Tower Isle's Jamaican Patties,$ 4.99,each
-Jose Ole Chicken Taquitos,$ 5.99,each
-Marie Callender's Chicken Pot Pie,$ 2.59,lb
-MorningStar Farms Garden Veggie Burgers 4ct,$ 3.99,each
-Nancy's Florentine Quiche,$ 2.49,each
-Tower Isle's Jamaican Patties,$ 4.99,each
-Best Yet Frozen Cut Corn,$ 1.49,each
-Best Yet Frozen Cut Green Beans,$ 1.29,each
-Best Yet Frozen Cut Leaf Spinach,$ 1.69,each
-Best Yet Frozen Green Peas,$ 1.49,each
-Best Yet Frozen Stir Fry Vegetables,$ 1.69,each
-"Cornerstone Blackberries, Frozen",$ 2.99,each
-"Cornerstone Blueberries, Frozen",$ 2.99,each
-"Cornerstone Mango Chunks, Frozen",$ 2.49,each
-"Cornerstone Pineapple Chunks, Frozen",$ 2.99,each
-"Cornerstone Sliced Peaches, Frozen",$ 2.99,each
-"Cornerstone Triple Berry Blend, Frozen",$ 2.99,each
-"Cornerstone Whole Strawberries, Frozen",$ 2.99,each
-Regal Nonpareil Broccoli Florets,$ 2.99,each
-"Regal Nonpareil California Blend Veggies, Frozen",$ 2.99,each
-"Regal Nonpareil Cut Okra, Frozen",$ 2.99,each
-Regal Nonpareil Frozen Green Beans,$ 2.49,each
-Best Yet Frozen Cut Corn,$ 1.49,each
-Best Yet Frozen Cut Green Beans,$ 1.29,each
-Best Yet Frozen Cut Leaf Spinach,$ 1.69,each
-Best Yet Frozen Green Peas,$ 1.49,each
-Best Yet Frozen Stir Fry Vegetables,$ 1.69,each
-"Cornerstone Blackberries, Frozen",$ 2.99,each
-"Cornerstone Blueberries, Frozen",$ 2.99,each
-"Cornerstone Mango Chunks, Frozen",$ 2.49,each
-"Cornerstone Pineapple Chunks, Frozen",$ 2.99,each
-"Cornerstone Sliced Peaches, Frozen",$ 2.99,each
-"Cornerstone Triple Berry Blend, Frozen",$ 2.99,each
-"Cornerstone Whole Strawberries, Frozen",$ 2.99,each
-Regal Nonpareil Broccoli Florets,$ 2.99,each
-"Regal Nonpareil California Blend Veggies, Frozen",$ 2.99,each
-"Regal Nonpareil Cut Okra, Frozen",$ 2.99,each
-Regal Nonpareil Frozen Green Beans,$ 2.49,each
-Best Yet Frozen Cut Corn,$ 1.49,each
-Best Yet Frozen Cut Green Beans,$ 1.29,each
-Best Yet Frozen Cut Leaf Spinach,$ 1.69,each
-Best Yet Frozen Green Peas,$ 1.49,each
-Best Yet Frozen Stir Fry Vegetables,$ 1.69,each
-"Cornerstone Blackberries, Frozen",$ 2.99,each
-"Cornerstone Blueberries, Frozen",$ 2.99,each
-"Cornerstone Mango Chunks, Frozen",$ 2.49,each
-"Cornerstone Pineapple Chunks, Frozen",$ 2.99,each
-"Cornerstone Sliced Peaches, Frozen",$ 2.99,each
-"Cornerstone Triple Berry Blend, Frozen",$ 2.99,each
-"Cornerstone Whole Strawberries, Frozen",$ 2.99,each
-Regal Nonpareil Broccoli Florets,$ 2.99,each
-"Regal Nonpareil California Blend Veggies, Frozen",$ 2.99,each
-"Regal Nonpareil Cut Okra, Frozen",$ 2.99,each
-Regal Nonpareil Frozen Green Beans,$ 2.49,each
-Buona Vita Italian Style Meatballs (Chicken & Beef),$ 5.99,each
-GA Whiting Fillets,$ 5.99,each
-Gorton's Natural Catch Grilled Fillets Garlic Butter,$ 3.49,each
-Signature Select Uncooked Chicken Wing 4#,$ 8.99,each
-Frozen Beef Strip Steak,$ 5.99,lb
-"Best Yet 31/40 Cooked Shrimp P&D, 1lb",$ 7.99,each
-"Best Yet 31/40 Raw Shrimp, 1lb",$ 6.99,each
-Frozen Strip Steaks,$ 17.91,2.99 lb
-Marcello Shaved Steak,$ 5.99,each
-Buona Vita Italian Style Meatballs (Chicken & Beef),$ 5.99,each
-GA Whiting Fillets,$ 5.99,each
-Gorton's Natural Catch Grilled Fillets Garlic Butter,$ 3.49,each
-Signature Select Uncooked Chicken Wing 4#,$ 8.99,each
-Frozen Beef Strip Steak,$ 5.99,lb
-"Best Yet 31/40 Cooked Shrimp P&D, 1lb",$ 7.99,each
-"Best Yet 31/40 Raw Shrimp, 1lb",$ 6.99,each
-Frozen Strip Steaks,$ 17.91,2.99 lb
-Marcello Shaved Steak,$ 5.99,each
-Buona Vita Italian Style Meatballs (Chicken & Beef),$ 5.99,each
-GA Whiting Fillets,$ 5.99,each
-Gorton's Natural Catch Grilled Fillets Garlic Butter,$ 3.49,each
-Signature Select Uncooked Chicken Wing 4#,$ 8.99,each
-Frozen Beef Strip Steak,$ 5.99,lb
-"Best Yet 31/40 Cooked Shrimp P&D, 1lb",$ 7.99,each
-"Best Yet 31/40 Raw Shrimp, 1lb",$ 6.99,each
-Frozen Strip Steaks,$ 17.91,2.99 lb
-Marcello Shaved Steak,$ 5.99,each
-Kellogg's Eggo Homestyle Waffles,$ 2.89,each
-Pillsbury Bacon Toaster Scrambles,$ 2.99,each
-Kellogg's Eggo Homestyle Waffles,$ 2.89,each
-Pillsbury Bacon Toaster Scrambles,$ 2.99,each
-Kellogg's Eggo Homestyle Waffles,$ 2.89,each
-Pillsbury Bacon Toaster Scrambles,$ 2.99,each
-Chang Shing Firm Tofu,$ 1.99,each
-Chang Shing Pressed Tofu,$ 1.99,each
-Chang Shing Firm Tofu,$ 1.99,each
-Chang Shing Pressed Tofu,$ 1.99,each
-Chang Shing Firm Tofu,$ 1.99,each
-Chang Shing Pressed Tofu,$ 1.99,each
-Ball Park Bun Size Franks Hot Dogs,$ 3.99,each
-Healthy Ones Deli Thin Sliced Honey Ham,$ 3.49,each
-Hillshire Farms Ultra Thin Roast Beef,$ 3.99,each
-Hillshire Farm Honey Ham Lower Sodium,$ 3.99,each
-Ball Park Bun Size Franks Hot Dogs,$ 3.99,each
-Healthy Ones Deli Thin Sliced Honey Ham,$ 3.49,each
-Hillshire Farms Ultra Thin Roast Beef,$ 3.99,each
-Hillshire Farm Honey Ham Lower Sodium,$ 3.99,each
-Ball Park Bun Size Franks Hot Dogs,$ 3.99,each
-Healthy Ones Deli Thin Sliced Honey Ham,$ 3.49,each
-Hillshire Farms Ultra Thin Roast Beef,$ 3.99,each
-Hillshire Farm Honey Ham Lower Sodium,$ 3.99,each
-Cacique Homestyle Hot Salsa,$ 2.99,each
-Cacique Traditional Mild Salsa,$ 2.99,each
-Cindy's Citrus Beet Vinaigrette,$ 1.99,each
-Athenos Original Hummus,$ 2.29,each
-Cacique Homestyle Hot Salsa,$ 2.99,each
-Cacique Traditional Mild Salsa,$ 2.99,each
-Cindy's Citrus Beet Vinaigrette,$ 1.99,each
-Athenos Original Hummus,$ 2.29,each
-Cacique Homestyle Hot Salsa,$ 2.99,each
-Cacique Traditional Mild Salsa,$ 2.99,each
-Cindy's Citrus Beet Vinaigrette,$ 1.99,each
-Athenos Original Hummus,$ 2.29,each
-Barilla Whole Grain Rotini,$ 1.69,each
-Barilla Whole Grain Spaghetti,$ 1.69,each
-Best Yet Medium Egg Noodles,$ 1.89,each
-Best Yet Thick & Creamy Macaroni & Cheese,$ 0.79,each
-Exceptional Value Mac & Cheese Dinner,$ 0.69,each
-Exceptional Value Shells & Cheddar Dinner,$ 1.99,each
-Full Circle Gluten Free Penne Pasta,$ 1.69,each
-Pastalia Elbow Pasta,$ 0.79,each
-Pastalia Penne Pasta,$ 0.79,each
-Pastalia Spaghetti Pasta,$ 0.79,each
-Pastalia Ziti Pasta,$ 0.79,each
-WA Ramen Noodles,$ 0.99,each
-Barilla Whole Grain Rotini,$ 1.69,each
-Barilla Whole Grain Spaghetti,$ 1.69,each
-Best Yet Medium Egg Noodles,$ 1.89,each
-Best Yet Thick & Creamy Macaroni & Cheese,$ 0.79,each
-Exceptional Value Mac & Cheese Dinner,$ 0.69,each
-Exceptional Value Shells & Cheddar Dinner,$ 1.99,each
-Full Circle Gluten Free Penne Pasta,$ 1.69,each
-Pastalia Elbow Pasta,$ 0.79,each
-Pastalia Penne Pasta,$ 0.79,each
-Pastalia Spaghetti Pasta,$ 0.79,each
-Pastalia Ziti Pasta,$ 0.79,each
-WA Ramen Noodles,$ 0.99,each
-Barilla Whole Grain Rotini,$ 1.69,each
-Barilla Whole Grain Spaghetti,$ 1.69,each
-Best Yet Medium Egg Noodles,$ 1.89,each
-Best Yet Thick & Creamy Macaroni & Cheese,$ 0.79,each
-Exceptional Value Mac & Cheese Dinner,$ 0.69,each
-Exceptional Value Shells & Cheddar Dinner,$ 1.99,each
-Full Circle Gluten Free Penne Pasta,$ 1.69,each
-Pastalia Elbow Pasta,$ 0.79,each
-Pastalia Penne Pasta,$ 0.79,each
-Pastalia Spaghetti Pasta,$ 0.79,each
-Pastalia Ziti Pasta,$ 0.79,each
-WA Ramen Noodles,$ 0.99,each
-Best Yet No Salt Added Tomato Sauce,$ 0.49,each
-Best Yet Tomato Sauce,$ 0.49,each
-Del Monte Pasta Sauce Traditional,$ 1.29,each
-Del Monte Pasta Sauce Traditional,$ 1.29,each
-Del Monte Spagetti Sauce with Meat,$ 1.29,each
-Del Monte Spagetti Sauce with Meat,$ 1.29,each
-Furmano's Pizza Sauce Original,$ 1.49,each
-Newman's Own Marinara Sauce,$ 2.99,each
-Newman's Own Pasta Sauce Tomato & Basil Bombolina,$ 2.99,lb
-Best Yet No Salt Added Tomato Sauce,$ 0.49,each
-Best Yet Tomato Sauce,$ 0.49,each
-Del Monte Pasta Sauce Traditional,$ 1.29,each
-Del Monte Pasta Sauce Traditional,$ 1.29,each
-Del Monte Spagetti Sauce with Meat,$ 1.29,each
-Del Monte Spagetti Sauce with Meat,$ 1.29,each
-Furmano's Pizza Sauce Original,$ 1.49,each
-Newman's Own Marinara Sauce,$ 2.99,each
-Newman's Own Pasta Sauce Tomato & Basil Bombolina,$ 2.99,lb
-Best Yet No Salt Added Tomato Sauce,$ 0.49,each
-Best Yet Tomato Sauce,$ 0.49,each
-Del Monte Pasta Sauce Traditional,$ 1.29,each
-Del Monte Pasta Sauce Traditional,$ 1.29,each
-Del Monte Spagetti Sauce with Meat,$ 1.29,each
-Del Monte Spagetti Sauce with Meat,$ 1.29,each
-Furmano's Pizza Sauce Original,$ 1.49,each
-Newman's Own Marinara Sauce,$ 2.99,each
-Newman's Own Pasta Sauce Tomato & Basil Bombolina,$ 2.99,lb
-Best Yet Bran Flakes,$ 2.29,each
-Best Yet Cereal Toasted Oats,$ 1.99,each
-Best Yet Corn Flakes,$ 1.99,each
-Best Yet Honey Oats & Flakes,$ 2.49,each
-Best Yet Old Fashioned Oats,$ 1.99,each
-Best Yet Quick Oats,$ 1.99,each
-Best Yet Raisin Bran,$ 2.49,each
-Cheerios,$ 3.69,each
-Kellogg's Raisin Bran,$ 3.99,lb
-Multigrain Cheerios,$ 4.69,each
-Quaker Quick 5-Minute Grits,$ 2.49,each
-Jeff's Granola Cinnamon Raisin,$ 2.99,each
-Jeff's Granola Maple Raisin,$ 2.99,each
-Rise and Shine Apple Cinnamon Oatmeal Cups,$ 1.29,each
-Rise and Shine Maple Oatmeal cups,$ 1.29,each
-Best Yet Bran Flakes,$ 2.29,each
-Best Yet Cereal Toasted Oats,$ 1.99,each
-Best Yet Corn Flakes,$ 1.99,each
-Best Yet Honey Oats & Flakes,$ 2.49,each
-Best Yet Old Fashioned Oats,$ 1.99,each
-Best Yet Quick Oats,$ 1.99,each
-Best Yet Raisin Bran,$ 2.49,each
-Cheerios,$ 3.69,each
-Kellogg's Raisin Bran,$ 3.99,lb
-Multigrain Cheerios,$ 4.69,each
-Quaker Quick 5-Minute Grits,$ 2.49,each
-Jeff's Granola Cinnamon Raisin,$ 2.99,each
-Jeff's Granola Maple Raisin,$ 2.99,each
-Rise and Shine Apple Cinnamon Oatmeal Cups,$ 1.29,each
-Rise and Shine Maple Oatmeal cups,$ 1.29,each
-Best Yet Bran Flakes,$ 2.29,each
-Best Yet Cereal Toasted Oats,$ 1.99,each
-Best Yet Corn Flakes,$ 1.99,each
-Best Yet Honey Oats & Flakes,$ 2.49,each
-Best Yet Old Fashioned Oats,$ 1.99,each
-Best Yet Quick Oats,$ 1.99,each
-Best Yet Raisin Bran,$ 2.49,each
-Cheerios,$ 3.69,each
-Kellogg's Raisin Bran,$ 3.99,lb
-Multigrain Cheerios,$ 4.69,each
-Quaker Quick 5-Minute Grits,$ 2.49,each
-Jeff's Granola Cinnamon Raisin,$ 2.99,each
-Jeff's Granola Maple Raisin,$ 2.99,each
-Rise and Shine Apple Cinnamon Oatmeal Cups,$ 1.29,each
-Rise and Shine Maple Oatmeal cups,$ 1.29,each
-Best Yet Classic Yellow Mustard,$ 1.49,each
-Best Yet Herb & Garlic Marinade,$ 1.69,each
-Best Yet Honey Mustard Dressing,$ 1.79,each
-Best Yet Hot Salsa Sauce,$ 1.99,each
-Best Yet Light Ranch Dressing,$ 1.99,each
-Best Yet Lite Italian Dressing,$ 1.69,each
-Best Yet Low Sodium Soy Sauce,$ 1.69,each
-Best Yet Mayonnaise,$ 2.49,each
-Best Yet Medium Salsa Sauce,$ 1.99,each
-Best Yet Original Steak Sauce,$ 1.99,each
-Best Yet Tartar Sauce,$ 1.79,each
-Best Yet Teriyaki Sauce,$ 1.69,each
-Best Yet Tomato Ketchup,$ 1.49,each
-Best Yet Worcestershire Sauce,$ 1.59,each
-Culinary Tours Szechuan Peanut Sauce,$ 4.49,each
-Exceptional Value BBQ Sauce Hickory,$ 1.49,each
-Exceptional Value BBQ Sauce Original,$ 1.49,each
-Frank's Original Red Hot Sauce,$ 3.59,each
-French's Classic Yellow Mustard,$ 1.99,each
-Goya Mayonnaise,$ 2.49,each
-"Goya Pimiento Stuffed Olives, Reduced Sodium",$ 1.99,each
-"Goya Salad Olives, Reduced Sodium",$ 1.99,each
-Goya Salsa Picante Hot Sauce,$ 1.99,each
-Kikkoman Less Sodium Soy Sauce,$ 2.99,each
-La Triguena Chopped Garlic,$ 1.49,each
-Napoli Roasted Red Peppers,$ 1.99,each
-Newman's Own Medium Salsa,$ 2.99,each
-Newman's Own Mild Salsa,$ 2.99,each
-Red Devil Hot Sauce,$ 1.79,each
-Spur Tree Curry Seasoning,$ 3.29,each
-Spur Tree Jerk Seasoning,$ 3.29,each
-Dynasty Gyoza Dipping Sauce,$ 1.49,each
-Cindy's Citrus Beet Vinaigrette,$ 1.49,each
-Sky Valley Teriyaki Sauce,$ 1.99,each
-Best Yet Black Beans,$ 0.79,each
-Best Yet Cut Wax Beans,$ 0.89,each
-Best Yet Diced Tomatoes,$ 0.89,each
-Best Yet Garbanzo Beans,$ 0.89,each
-Best Yet Pinto Beans,$ 0.79,each
-Best Yet Tomato Paste,$ 0.69,each
-Best Yet Whole Kernel Sweet Corn,$ 0.79,each
-Best Yet Whole Peeled Tomatoes,$ 1.79,each
-Goya Black Beans,$ 0.99,each
-Goya Black Beans Low Sodium,$ 0.99,each
-Goya Chick Peas Garbanzos,$ 0.99,each
-"Goya Chick Peas Garbanzos, Reduced Sodium",$ 0.99,each
-Goya Diced Tomatoes,$ 0.99,each
-Goya Green Pigeon Peas,$ 1.29,each
-Goya Red Kidney Beans,$ 0.99,each
-Goya Small Red Beans,$ 0.99,each
-Goya Small White Beans,$ 1.19,each
-Goya Tomato Paste,$ 0.89,each
-Napoli Crushed Tomato,$ 1.99,each
-Best Yet Black Beans,$ 0.79,each
-Best Yet Cut Wax Beans,$ 0.89,each
-Best Yet Diced Tomatoes,$ 0.89,each
-Best Yet Garbanzo Beans,$ 0.89,each
-Best Yet Pinto Beans,$ 0.79,each
-Best Yet Tomato Paste,$ 0.69,each
-Best Yet Whole Kernel Sweet Corn,$ 0.79,each
-Best Yet Whole Peeled Tomatoes,$ 1.79,each
-Goya Black Beans,$ 0.99,each
-Goya Black Beans Low Sodium,$ 0.99,each
-Goya Chick Peas Garbanzos,$ 0.99,each
-"Goya Chick Peas Garbanzos, Reduced Sodium",$ 0.99,each
-Goya Diced Tomatoes,$ 0.99,each
-Goya Green Pigeon Peas,$ 1.29,each
-Goya Red Kidney Beans,$ 0.99,each
-Goya Small Red Beans,$ 0.99,each
-Goya Small White Beans,$ 1.19,each
-Goya Tomato Paste,$ 0.89,each
-Napoli Crushed Tomato,$ 1.99,each
-Best Yet Black Beans,$ 0.79,each
-Best Yet Cut Wax Beans,$ 0.89,each
-Best Yet Diced Tomatoes,$ 0.89,each
-Best Yet Garbanzo Beans,$ 0.89,each
-Best Yet Pinto Beans,$ 0.79,each
-Best Yet Tomato Paste,$ 0.69,each
-Best Yet Whole Kernel Sweet Corn,$ 0.79,each
-Best Yet Whole Peeled Tomatoes,$ 1.79,each
-Goya Black Beans,$ 0.99,each
-Goya Black Beans Low Sodium,$ 0.99,each
-Goya Chick Peas Garbanzos,$ 0.99,each
-"Goya Chick Peas Garbanzos, Reduced Sodium",$ 0.99,each
-Goya Diced Tomatoes,$ 0.99,each
-Goya Green Pigeon Peas,$ 1.29,each
-Goya Red Kidney Beans,$ 0.99,each
-Goya Small Red Beans,$ 0.99,each
-Goya Small White Beans,$ 1.19,each
-Goya Tomato Paste,$ 0.89,each
-Napoli Crushed Tomato,$ 1.99,each
-Best Yet Apple Cider Vinegar,$ 1.59,each
-Best Yet Extra Virgin Olive Oil,$ 3.49,each
-Best Yet Pure Olive Oil,$ 4.99,each
-Best Yet Red Wine Vinegar,$ 0.99,each
-Best Yet Vegetable Oil,$ 4.49,each
-Best Yet White Vinegar,$ 1.29,each
-Exceptional Value Canola Oil,$ 2.69,each
-Best Yet Apple Cider Vinegar,$ 1.59,each
-Best Yet Extra Virgin Olive Oil,$ 3.49,each
-Best Yet Pure Olive Oil,$ 4.99,each
-Best Yet Red Wine Vinegar,$ 0.99,each
-Best Yet Vegetable Oil,$ 4.49,each
-Best Yet White Vinegar,$ 1.29,each
-Exceptional Value Canola Oil,$ 2.69,each
-Best Yet Apple Cider Vinegar,$ 1.59,each
-Best Yet Extra Virgin Olive Oil,$ 3.49,each
-Best Yet Pure Olive Oil,$ 4.99,each
-Best Yet Red Wine Vinegar,$ 0.99,each
-Best Yet Vegetable Oil,$ 4.49,each
-Best Yet White Vinegar,$ 1.29,each
-Exceptional Value Canola Oil,$ 2.69,each
-Best Yet Dry Black Beans,$ 0.99,each
-Best Yet Light Red Kidney Beans,$ 1.49,each
-Best Yet Long Grain Brown Rice,$ 1.99,each
-Best Yet Long Grain White Rice,$ 1.99,each
-Bombay Basmati Rice,$ 1.99,each
-Canilla Extra Long Grain White Rice,$ 1.49,each
-Canilla Extra Long Grain White Rice,$ 4.49,each
-Goya Chick Peas Garbanzos,$ 1.79,each
-Goya Coarse Corn Meal,$ 1.49,each
-Goya Dry Black Beans,$ 1.49,each
-Goya Dry Pinto Beans,$ 1.99,each
-Goya Dry Red Kidney Beans,$ 1.99,each
-Goya Fine Corn Meal,$ 1.49,each
-Goya Lentils,$ 1.49,each
-Goya Medium Grain Brown Rice,$ 1.29,each
-Goya Medium Grain Brown Rice,$ 2.49,each
-Goya Medium Grain White Rice,$ 1.39,each
-Goya Medium Grain White Rice,$ 4.99,each
-Goya Red Lentils,$ 1.49,each
-Goya Yellow Split Peas,$ 1.29,each
-Madame Gougousse Parboiled Rice,$ 2.59,each
-Madame Gougousse 10 lb Parboiled Rice,$ 6.49,each
-Best Yet Dry Black Beans,$ 0.99,each
-Best Yet Light Red Kidney Beans,$ 1.49,each
-Best Yet Long Grain Brown Rice,$ 1.99,each
-Best Yet Long Grain White Rice,$ 1.99,each
-Bombay Basmati Rice,$ 1.99,each
-Canilla Extra Long Grain White Rice,$ 1.49,each
-Canilla Extra Long Grain White Rice,$ 4.49,each
-Goya Chick Peas Garbanzos,$ 1.79,each
-Goya Coarse Corn Meal,$ 1.49,each
-Goya Dry Black Beans,$ 1.49,each
-Goya Dry Pinto Beans,$ 1.99,each
-Goya Dry Red Kidney Beans,$ 1.99,each
-Goya Fine Corn Meal,$ 1.49,each
-Goya Lentils,$ 1.49,each
-Goya Medium Grain Brown Rice,$ 1.29,each
-Goya Medium Grain Brown Rice,$ 2.49,each
-Goya Medium Grain White Rice,$ 1.39,each
-Goya Medium Grain White Rice,$ 4.99,each
-Goya Red Lentils,$ 1.49,each
-Goya Yellow Split Peas,$ 1.29,each
-Madame Gougousse Parboiled Rice,$ 2.59,each
-Madame Gougousse 10 lb Parboiled Rice,$ 6.49,each
-Best Yet Dry Black Beans,$ 0.99,each
-Best Yet Light Red Kidney Beans,$ 1.49,each
-Best Yet Long Grain Brown Rice,$ 1.99,each
-Best Yet Long Grain White Rice,$ 1.99,each
-Bombay Basmati Rice,$ 1.99,each
-Canilla Extra Long Grain White Rice,$ 1.49,each
-Canilla Extra Long Grain White Rice,$ 4.49,each
-Goya Chick Peas Garbanzos,$ 1.79,each
-Goya Coarse Corn Meal,$ 1.49,each
-Goya Dry Black Beans,$ 1.49,each
-Goya Dry Pinto Beans,$ 1.99,each
-Goya Dry Red Kidney Beans,$ 1.99,each
-Goya Fine Corn Meal,$ 1.49,each
-Goya Lentils,$ 1.49,each
-Goya Medium Grain Brown Rice,$ 1.29,each
-Goya Medium Grain Brown Rice,$ 2.49,each
-Goya Medium Grain White Rice,$ 1.39,each
-Goya Medium Grain White Rice,$ 4.99,each
-Goya Red Lentils,$ 1.49,each
-Goya Yellow Split Peas,$ 1.29,each
-Madame Gougousse Parboiled Rice,$ 2.59,each
-Madame Gougousse 10 lb Parboiled Rice,$ 6.49,each
-Badia Adobo with Pepper,$ 2.99,each
-Badia Adobo with Pepper,$ 1.69,each
-Badia Adobo without Pepper,$ 2.99,each
-Badia Adobo without Pepper,$ 1.69,each
-Badia Chili Powder,$ 1.59,each
-Badia Cinnamon Powder,$ 0.69,each
-Badia Cinnamon Sticks,$ 1.59,each
-Badia Crushed Red Pepper,$ 2.29,each
-Badia Curry Powder,$ 1.59,each
-Badia Garlic Powder,$ 1.59,each
-Badia Ground Bay Leaves,$ 0.69,each
-Badia Ground Cayenne Pepper,$ 1.59,each
-Badia Ground Cumin,$ 0.69,each
-Badia Ground Ginger,$ 1.59,each
-Badia Ground Oregano,$ 1.59,each
-Badia Ground Sage,$ 1.69,each
-Badia Onion Powder,$ 1.59,each
-Badia Rosemary,$ 0.69,each
-Badia Thyme Leaves,$ 0.69,each
-Badia Whole Bay Leaves,$ 0.69,each
-Badia Whole Black Pepper,$ 0.69,each
-Best Yet Black Pepper Tin,$ 2.49,each
-Best Yet Crushed Red Pepper,$ 0.69,each
-Badia Paprika,$ 1.59,each
-Badia Whole Cloves,$ 1.99,each
-Badia Organic Turmeric,$ 2.69,each
-Badia Garlic Salt,$ 1.59,each
-Badia Lemon Pepper Seasoning,$ 3.49,each
-Badia Cajun Seasoning,$ 1.59,each
-Badia Italian Seasoning,$ 2.69,each
-Badia Seafood Seasoning,$ 2.69,each
-Badia Poultry Seasoning,$ 2.69,each
-Badia Steak Seasoning,$ 2.69,each
-Badia Tropical Sazon Green,$ 2.69,each
-Badia Garlic Powder,$ 3.69,each
-Badia Crushed Red Pepper,$ 2.69,each
-Badia Salt Grinder,$ 2.69,each
-Badia Black Pepper Grinder,$ 2.99,each
-Morton Kosher Salt,$ 3.69,each
-Garden of Eatin Taco Seasoning 1.4 oz,$ 0.49,each
-Best Yet All Purpose Flour,$ 1.49,each
-Best Yet Baking Powder,$ 1.49,each
-Best Yet Baking Soda,$ 0.79,each
-Best Yet Complete Pancake Mix,$ 2.39,each
-Best Yet Evaporated Milk,$ 0.99,each
-Best Yet Granulated Sugar,$ 1.89,each
-Best Yet Light Brown Sugar,$ 2.39,each
-Best Yet Plain Bread Crumbs,$ 1.59,each
-Heckers All Natural 100% Whole Wheat Flour,$ 2.39,each
-Madame Gougousse Coconut Milk Leche de Coco,$ 0.99,each
-Best Yet All Purpose Flour,$ 1.49,each
-Best Yet Baking Powder,$ 1.49,each
-Best Yet Baking Soda,$ 0.79,each
-Best Yet Complete Pancake Mix,$ 2.39,each
-Best Yet Evaporated Milk,$ 0.99,each
-Best Yet Granulated Sugar,$ 1.89,each
-Best Yet Light Brown Sugar,$ 2.39,each
-Best Yet Plain Bread Crumbs,$ 1.59,each
-Heckers All Natural 100% Whole Wheat Flour,$ 2.39,each
-Madame Gougousse Coconut Milk Leche de Coco,$ 0.99,each
-Best Yet All Purpose Flour,$ 1.49,each
-Best Yet Baking Powder,$ 1.49,each
-Best Yet Baking Soda,$ 0.79,each
-Best Yet Complete Pancake Mix,$ 2.39,each
-Best Yet Evaporated Milk,$ 0.99,each
-Best Yet Granulated Sugar,$ 1.89,each
-Best Yet Light Brown Sugar,$ 2.39,each
-Best Yet Plain Bread Crumbs,$ 1.59,each
-Heckers All Natural 100% Whole Wheat Flour,$ 2.39,each
-Madame Gougousse Coconut Milk Leche de Coco,$ 0.99,each
-Best Yet Honey Bear,$ 2.99,each
-Best Yet Unsweetened Applesauce 6-pack,$ 1.99,each
-HoneyTree's Pure Honey,$ 3.29,each
-Smucker's Low Sugar Grape Jelly,$ 2.99,each
-Smucker's Low Sugar Strawberry Jelly,$ 3.49,each
-"Teddie, Smooth & Salted, All Natural Peanut Butter",$ 2.99,each
-Teddie Peanut Butter Chunky,$ 1.99,each
-Teddie Peanut Butter Smooth,$ 1.99,each
-"Teddie, Chunky, All Natural Peanut Butter",$ 2.99,each
-"Teddie, Unsalted Smooth, All Natural Peanut Butter",$ 2.99,each
-Marrakesh Matbutcha Spread,$ 0.99,each
-Best Yet Honey Bear,$ 2.99,each
-Best Yet Unsweetened Applesauce 6-pack,$ 1.99,each
-HoneyTree's Pure Honey,$ 3.29,each
-Smucker's Low Sugar Grape Jelly,$ 2.99,each
-Smucker's Low Sugar Strawberry Jelly,$ 3.49,each
-"Teddie, Smooth & Salted, All Natural Peanut Butter",$ 2.99,each
-Teddie Peanut Butter Chunky,$ 1.99,each
-Teddie Peanut Butter Smooth,$ 1.99,each
-"Teddie, Chunky, All Natural Peanut Butter",$ 2.99,each
-"Teddie, Unsalted Smooth, All Natural Peanut Butter",$ 2.99,each
-Marrakesh Matbutcha Spread,$ 0.99,each
-Best Yet Honey Bear,$ 2.99,each
-Best Yet Unsweetened Applesauce 6-pack,$ 1.99,each
-HoneyTree's Pure Honey,$ 3.29,each
-Smucker's Low Sugar Grape Jelly,$ 2.99,each
-Smucker's Low Sugar Strawberry Jelly,$ 3.49,each
-"Teddie, Smooth & Salted, All Natural Peanut Butter",$ 2.99,each
-Teddie Peanut Butter Chunky,$ 1.99,each
-Teddie Peanut Butter Smooth,$ 1.99,each
-"Teddie, Chunky, All Natural Peanut Butter",$ 2.99,each
-"Teddie, Unsalted Smooth, All Natural Peanut Butter",$ 2.99,each
-Marrakesh Matbutcha Spread,$ 0.99,each
-Best Yet Beef Broth,$ 1.69,each
-Best Yet Chicken Broth,$ 1.69,each
-Best Yet Reduced Sodium Chicken Broth,$ 1.69,each
-Campbell's Chunky Chicken & Rice Soup,$ 2.69,each
-Campbell's Chunky Savory Vegetable Soup,$ 2.69,each
-Campbell's Homestyle Chicken Noodle Soup,$ 1.89,each
-Progresso Hearty Tomato Soup,$ 2.59,each
-Progresso Minestrone Soup,$ 2.49,each
-Progresso Reduced Sodium Minestrone Soup,$ 2.59,each
-Progresso Tuscan-Style White Bean Soup,$ 2.59,each
-Imagine Foods Low Sodium Vegetable Broth,$ 1.79,each
-Best Yet Beef Broth,$ 1.69,each
-Best Yet Chicken Broth,$ 1.69,each
-Best Yet Reduced Sodium Chicken Broth,$ 1.69,each
-Campbell's Chunky Chicken & Rice Soup,$ 2.69,each
-Campbell's Chunky Savory Vegetable Soup,$ 2.69,each
-Campbell's Homestyle Chicken Noodle Soup,$ 1.89,each
-Progresso Hearty Tomato Soup,$ 2.59,each
-Progresso Minestrone Soup,$ 2.49,each
-Progresso Reduced Sodium Minestrone Soup,$ 2.59,each
-Progresso Tuscan-Style White Bean Soup,$ 2.59,each
-Imagine Foods Low Sodium Vegetable Broth,$ 1.79,each
-Best Yet Beef Broth,$ 1.69,each
-Best Yet Chicken Broth,$ 1.69,each
-Best Yet Reduced Sodium Chicken Broth,$ 1.69,each
-Campbell's Chunky Chicken & Rice Soup,$ 2.69,each
-Campbell's Chunky Savory Vegetable Soup,$ 2.69,each
-Campbell's Homestyle Chicken Noodle Soup,$ 1.89,each
-Progresso Hearty Tomato Soup,$ 2.59,each
-Progresso Minestrone Soup,$ 2.49,each
-Progresso Reduced Sodium Minestrone Soup,$ 2.59,each
-Progresso Tuscan-Style White Bean Soup,$ 2.59,each
-Imagine Foods Low Sodium Vegetable Broth,$ 1.79,each
-Best Yet Chunk Lite Tuna in Water,$ 0.99,each
-Crown Prince Flat Anchovies,$ 1.79,each
-Best Yet Chunk Lite Tuna in Water,$ 0.99,each
-Crown Prince Flat Anchovies,$ 1.79,each
-Best Yet Chunk Lite Tuna in Water,$ 0.99,each
-Crown Prince Flat Anchovies,$ 1.79,each
-Calise Bakery Kaiser Whole Wheat Rolls,$ 2.99,each
-Holsum English Muffins,$ 1.99,each
-Zeppy's Plain Bagels,$ 2.49,each
-Zeppy's Bagels Blueberry,$ 2.49,each
-Zeppy's Bagels Everything,$ 2.49,each
-Penn Street Dinner Rolls 12 count,$ 3.29,each
-Calise Bakery Kaiser Whole Wheat Rolls,$ 2.99,each
-Holsum English Muffins,$ 1.99,each
-Zeppy's Plain Bagels,$ 2.49,each
-Zeppy's Bagels Blueberry,$ 2.49,each
-Zeppy's Bagels Everything,$ 2.49,each
-Penn Street Dinner Rolls 12 count,$ 3.29,each
-Calise Bakery Kaiser Whole Wheat Rolls,$ 2.99,each
-Holsum English Muffins,$ 1.99,each
-Zeppy's Plain Bagels,$ 2.49,each
-Zeppy's Bagels Blueberry,$ 2.49,each
-Zeppy's Bagels Everything,$ 2.49,each
-Penn Street Dinner Rolls 12 count,$ 3.29,each
-Jessica's Tuscan Wheat Sliced Bread,$ 1.99,each
-Jessica's Tuscan White Sliced Bread,$ 1.99,each
-Jessica's Sourdough Sliced Bread,$ 1.99,each
-Stone and Skillet Original English Muffins,$ 1.99,each
-Holsum Split Top Wheat Bread,$ 2.49,each
-Holsum White Bread,$ 2.49,each
-Jessica's Tuscan Wheat Sliced Bread,$ 1.99,each
-Jessica's Tuscan White Sliced Bread,$ 1.99,each
-Jessica's Sourdough Sliced Bread,$ 1.99,each
-Stone and Skillet Original English Muffins,$ 1.99,each
-Holsum Split Top Wheat Bread,$ 2.49,each
-Holsum White Bread,$ 2.49,each
-Jessica's Tuscan Wheat Sliced Bread,$ 1.99,each
-Jessica's Tuscan White Sliced Bread,$ 1.99,each
-Jessica's Sourdough Sliced Bread,$ 1.99,each
-Stone and Skillet Original English Muffins,$ 1.99,each
-Holsum Split Top Wheat Bread,$ 2.49,each
-Holsum White Bread,$ 2.49,each
-"Best Yet Soft Flour Tortillas 6""",$ 0.99,each
-Chi Chi's Whole Wheat Fajita Style Tortillas,$ 2.29,each
-"Best Yet Soft Flour Tortillas 6""",$ 0.99,each
-Chi Chi's Whole Wheat Fajita Style Tortillas,$ 2.29,each
-"Best Yet Soft Flour Tortillas 6""",$ 0.99,each
-Chi Chi's Whole Wheat Fajita Style Tortillas,$ 2.29,each
-Cafe Caribe Coffee,$ 2.89,each
-Down East 100% Colombian Ground Coffee,$ 5.99,each
-Down East 100% Colombian Ground Coffee,$ 4.99,each
-Down East Cinnamon Hazelnut Ground Coffee,$ 5.99,each
-Down East Cinnamon Hazelnut Ground Coffee,$ 4.99,each
-Down East Dark Roast Ground Coffee,$ 5.99,each
-Down East Dark Roast Ground Coffee,$ 4.99,each
-Down East Morning Blend Ground Coffee,$ 5.99,each
-Down East Morning Blend Ground Coffee,$ 4.99,each
-Equal Exchange French Vanilla,$ 3.99,each
-Loco Coffee Cold Brew Coffee with Oat milk,$ 0.99,each
-Cafe Caribe Coffee,$ 2.89,each
-Down East 100% Colombian Ground Coffee,$ 5.99,each
-Down East 100% Colombian Ground Coffee,$ 4.99,each
-Down East Cinnamon Hazelnut Ground Coffee,$ 5.99,each
-Down East Cinnamon Hazelnut Ground Coffee,$ 4.99,each
-Down East Dark Roast Ground Coffee,$ 5.99,each
-Down East Dark Roast Ground Coffee,$ 4.99,each
-Down East Morning Blend Ground Coffee,$ 5.99,each
-Down East Morning Blend Ground Coffee,$ 4.99,each
-Equal Exchange French Vanilla,$ 3.99,each
-Loco Coffee Cold Brew Coffee with Oat milk,$ 0.99,each
-Cafe Caribe Coffee,$ 2.89,each
-Down East 100% Colombian Ground Coffee,$ 5.99,each
-Down East 100% Colombian Ground Coffee,$ 4.99,each
-Down East Cinnamon Hazelnut Ground Coffee,$ 5.99,each
-Down East Cinnamon Hazelnut Ground Coffee,$ 4.99,each
-Down East Dark Roast Ground Coffee,$ 5.99,each
-Down East Dark Roast Ground Coffee,$ 4.99,each
-Down East Morning Blend Ground Coffee,$ 5.99,each
-Down East Morning Blend Ground Coffee,$ 4.99,each
-Equal Exchange French Vanilla,$ 3.99,each
-Loco Coffee Cold Brew Coffee with Oat milk,$ 0.99,each
-Best Yet Black Cherry Seltzer,$ 0.69,each
-Best Yet Lemon Lime Seltzer,$ 0.69,each
-Best Yet Original Seltzer,$ 0.69,each
-Best Yet Raspberry Seltzer,$ 0.69,each
-Polar Raspberry Lime Seltzer,$ 0.69,each
-Polar Seltzer Black Cherry,$ 0.89,each
-Polar Seltzer Black Cherry,$ 0.69,each
-Polar Seltzer Black Cherry Case,$ 4.99,each
-Polar Seltzer Lemon,$ 0.69,each
-Polar Seltzer Lemon Case,$ 4.99,each
-Polar Seltzer Lime,$ 0.69,each
-Polar Seltzer Original,$ 0.89,each
-Polar Seltzer Original,$ 0.69,each
-Polar Seltzer Original,$ 0.69,each
-Polar Seltzer Original Case,$ 4.99,each
-Polar Seltzer Pineapple Pomelo,$ 0.89,each
-Polar Seltzer Raspberry Lime,$ 0.89,each
-Polar Seltzer Raspberry Lime,$ 0.69,each
-Polar Seltzer Raspberry Lime Case,$ 4.99,each
-Polar Seltzer Ruby Red Grapefruit,$ 0.89,each
-Polar Seltzer Strawberry Watermelon,$ 0.89,each
-Polar Tart Cherry Limeade Can,$ 0.69,each
-Polar Tart Cherry Limeade 8 Pack,$ 4.99,each
-Polar Start fruit Lemonade Can,$ 0.69,each
-Polar Star Fruit Lemonade 8 Pack,$ 4.99,each
-Polar Blood Orange Lemonade Can,$ 0.69,each
-Polar Blood Orange Lemonade 8 Pack,$ 4.99,each
-Best Yet Green Tea,$ 2.49,each
-Exceptional Value Tea Bags,$ 1.99,each
-Celestial Seasoning Green Tea Small Pack,$ 0.20,each
-Celestial Seasoning Black Tea with Energy Small Pack,$ 0.20,each
-Celestial Seasonings English Breakfast Small Pack,$ 0.20,each
-Best Yet Green Tea,$ 2.49,each
-Exceptional Value Tea Bags,$ 1.99,each
-Celestial Seasoning Green Tea Small Pack,$ 0.20,each
-Celestial Seasoning Black Tea with Energy Small Pack,$ 0.20,each
-Celestial Seasonings English Breakfast Small Pack,$ 0.20,each
-Best Yet Green Tea,$ 2.49,each
-Exceptional Value Tea Bags,$ 1.99,each
-Celestial Seasoning Green Tea Small Pack,$ 0.20,each
-Celestial Seasoning Black Tea with Energy Small Pack,$ 0.20,each
-Celestial Seasonings English Breakfast Small Pack,$ 0.20,each
-Purified water,$ 3.99,each
-Purified water,$ 3.99,each
-Purified water,$ 3.99,each
-American Wrap Aluminum Foil,$ 0.99,each
-"Cavalier Gallon Bags, Zipper Seal",$ 1.49,each
-Cavalier Plastic Wrap,$ 0.99,each
-"Cavalier Sandwich Bags, Zipper Seal",$ 1.29,each
-Cavalier Tall Kitchen Trash Bag,$ 0.99,each
-Green Heritage Toilet Paper Roll,$ 0.69,each
-Nature's Own Green Label Paper Plates,$ 0.99,each
-Daily Table Reusable Tote Bags,$ 0.99,each
-"Everyday Value Paper Towel, 3pk",$ 2.29,each
-American Wrap Aluminum Foil,$ 0.99,each
-"Cavalier Gallon Bags, Zipper Seal",$ 1.49,each
-Cavalier Plastic Wrap,$ 0.99,each
-"Cavalier Sandwich Bags, Zipper Seal",$ 1.29,each
-Cavalier Tall Kitchen Trash Bag,$ 0.99,each
-Green Heritage Toilet Paper Roll,$ 0.69,each
-Nature's Own Green Label Paper Plates,$ 0.99,each
-Daily Table Reusable Tote Bags,$ 0.99,each
-"Everyday Value Paper Towel, 3pk",$ 2.29,each
-American Wrap Aluminum Foil,$ 0.99,each
-"Cavalier Gallon Bags, Zipper Seal",$ 1.49,each
-Cavalier Plastic Wrap,$ 0.99,each
-"Cavalier Sandwich Bags, Zipper Seal",$ 1.29,each
-Cavalier Tall Kitchen Trash Bag,$ 0.99,each
-Green Heritage Toilet Paper Roll,$ 0.69,each
-Nature's Own Green Label Paper Plates,$ 0.99,each
-Daily Table Reusable Tote Bags,$ 0.99,each
-"Everyday Value Paper Towel, 3pk",$ 2.29,each
-First Force Concentrated Ultra Citrus Grove Dish Detergent,$ 0.99,each
-Lucky Kitchen Citrus Handsoap,$ 1.59,each
-Lucky Lavender Liquid Hand Soap,$ 1.59,each
-Mistolin Lavender Scented Multipurpose Cleaner,$ 0.99,each
-Alba Lip Balm 25 SPF,$ 0.49,each
-First Force Concentrated Ultra Citrus Grove Dish Detergent,$ 0.99,each
-Lucky Kitchen Citrus Handsoap,$ 1.59,each
-Lucky Lavender Liquid Hand Soap,$ 1.59,each
-Mistolin Lavender Scented Multipurpose Cleaner,$ 0.99,each
-Alba Lip Balm 25 SPF,$ 0.49,each
-First Force Concentrated Ultra Citrus Grove Dish Detergent,$ 0.99,each
-Lucky Kitchen Citrus Handsoap,$ 1.59,each
-Lucky Lavender Liquid Hand Soap,$ 1.59,each
-Mistolin Lavender Scented Multipurpose Cleaner,$ 0.99,each
-Alba Lip Balm 25 SPF,$ 0.49,each
+Item,Qty,Units,Price
+Baby Carrots,1,lb,1.29
+Baby Spinach,1,lb,1.99
+Beets,1,lb,0.69
+Broccoli,1,lb,1.29
+Brussels Sprouts,1,lb,1.49
+Butternut Squash,1,lb,0.79
+Carrots,1,lb,0.69
+Cauliflower,1,each,3.29
+Celery Bunch,1,each,1.49
+Collard Greens,1,lb,1.89
+Cucumber,1,each,0.69
+Eggplant,1,lb,1.49
+Garlic,1,lb,4.49
+Ginger Root,1,lb,1.99
+Grape Tomatoes,1,each,1.99
+Green Asparagus Bunch,1,each,3.69
+Green Bell Peppers,1,lb,1.49
+Green Cabbage,1,lb,0.69
+Jalapeno Peppers,1,lb,1.99
+Kale,1,lb,1.29
+Leeks,1,lb,1.29
+Little Leaf Farms Baby Crispy Green Leaf Lettuce,4,oz,1.99
+Little Leaf Farms Baby Red & Green Leaf Lettuce,4,oz,1.99
+Little Leaf Farms Baby Spring Mix,4,oz,1.99
+Organic Baby Carrots,1,lb,2.29
+Portobello Mushrooms,1,lb,1.79
+Red Bell Peppers,1,lb,1.99
+Red Cabbage,1,lb,0.69
+Red Onions,1,lb,1.69
+Red Potatoes,1,lb,0.59
+Romaine Lettuce Hearts,3,ct,4.99
+Russet Chef Potatoes,1,lb,0.99
+Scallions / Green Onions (bunch),1,each,1.49
+Serrano Chili,1,lb,1.99
+Yuca,1,lb,0.99
+Chayote,1,lb,1.29
+Malanga Eddoe,1,lb,1.69
+Sweet Potatoes,1,lb,0.69
+Tomato Medley,10,oz,2.49
+Tomatoes on the Vine,1,lb,1.99
+White Mushrooms,10,oz,1.99
+Yellow Onions,1,lb,0.79
+Yellow Bell Peppers,1,lb,2.99
+Zucchini Squash,1,lb,0.99
+Beefsteak Tomatoes,1,lb,0.99
+"Baby White Potato, 24oz",24,oz,3.99
+Loose Yukon Gold Potato,1,lb,0.99
+"Potatoes, 5lb bag",5,lb,2.49
+"Russet Potatoes, 5lb bag",5,lb,2.49
+Baby Bok Choy,1,lb,1.49
+White Onions,1,lb,1.49
+Orange Bell Peppers,1,lb,2.99
+Asian Pears,1,lb,1.69
+Avocados,1,each,0.99
+Bananas,1,lb,0.39
+Blood Oranges,1,each,0.79
+Blueberries (11 oz),11,oz,2.29
+Cantaloupe Melon,1,each,1.99
+Clementines (3 lb bag),3,lb,4.99
+Fuji Apples,1,lb,1.59
+Gala Apples,1,lb,1.59
+Granny Smith Apples,1,lb,1.59
+Grapefruit,1,each,0.99
+Green Pears,1,lb,1.29
+Green Seedless Grapes,1,lb,2.49
+Honeycrisp Apples,1,lb,1.59
+Kiwi,1,each,0.39
+Lemons,1,each,0.39
+Limes,1,each,0.69
+Mangoes,1,each,1.29
+Navel Oranges,1,each,0.79
+Papayas,1,lb,1.49
+Pineapple,1,each,2.29
+Plantains,1,each,0.39
+Raspberries,6,oz,2.49
+Red Pears,1,lb,1.29
+Red Seeded Grapes,1,lb,3.29
+Red Seedless Grapes,1,lb,1.99
+Cara Cara,1,each,0.79
+Strawberries,1,lb,2.99
+Blackberries,6,oz,3.29
+Pink Lady Apples,1,lb,1.59
+Cilantro Bunch,1,ct,0.79
+Parsley,1,each,0.79
+Cilantro Bunch,1,ct,0.79
+Parsley,1,each,0.79
+Cilantro Bunch,1,ct,0.79
+Parsley,1,each,0.79
+Daily Table Bean And Cheese Burrito,1,each,1.99
+Daily Table Chicken Caesar Wrap,1,each,3.49
+Daily Table Chicken Salad With Apple,16,oz,2.49
+Daily Table Egg Salad,16,oz,2.49
+Daily Table Jerk Chicken,1,each,2.29
+Daily Table Quiche Half,1,each,2.99
+Daily Table Roasted Whole Chicken,1,each,4.99
+Daily Table Tuna Salad,8,oz,1.99
+Daily Table Tuna Salad,8,oz,1.99
+Daily Table Tuna Salad Wrap,1,each,2.49
+Daily Table Tuna Salad Wrap,1,each,2.49
+Daily Table Turkey Sandwich with Avocado Crema,1,each,2.99
+Daily Table Turkey Sandwich with Avocado Crema,1,each,2.99
+Cheese Flatbread,1,each,1.99
+Daily Table Chicken and Shrimp Gumbo,1,each,2.99
+Daily Table Cheese Ravioli With Butternut Squash Sauce,1,each,2.99
+Daily Table Chicken Sriracha Ranch Wrap,1,each,3.49
+Daily Table Caprese Sandwich,1,each,3.49
+Daily Table Bean And Cheese Burrito,1,each,1.99
+Daily Table Chicken Caesar Wrap,1,each,3.49
+Daily Table Chicken Salad With Apple,16,oz,2.49
+Daily Table Egg Salad,16,oz,2.49
+Daily Table Jerk Chicken,1,each,2.29
+Daily Table Quiche Half,1,each,2.99
+Daily Table Roasted Whole Chicken,1,each,4.99
+Daily Table Tuna Salad,8,oz,1.99
+Daily Table Tuna Salad,8,oz,1.99
+Daily Table Tuna Salad Wrap,1,each,2.49
+Daily Table Tuna Salad Wrap,1,each,2.49
+Daily Table Turkey Sandwich with Avocado Crema,1,each,2.99
+Daily Table Turkey Sandwich with Avocado Crema,1,each,2.99
+Cheese Flatbread,1,each,1.99
+Daily Table Chicken and Shrimp Gumbo,1,each,2.99
+Daily Table Cheese Ravioli With Butternut Squash Sauce,1,each,2.99
+Daily Table Chicken Sriracha Ranch Wrap,1,each,3.49
+Daily Table Caprese Sandwich,1,each,3.49
+Daily Table Bean And Cheese Burrito,1,each,1.99
+Daily Table Chicken Caesar Wrap,1,each,3.49
+Daily Table Chicken Salad With Apple,16,oz,2.49
+Daily Table Egg Salad,16,oz,2.49
+Daily Table Jerk Chicken,1,each,2.29
+Daily Table Quiche Half,1,each,2.99
+Daily Table Roasted Whole Chicken,1,each,4.99
+Daily Table Tuna Salad,8,oz,1.99
+Daily Table Tuna Salad,8,oz,1.99
+Daily Table Tuna Salad Wrap,1,each,2.49
+Daily Table Tuna Salad Wrap,1,each,2.49
+Daily Table Turkey Sandwich with Avocado Crema,1,each,2.99
+Daily Table Turkey Sandwich with Avocado Crema,1,each,2.99
+Cheese Flatbread,1,each,1.99
+Daily Table Chicken and Shrimp Gumbo,1,each,2.99
+Daily Table Cheese Ravioli With Butternut Squash Sauce,1,each,2.99
+Daily Table Chicken Sriracha Ranch Wrap,1,each,3.49
+Daily Table Caprese Sandwich,1,each,3.49
+Daily Table BBQ Chicken with Collards and Broccoli Slaw,1,each,3.99
+Daily Table Jerk White Fish Meal,1,each,3.99
+Daily Table Roasted Chicken with Brown Rice & Veggies,1,each,1.99
+Daily Table Szechuan Beef Bowl,1,each,3.99
+Daily Table Chicken Sausage Pasta Marinara,1,each,2.99
+Daily Table Chicken Chile Verde,1,each,2.99
+Daily Table Caribbean Curry Fish,1,each,2.99
+Daily Table BBQ Chicken with Collards and Broccoli Slaw,1,each,3.99
+Daily Table Jerk White Fish Meal,1,each,3.99
+Daily Table Roasted Chicken with Brown Rice & Veggies,1,each,1.99
+Daily Table Szechuan Beef Bowl,1,each,3.99
+Daily Table Chicken Sausage Pasta Marinara,1,each,2.99
+Daily Table Chicken Chile Verde,1,each,2.99
+Daily Table Caribbean Curry Fish,1,each,2.99
+Daily Table BBQ Chicken with Collards and Broccoli Slaw,1,each,3.99
+Daily Table Jerk White Fish Meal,1,each,3.99
+Daily Table Roasted Chicken with Brown Rice & Veggies,1,each,1.99
+Daily Table Szechuan Beef Bowl,1,each,3.99
+Daily Table Chicken Sausage Pasta Marinara,1,each,2.99
+Daily Table Chicken Chile Verde,1,each,2.99
+Daily Table Caribbean Curry Fish,1,each,2.99
+"Daily Table ""The Works"" Salad",1,each,3.99
+Daily Table Garden Salad,1,each,1.99
+Daily Table Moroccan Chickpea Kale Salad,1,each,3.49
+Asian Edamame Salad,1,each,2.99
+"Daily Table ""The Works"" Salad",1,each,3.99
+Daily Table Garden Salad,1,each,1.99
+Daily Table Moroccan Chickpea Kale Salad,1,each,3.49
+Asian Edamame Salad,1,each,2.99
+"Daily Table ""The Works"" Salad",1,each,3.99
+Daily Table Garden Salad,1,each,1.99
+Daily Table Moroccan Chickpea Kale Salad,1,each,3.49
+Asian Edamame Salad,1,each,2.99
+Daily Table Beef Chili,24,oz,3.99
+Daily Table Chicken Soup with Rice,24,oz,2.99
+Daily Table Roasted Red Pepper and Tomato Soup,24,oz,2.49
+Daily Table Spicy Vegan 3 Bean Chili,24,oz,2.99
+Daily Table White Bean & Kale Soup,24,oz,2.99
+Daily Table Red Curry Butternut Squash Soup with Coconut and Lemongrass,1,each,1.99
+Daily Table Minestrone 24 oz,24,oz,2.99
+Daily Table Beef Chili,24,oz,3.99
+Daily Table Chicken Soup with Rice,24,oz,2.99
+Daily Table Roasted Red Pepper and Tomato Soup,24,oz,2.49
+Daily Table Spicy Vegan 3 Bean Chili,24,oz,2.99
+Daily Table White Bean & Kale Soup,24,oz,2.99
+Daily Table Red Curry Butternut Squash Soup with Coconut and Lemongrass,1,each,1.99
+Daily Table Minestrone 24 oz,24,oz,2.99
+Daily Table Beef Chili,24,oz,3.99
+Daily Table Chicken Soup with Rice,24,oz,2.99
+Daily Table Roasted Red Pepper and Tomato Soup,24,oz,2.49
+Daily Table Spicy Vegan 3 Bean Chili,24,oz,2.99
+Daily Table White Bean & Kale Soup,24,oz,2.99
+Daily Table Red Curry Butternut Squash Soup with Coconut and Lemongrass,1,each,1.99
+Daily Table Minestrone 24 oz,24,oz,2.99
+Daily Table Garlic Roasted Potatoes,1,each,1.49
+Daily Table Macaroni Tuna Salad,16,oz,1.99
+Daily Table Potato Salad,16,oz,1.99
+Daily Table Apple Turnover,1,each,1.99
+"Sweet Potato Pie - 9"" Half Pie",1,each,3.49
+Daily Table Garlic Roasted Potatoes,1,each,1.49
+Daily Table Macaroni Tuna Salad,16,oz,1.99
+Daily Table Potato Salad,16,oz,1.99
+Daily Table Apple Turnover,1,each,1.99
+"Sweet Potato Pie - 9"" Half Pie",1,each,3.49
+Daily Table Garlic Roasted Potatoes,1,each,1.49
+Daily Table Macaroni Tuna Salad,16,oz,1.99
+Daily Table Potato Salad,16,oz,1.99
+Daily Table Apple Turnover,1,each,1.99
+"Sweet Potato Pie - 9"" Half Pie",1,each,3.49
+Beef Sirloin Tip Steak,1,lb,8.99
+Beef Stew Meat,1,lb,4.99
+Butterball Original Turkey Bacon,12,oz,2.99
+Ground Beef 80% Lean,1,lb,4.29
+Ground Pork,1,lb,3.49
+Jamestown Sliced Bacon,16,oz,4.69
+Pork Chops,1,lb,2.99
+Smithfield Maple Boneless Ham Steak,1,each,2.99
+Shady Brook Farms 85% Ground Turkey,20.8,oz,4.79
+Butterball Turkey Polska Kielbasa,14,oz,3.19
+Beef Hamburger Patties 85/15,1,each,6.99
+Pork Spare Ribs,14.99,lb,44.82
+Beef Sirloin Tip Steak,1,lb,8.99
+Beef Stew Meat,1,lb,4.99
+Butterball Original Turkey Bacon,12,oz,2.99
+Ground Beef 80% Lean,1,lb,4.29
+Ground Pork,1,lb,3.49
+Jamestown Sliced Bacon,16,oz,4.69
+Pork Chops,1,lb,2.99
+Smithfield Maple Boneless Ham Steak,1,each,2.99
+Shady Brook Farms 85% Ground Turkey,20.8,oz,4.79
+Butterball Turkey Polska Kielbasa,14,oz,3.19
+Beef Hamburger Patties 85/15,1,each,6.99
+Pork Spare Ribs,14.99,lb,44.82
+Beef Sirloin Tip Steak,1,lb,8.99
+Beef Stew Meat,1,lb,4.99
+Butterball Original Turkey Bacon,12,oz,2.99
+Ground Beef 80% Lean,1,lb,4.29
+Ground Pork,1,lb,3.49
+Jamestown Sliced Bacon,16,oz,4.69
+Pork Chops,1,lb,2.99
+Smithfield Maple Boneless Ham Steak,1,each,2.99
+Shady Brook Farms 85% Ground Turkey,20.8,oz,4.79
+Butterball Turkey Polska Kielbasa,14,oz,3.19
+Beef Hamburger Patties 85/15,1,each,6.99
+Pork Spare Ribs,14.99,lb,44.82
+Chicken Breast,1,lb,2.99
+Chicken Drumsticks,1,lb,1.39
+Chicken Tenders,1,lb,3.69
+Chicken Thighs Bone-In,1,lb,1.39
+"Chicken Thighs Boneless, Skinless",2.69,lb,2.69
+Chicken Wings,1,lb,3.99
+Al Fresco Spicy Jalapeno Chicken Sausage,11,oz,4.99
+Al Fresco Sweet Italian Chicken Sausage,11,oz,4.99
+Al Fresco Roasted Pepper and Asiago Chicken Sausage,1,each,4.99
+Al Fresco Sweet Apple Chicken Sausage,11,oz,4.99
+Chicken Breast,1,lb,2.99
+Chicken Drumsticks,1,lb,1.39
+Chicken Tenders,1,lb,3.69
+Chicken Thighs Bone-In,1,lb,1.39
+"Chicken Thighs Boneless, Skinless",2.69,lb,2.69
+Chicken Wings,1,lb,3.99
+Al Fresco Spicy Jalapeno Chicken Sausage,11,oz,4.99
+Al Fresco Sweet Italian Chicken Sausage,11,oz,4.99
+Al Fresco Roasted Pepper and Asiago Chicken Sausage,1,each,4.99
+Al Fresco Sweet Apple Chicken Sausage,11,oz,4.99
+Chicken Breast,1,lb,2.99
+Chicken Drumsticks,1,lb,1.39
+Chicken Tenders,1,lb,3.69
+Chicken Thighs Bone-In,1,lb,1.39
+"Chicken Thighs Boneless, Skinless",2.69,lb,2.69
+Chicken Wings,1,lb,3.99
+Al Fresco Spicy Jalapeno Chicken Sausage,11,oz,4.99
+Al Fresco Sweet Italian Chicken Sausage,11,oz,4.99
+Al Fresco Roasted Pepper and Asiago Chicken Sausage,1,each,4.99
+Al Fresco Sweet Apple Chicken Sausage,11,oz,4.99
+Fresh Haddock,1,lb,5.99
+Fresh Salmon Farm Raised,1,lb,5.99
+Fresh Swordfish Line Caught,1,lb,5.99
+Fresh Haddock,1,lb,5.99
+Fresh Salmon Farm Raised,1,lb,5.99
+Fresh Swordfish Line Caught,1,lb,5.99
+Fresh Haddock,1,lb,5.99
+Fresh Salmon Farm Raised,1,lb,5.99
+Fresh Swordfish Line Caught,1,lb,5.99
+Hood 1% Milk,1,gal,3.99
+Hood 1% Lowfat Milk,0.5,gal,2.49
+Hood 2% Reduced Fat Milk,1,gal,3.99
+Hood 2%  Milk,0.5,gal,2.49
+Hood Whole Milk,1,gal,3.99
+Hood Whole Milk,0.5,gal,2.49
+Hood 1% Milk,1,gal,3.99
+Hood 1% Lowfat Milk,0.5,gal,2.49
+Hood 2% Reduced Fat Milk,1,gal,3.99
+Hood 2%  Milk,0.5,gal,2.49
+Hood Whole Milk,1,gal,3.99
+Hood Whole Milk,0.5,gal,2.49
+Hood 1% Milk,1,gal,3.99
+Hood 1% Lowfat Milk,0.5,gal,2.49
+Hood 2% Reduced Fat Milk,1,gal,3.99
+Hood 2%  Milk,0.5,gal,2.49
+Hood Whole Milk,1,gal,3.99
+Hood Whole Milk,0.5,gal,2.49
+Extra Large Brown Eggs ,12,ct,2.29
+Extra Large White Eggs,12,ct,2.49
+Large Brown Eggs,12,ct,1.99
+Large White Eggs,12,ct,2.29
+Extra Large Brown Eggs ,12,ct,2.29
+Extra Large White Eggs,12,ct,2.49
+Large Brown Eggs,12,ct,1.99
+Large White Eggs,12,ct,2.29
+Extra Large Brown Eggs ,12,ct,2.29
+Extra Large White Eggs,12,ct,2.49
+Large Brown Eggs,12,ct,1.99
+Large White Eggs,12,ct,2.29
+Almond Breeze Original Unsweetened Almondmilk,0.5,gal,3.49
+Almond Breeze Vanilla Unsweetened Almondmilk,0.5,gal,3.49
+Lactaid 2% Reduced Fat Milk,0.5,gal,3.99
+Lactaid Whole Milk,0.5,gal,3.99
+Planet Oat Original Oat Milk,52,fl oz,3.69
+Planet Oat Vanilla Oat Milk ,52,fl oz,3.69
+Rolling Hills Farm Organic Soy Milk,0.5,gal,2.99
+Rolling Hills Farm Organic Vanilla Soy Milk ,0.5,gal,2.99
+Almond Breeze Original Unsweetened Almondmilk,0.5,gal,3.49
+Almond Breeze Vanilla Unsweetened Almondmilk,0.5,gal,3.49
+Lactaid 2% Reduced Fat Milk,0.5,gal,3.99
+Lactaid Whole Milk,0.5,gal,3.99
+Planet Oat Original Oat Milk,52,fl oz,3.69
+Planet Oat Vanilla Oat Milk ,52,fl oz,3.69
+Rolling Hills Farm Organic Soy Milk,0.5,gal,2.99
+Rolling Hills Farm Organic Vanilla Soy Milk ,0.5,gal,2.99
+Almond Breeze Original Unsweetened Almondmilk,0.5,gal,3.49
+Almond Breeze Vanilla Unsweetened Almondmilk,0.5,gal,3.49
+Lactaid 2% Reduced Fat Milk,0.5,gal,3.99
+Lactaid Whole Milk,0.5,gal,3.99
+Planet Oat Original Oat Milk,52,fl oz,3.69
+Planet Oat Vanilla Oat Milk ,52,fl oz,3.69
+Rolling Hills Farm Organic Soy Milk,0.5,gal,2.99
+Rolling Hills Farm Organic Vanilla Soy Milk ,0.5,gal,2.99
+Cabot Salted Butter,16,oz,3.99
+Cabot Unsalted Butter,16,oz,3.99
+Cloverdale Salted Butter,16,oz,2.79
+Cloverdale Unsalted Butter,16,oz,2.79
+Grassland Salted Butter,16,oz,3.49
+Cabot Salted Butter,16,oz,3.99
+Cabot Unsalted Butter,16,oz,3.99
+Cloverdale Salted Butter,16,oz,2.79
+Cloverdale Unsalted Butter,16,oz,2.79
+Grassland Salted Butter,16,oz,3.49
+Cabot Salted Butter,16,oz,3.99
+Cabot Unsalted Butter,16,oz,3.99
+Cloverdale Salted Butter,16,oz,2.79
+Cloverdale Unsalted Butter,16,oz,2.79
+Grassland Salted Butter,16,oz,3.49
+Hood All Natural Sour Cream,16,oz,1.99
+Hood Country Style Cottage Cheese,16,oz,2.49
+Hood Half and Half Ultra-Pasteurized,16,fl oz,1.69
+Hood Ultra Pasteurized Light Cream,16,fl oz,1.99
+Hood All Natural Sour Cream,16,oz,1.99
+Hood Country Style Cottage Cheese,16,oz,2.49
+Hood Half and Half Ultra-Pasteurized,16,fl oz,1.69
+Hood Ultra Pasteurized Light Cream,16,fl oz,1.99
+Hood All Natural Sour Cream,16,oz,1.99
+Hood Country Style Cottage Cheese,16,oz,2.49
+Hood Half and Half Ultra-Pasteurized,16,fl oz,1.69
+Hood Ultra Pasteurized Light Cream,16,fl oz,1.99
+La Yogurt Blueberry Nonfat Yogurt,6,oz,0.59
+La Yogurt Peach Nonfat Yogurt,6,oz,0.59
+La Yogurt Plain Fat Free Unsweetened Yogurt ,32,oz,2.49
+La Yogurt Plain Lowfat Unsweetened Yogurt,32,oz,2.49
+La Yogurt Plain Whole Milk Unsweetened Yogurt ,32,oz,2.49
+La Yogurt Strawberry Nonfat Yogurt,6,oz,0.59
+La Yogurt Vanilla Fat Free Yogurt,32,oz,2.49
+La Yogurt Vanilla Nonfat Yogurt,6,oz,0.59
+La Yogurt Blueberry Nonfat Yogurt,6,oz,0.59
+La Yogurt Peach Nonfat Yogurt,6,oz,0.59
+La Yogurt Plain Fat Free Unsweetened Yogurt ,32,oz,2.49
+La Yogurt Plain Lowfat Unsweetened Yogurt,32,oz,2.49
+La Yogurt Plain Whole Milk Unsweetened Yogurt ,32,oz,2.49
+La Yogurt Strawberry Nonfat Yogurt,6,oz,0.59
+La Yogurt Vanilla Fat Free Yogurt,32,oz,2.49
+La Yogurt Vanilla Nonfat Yogurt,6,oz,0.59
+La Yogurt Blueberry Nonfat Yogurt,6,oz,0.59
+La Yogurt Peach Nonfat Yogurt,6,oz,0.59
+La Yogurt Plain Fat Free Unsweetened Yogurt ,32,oz,2.49
+La Yogurt Plain Lowfat Unsweetened Yogurt,32,oz,2.49
+La Yogurt Plain Whole Milk Unsweetened Yogurt ,32,oz,2.49
+La Yogurt Strawberry Nonfat Yogurt,6,oz,0.59
+La Yogurt Vanilla Fat Free Yogurt,32,oz,2.49
+La Yogurt Vanilla Nonfat Yogurt,6,oz,0.59
+BelGioioso Fontina Cheese,8,oz,3.99
+BelGioioso Fresh Mozzarella Cheese Ball,8,oz,3.99
+Belgioioso Parmesan Cheese Wedge,8,oz,3.99
+Capra Goat Cheese,10.5,oz,5.69
+Dutch Farms Mozzarella Cheese Bar,8,oz,2.49
+Dutch Farms Sharp Cheddar Cheese Block,8,oz,2.49
+Dutch Farms White Sharp Cheddar Cheese Block,8,oz,2.49
+Eiffel Tower Baby Brie,7,oz,3.99
+Que Gusto Cotija Cheese,10,oz,3.99
+Que Gusto Fresco Cheese,10,oz,3.49
+Dutch Farms Colby Block Cheese,8,oz,2.49
+BelGioioso Fontina Cheese,8,oz,3.99
+BelGioioso Fresh Mozzarella Cheese Ball,8,oz,3.99
+Belgioioso Parmesan Cheese Wedge,8,oz,3.99
+Capra Goat Cheese,10.5,oz,5.69
+Dutch Farms Mozzarella Cheese Bar,8,oz,2.49
+Dutch Farms Sharp Cheddar Cheese Block,8,oz,2.49
+Dutch Farms White Sharp Cheddar Cheese Block,8,oz,2.49
+Eiffel Tower Baby Brie,7,oz,3.99
+Que Gusto Cotija Cheese,10,oz,3.99
+Que Gusto Fresco Cheese,10,oz,3.49
+Dutch Farms Colby Block Cheese,8,oz,2.49
+BelGioioso Fontina Cheese,8,oz,3.99
+BelGioioso Fresh Mozzarella Cheese Ball,8,oz,3.99
+Belgioioso Parmesan Cheese Wedge,8,oz,3.99
+Capra Goat Cheese,10.5,oz,5.69
+Dutch Farms Mozzarella Cheese Bar,8,oz,2.49
+Dutch Farms Sharp Cheddar Cheese Block,8,oz,2.49
+Dutch Farms White Sharp Cheddar Cheese Block,8,oz,2.49
+Eiffel Tower Baby Brie,7,oz,3.99
+Que Gusto Cotija Cheese,10,oz,3.99
+Que Gusto Fresco Cheese,10,oz,3.49
+Dutch Farms Colby Block Cheese,8,oz,2.49
+Dutch Farms Shredded Cheddar Jack Cheese,8,oz,2.69
+Dutch Farms Shredded Mexican Cheese Blend,8,oz,2.69
+Dutch Farms Shredded Parmesan Cheese,6,oz,3.49
+Dutch Farms Shredded Pizza Cheese Blend,8,oz,2.69
+Dutch Farms Shredded Cheddar Jack Cheese,8,oz,2.69
+Dutch Farms Shredded Mexican Cheese Blend,8,oz,2.69
+Dutch Farms Shredded Parmesan Cheese,6,oz,3.49
+Dutch Farms Shredded Pizza Cheese Blend,8,oz,2.69
+Dutch Farms Shredded Cheddar Jack Cheese,8,oz,2.69
+Dutch Farms Shredded Mexican Cheese Blend,8,oz,2.69
+Dutch Farms Shredded Parmesan Cheese,6,oz,3.49
+Dutch Farms Shredded Pizza Cheese Blend,8,oz,2.69
+American Heritage Traditional Smooth & Creamy Cream Cheese,8,oz,1.69
+Dutch Farms String Cheese,10,oz,3.49
+Dutch Farms Feta,4,oz,2.69
+Chavrie Goat Cheese,4,oz,3.99
+American Heritage Traditional Smooth & Creamy Cream Cheese,8,oz,1.69
+Dutch Farms String Cheese,10,oz,3.49
+Dutch Farms Feta,4,oz,2.69
+Chavrie Goat Cheese,4,oz,3.99
+American Heritage Traditional Smooth & Creamy Cream Cheese,8,oz,1.69
+Dutch Farms String Cheese,10,oz,3.49
+Dutch Farms Feta,4,oz,2.69
+Chavrie Goat Cheese,4,oz,3.99
+Dutch Farms Gouda Cheese Slices,6,oz,2.69
+Dutch Farms Gouda Cheese Slices,6,oz,2.49
+Dutch Farms Mozzarella Cheese Slices,6,oz,2.69
+Dutch Farms Provolone Cheese Slices,6,oz,2.69
+Dutch Farms Swiss Cheese Slices,6,oz,2.69
+Great Lakes Mild Cheddar Cheese Slices,1.5,lb,5.99
+Great Lakes Mozzarella Cheese Slices,1.5,lb,5.99
+Great Lakes Pepperjack Cheese Slices,1.5,lb,5.99
+Great Lakes White Cheddar Cheese Slices,1.5,lb,5.99
+Dutch Farms Gouda Cheese Slices,6,oz,2.69
+Dutch Farms Gouda Cheese Slices,6,oz,2.49
+Dutch Farms Mozzarella Cheese Slices,6,oz,2.69
+Dutch Farms Provolone Cheese Slices,6,oz,2.69
+Dutch Farms Swiss Cheese Slices,6,oz,2.69
+Great Lakes Mild Cheddar Cheese Slices,1.5,lb,5.99
+Great Lakes Mozzarella Cheese Slices,1.5,lb,5.99
+Great Lakes Pepperjack Cheese Slices,1.5,lb,5.99
+Great Lakes White Cheddar Cheese Slices,1.5,lb,5.99
+Dutch Farms Gouda Cheese Slices,6,oz,2.69
+Dutch Farms Gouda Cheese Slices,6,oz,2.49
+Dutch Farms Mozzarella Cheese Slices,6,oz,2.69
+Dutch Farms Provolone Cheese Slices,6,oz,2.69
+Dutch Farms Swiss Cheese Slices,6,oz,2.69
+Great Lakes Mild Cheddar Cheese Slices,1.5,lb,5.99
+Great Lakes Mozzarella Cheese Slices,1.5,lb,5.99
+Great Lakes Pepperjack Cheese Slices,1.5,lb,5.99
+Great Lakes White Cheddar Cheese Slices,1.5,lb,5.99
+Cool Mints Pepper Mint,1.2,oz,0.99
+Cool Mints Wintergreen,1.2,oz,0.99
+Cool Mints Pepper Mint,1.2,oz,0.99
+Cool Mints Wintergreen,1.2,oz,0.99
+Cool Mints Pepper Mint,1.2,oz,0.99
+Cool Mints Wintergreen,1.2,oz,0.99
+Best Yet Dry Roasted Peanuts,16,oz,2.49
+Best Yet Honey Roasted Peanuts,16,oz,2.49
+Best Yet Honey Roasted Peanuts,16,oz,2.49
+Best Yet Lightly Salted Roasted Peanuts,16,oz,2.49
+Blue Diamond Bold Sriracha Almonds,6,oz,3.99
+Blue Diamond Honey Roasted Almonds,6,oz,3.99
+Daily Table Freedom Trail Mix,12,oz,2.99
+Daily Table Freedom Trail Mix,12,oz,2.99
+Daily Table Patriots Trail Mix,12,oz,3.49
+Daily Table Raisins,12,oz,2.29
+Daily Table Raw Almonds ,12,oz,4.99
+Daily Table Raw Almonds ,12,oz,4.99
+Daily Table Raw Cashews ,12,oz,5.99
+Daily Table Raw Cashews ,12,oz,5.99
+Daily Table Roasted & Salted Almonds,12,oz,4.99
+Daily Table Roasted & Salted Almonds ,12,oz,4.99
+Daily Table Roasted & Salted Cashews ,12,oz,6.29
+Daily Table Roasted & Salted Cashews ,12,oz,6.29
+Daily Table Roasted & Salted Peanuts,12,oz,2.49
+Daily Table Roasted & Salted Pistachios,8,oz,3.99
+Daily Table Roasted & Salted Pistachios,8,oz,3.99
+Daily Table Roasted Almonds No Salt,12,oz,4.99
+Daily Table Roasted Almonds No Salt,12,oz,4.99
+Daily Table Roasted Cashews No Salt,12,oz,6.29
+Daily Table Roasted Cashews No Salt,12,oz,6.29
+Daily Table Smoked Almonds,12,oz,5.49
+Daily Table Smoked Almonds,12,oz,5.49
+Daily Table Walnuts,8,oz,3.69
+Daily Table Walnuts,8,oz,3.69
+Wonderful In-Shell Pistachio,1.5,oz,0.99
+Spectrum Organic Chia Seeds,12,oz,2.99
+Annie's Cheddar Bunnies,7.5,oz,3.49
+Athenos Baked Whole Wheat Pita Chips,9,oz,2.49
+Athenos Original Baked Pita Chips,9,oz,2.49
+Cheez It Original,12.4,oz,3.99
+Club Crackers Multi Grain,12.7,oz,3.99
+Club Crackers Original,13.7,oz,3.99
+Quaker Lightly Salted Rice Cakes,4.47,oz,2.99
+Annie's Cheddar Bunnies,7.5,oz,3.49
+Athenos Baked Whole Wheat Pita Chips,9,oz,2.49
+Athenos Original Baked Pita Chips,9,oz,2.49
+Cheez It Original,12.4,oz,3.99
+Club Crackers Multi Grain,12.7,oz,3.99
+Club Crackers Original,13.7,oz,3.99
+Quaker Lightly Salted Rice Cakes,4.47,oz,2.99
+Annie's Cheddar Bunnies,7.5,oz,3.49
+Athenos Baked Whole Wheat Pita Chips,9,oz,2.49
+Athenos Original Baked Pita Chips,9,oz,2.49
+Cheez It Original,12.4,oz,3.99
+Club Crackers Multi Grain,12.7,oz,3.99
+Club Crackers Original,13.7,oz,3.99
+Quaker Lightly Salted Rice Cakes,4.47,oz,2.99
+Ocean Spray Reduced Sugar Craisins,5,oz,2.49
+Ocean Spray Reduced Sugar Craisins,5,oz,2.49
+Ocean Spray Reduced Sugar Craisins,5,oz,2.49
+Best Yet Corn Chips,10,oz,1.99
+Best Yet White Round Tortilla Chips,13,oz,1.99
+Chex Mix Cheddar,8.75,oz,2.99
+Chex Mix Traditional,8.75,oz,2.99
+Skinny Pop,1,each,0.89
+PopChips BBQ,5,oz,1.49
+Terra Sweet Potato Chips No Salt,6,oz,1.99
+Barnana Lime Plantain Chips,4,oz,1.99
+Poptime,6,oz,1.99
+Skinny Pop Microwave Butter Popcorn,8.4,oz,1.99
+Best Yet Corn Chips,10,oz,1.99
+Best Yet White Round Tortilla Chips,13,oz,1.99
+Chex Mix Cheddar,8.75,oz,2.99
+Chex Mix Traditional,8.75,oz,2.99
+Skinny Pop,1,each,0.89
+PopChips BBQ,5,oz,1.49
+Terra Sweet Potato Chips No Salt,6,oz,1.99
+Barnana Lime Plantain Chips,4,oz,1.99
+Poptime,6,oz,1.99
+Skinny Pop Microwave Butter Popcorn,8.4,oz,1.99
+Best Yet Corn Chips,10,oz,1.99
+Best Yet White Round Tortilla Chips,13,oz,1.99
+Chex Mix Cheddar,8.75,oz,2.99
+Chex Mix Traditional,8.75,oz,2.99
+Skinny Pop,1,each,0.89
+PopChips BBQ,5,oz,1.49
+Terra Sweet Potato Chips No Salt,6,oz,1.99
+Barnana Lime Plantain Chips,4,oz,1.99
+Poptime,6,oz,1.99
+Skinny Pop Microwave Butter Popcorn,8.4,oz,1.99
+Cuetara  Campechana Cookies,5.82,oz,0.89
+Cuetara Maria Cookies,3.5,oz,0.49
+Stauffer's Ginger Snaps,14,oz,2.29
+Stauffer's Lemon Snaps,14,oz,2.29
+Cuetara  Campechana Cookies,5.82,oz,0.89
+Cuetara Maria Cookies,3.5,oz,0.49
+Stauffer's Ginger Snaps,14,oz,2.29
+Stauffer's Lemon Snaps,14,oz,2.29
+Cuetara  Campechana Cookies,5.82,oz,0.89
+Cuetara Maria Cookies,3.5,oz,0.49
+Stauffer's Ginger Snaps,14,oz,2.29
+Stauffer's Lemon Snaps,14,oz,2.29
+Jose Ole Chicken Taquitos,20,oz,5.99
+Marie Callender's Chicken Pot Pie,10,oz,2.59
+MorningStar Farms Garden Veggie Burgers 4ct,9.5,oz,3.99
+Nancy's Florentine Quiche,6,oz,2.49
+Tower Isle's Jamaican Patties,15,oz,4.99
+Jose Ole Chicken Taquitos,20,oz,5.99
+Marie Callender's Chicken Pot Pie,10,oz,2.59
+MorningStar Farms Garden Veggie Burgers 4ct,9.5,oz,3.99
+Nancy's Florentine Quiche,6,oz,2.49
+Tower Isle's Jamaican Patties,15,oz,4.99
+Jose Ole Chicken Taquitos,20,oz,5.99
+Marie Callender's Chicken Pot Pie,10,oz,2.59
+MorningStar Farms Garden Veggie Burgers 4ct,9.5,oz,3.99
+Nancy's Florentine Quiche,6,oz,2.49
+Tower Isle's Jamaican Patties,15,oz,4.99
+Best Yet Frozen Cut Corn,16,oz,1.49
+Best Yet Frozen Cut Green Beans,16,oz,1.29
+Best Yet Frozen Cut Leaf Spinach,16,oz,1.69
+Best Yet Frozen Green Peas,16,oz,1.49
+Best Yet Frozen Stir Fry Vegetables,16,oz,1.69
+"Cornerstone Blackberries, Frozen",16,oz,2.99
+"Cornerstone Blueberries, Frozen",16,oz,2.99
+"Cornerstone Mango Chunks, Frozen",16,oz,2.49
+"Cornerstone Pineapple Chunks, Frozen",16,oz,2.99
+"Cornerstone Sliced Peaches, Frozen",16,oz,2.99
+"Cornerstone Triple Berry Blend, Frozen",16,oz,2.99
+"Cornerstone Whole Strawberries, Frozen",16,oz,2.99
+Regal Nonpareil Broccoli Florets,32,oz,2.99
+"Regal Nonpareil California Blend Veggies, Frozen",32,oz,2.99
+"Regal Nonpareil Cut Okra, Frozen",32,oz,2.99
+Regal Nonpareil Frozen Green Beans,32,oz,2.49
+Best Yet Frozen Cut Corn,16,oz,1.49
+Best Yet Frozen Cut Green Beans,16,oz,1.29
+Best Yet Frozen Cut Leaf Spinach,16,oz,1.69
+Best Yet Frozen Green Peas,16,oz,1.49
+Best Yet Frozen Stir Fry Vegetables,16,oz,1.69
+"Cornerstone Blackberries, Frozen",16,oz,2.99
+"Cornerstone Blueberries, Frozen",16,oz,2.99
+"Cornerstone Mango Chunks, Frozen",16,oz,2.49
+"Cornerstone Pineapple Chunks, Frozen",16,oz,2.99
+"Cornerstone Sliced Peaches, Frozen",16,oz,2.99
+"Cornerstone Triple Berry Blend, Frozen",16,oz,2.99
+"Cornerstone Whole Strawberries, Frozen",16,oz,2.99
+Regal Nonpareil Broccoli Florets,32,oz,2.99
+"Regal Nonpareil California Blend Veggies, Frozen",32,oz,2.99
+"Regal Nonpareil Cut Okra, Frozen",32,oz,2.99
+Regal Nonpareil Frozen Green Beans,32,oz,2.49
+Best Yet Frozen Cut Corn,16,oz,1.49
+Best Yet Frozen Cut Green Beans,16,oz,1.29
+Best Yet Frozen Cut Leaf Spinach,16,oz,1.69
+Best Yet Frozen Green Peas,16,oz,1.49
+Best Yet Frozen Stir Fry Vegetables,16,oz,1.69
+"Cornerstone Blackberries, Frozen",16,oz,2.99
+"Cornerstone Blueberries, Frozen",16,oz,2.99
+"Cornerstone Mango Chunks, Frozen",16,oz,2.49
+"Cornerstone Pineapple Chunks, Frozen",16,oz,2.99
+"Cornerstone Sliced Peaches, Frozen",16,oz,2.99
+"Cornerstone Triple Berry Blend, Frozen",16,oz,2.99
+"Cornerstone Whole Strawberries, Frozen",16,oz,2.99
+Regal Nonpareil Broccoli Florets,32,oz,2.99
+"Regal Nonpareil California Blend Veggies, Frozen",32,oz,2.99
+"Regal Nonpareil Cut Okra, Frozen",32,oz,2.99
+Regal Nonpareil Frozen Green Beans,32,oz,2.49
+Buona Vita Italian Style Meatballs (Chicken & Beef),30,oz,5.99
+GA Whiting Fillets,2,lb,5.99
+Gorton's Natural Catch Grilled Fillets Garlic Butter,7.1,oz,3.49
+Signature Select Uncooked Chicken Wing 4#,4,lb,8.99
+Frozen Beef Strip Steak,1,lb,5.99
+"Best Yet 31/40 Cooked Shrimp P&D, 1lb",1,lb,7.99
+"Best Yet 31/40 Raw Shrimp, 1lb",1,lb,6.99
+Frozen Strip Steaks,2.99,lb,17.91
+Marcello Shaved Steak,12,oz,5.99
+Buona Vita Italian Style Meatballs (Chicken & Beef),30,oz,5.99
+GA Whiting Fillets,2,lb,5.99
+Gorton's Natural Catch Grilled Fillets Garlic Butter,7.1,oz,3.49
+Signature Select Uncooked Chicken Wing 4#,4,lb,8.99
+Frozen Beef Strip Steak,1,lb,5.99
+"Best Yet 31/40 Cooked Shrimp P&D, 1lb",1,lb,7.99
+"Best Yet 31/40 Raw Shrimp, 1lb",1,lb,6.99
+Frozen Strip Steaks,2.99,lb,17.91
+Marcello Shaved Steak,12,oz,5.99
+Buona Vita Italian Style Meatballs (Chicken & Beef),30,oz,5.99
+GA Whiting Fillets,2,lb,5.99
+Gorton's Natural Catch Grilled Fillets Garlic Butter,7.1,oz,3.49
+Signature Select Uncooked Chicken Wing 4#,4,lb,8.99
+Frozen Beef Strip Steak,1,lb,5.99
+"Best Yet 31/40 Cooked Shrimp P&D, 1lb",1,lb,7.99
+"Best Yet 31/40 Raw Shrimp, 1lb",1,lb,6.99
+Frozen Strip Steaks,2.99,lb,17.91
+Marcello Shaved Steak,12,oz,5.99
+Kellogg's Eggo Homestyle Waffles,12.3,oz,2.89
+Pillsbury Bacon Toaster Scrambles,7.2,oz,2.99
+Kellogg's Eggo Homestyle Waffles,12.3,oz,2.89
+Pillsbury Bacon Toaster Scrambles,7.2,oz,2.99
+Kellogg's Eggo Homestyle Waffles,12.3,oz,2.89
+Pillsbury Bacon Toaster Scrambles,7.2,oz,2.99
+Chang Shing Firm Tofu,18,oz,1.99
+Chang Shing Pressed Tofu,12,oz,1.99
+Chang Shing Firm Tofu,18,oz,1.99
+Chang Shing Pressed Tofu,12,oz,1.99
+Chang Shing Firm Tofu,18,oz,1.99
+Chang Shing Pressed Tofu,12,oz,1.99
+Ball Park Bun Size Franks Hot Dogs,15,oz,3.99
+Healthy Ones Deli Thin Sliced Honey Ham,7,oz,3.49
+Hillshire Farms Ultra Thin Roast Beef,1,each,3.99
+Hillshire Farm Honey Ham Lower Sodium,8,oz,3.99
+Ball Park Bun Size Franks Hot Dogs,15,oz,3.99
+Healthy Ones Deli Thin Sliced Honey Ham,7,oz,3.49
+Hillshire Farms Ultra Thin Roast Beef,1,each,3.99
+Hillshire Farm Honey Ham Lower Sodium,8,oz,3.99
+Ball Park Bun Size Franks Hot Dogs,15,oz,3.99
+Healthy Ones Deli Thin Sliced Honey Ham,7,oz,3.49
+Hillshire Farms Ultra Thin Roast Beef,1,each,3.99
+Hillshire Farm Honey Ham Lower Sodium,8,oz,3.99
+Cacique Homestyle Hot Salsa,16,oz,2.99
+Cacique Traditional Mild Salsa,16,oz,2.99
+Cindy's Citrus Beet Vinaigrette,16,fl oz,1.99
+Athenos Original Hummus,7,oz,2.29
+Cacique Homestyle Hot Salsa,16,oz,2.99
+Cacique Traditional Mild Salsa,16,oz,2.99
+Cindy's Citrus Beet Vinaigrette,16,fl oz,1.99
+Athenos Original Hummus,7,oz,2.29
+Cacique Homestyle Hot Salsa,16,oz,2.99
+Cacique Traditional Mild Salsa,16,oz,2.99
+Cindy's Citrus Beet Vinaigrette,16,fl oz,1.99
+Athenos Original Hummus,7,oz,2.29
+Barilla Whole Grain Rotini,16,oz,1.69
+Barilla Whole Grain Spaghetti,16,oz,1.69
+Best Yet Medium Egg Noodles,16,oz,1.89
+Best Yet Thick & Creamy Macaroni & Cheese,7.25,oz,0.79
+Exceptional Value Mac & Cheese Dinner,6.25,oz,0.69
+Exceptional Value Shells & Cheddar Dinner,12,oz,1.99
+Full Circle Gluten Free Penne Pasta,12,oz,1.69
+Pastalia Elbow Pasta,14,oz,0.79
+Pastalia Penne Pasta,14,oz,0.79
+Pastalia Spaghetti Pasta,14,oz,0.79
+Pastalia Ziti Pasta,14,oz,0.79
+WA Ramen Noodles,8.81,oz,0.99
+Barilla Whole Grain Rotini,16,oz,1.69
+Barilla Whole Grain Spaghetti,16,oz,1.69
+Best Yet Medium Egg Noodles,16,oz,1.89
+Best Yet Thick & Creamy Macaroni & Cheese,7.25,oz,0.79
+Exceptional Value Mac & Cheese Dinner,6.25,oz,0.69
+Exceptional Value Shells & Cheddar Dinner,12,oz,1.99
+Full Circle Gluten Free Penne Pasta,12,oz,1.69
+Pastalia Elbow Pasta,14,oz,0.79
+Pastalia Penne Pasta,14,oz,0.79
+Pastalia Spaghetti Pasta,14,oz,0.79
+Pastalia Ziti Pasta,14,oz,0.79
+WA Ramen Noodles,8.81,oz,0.99
+Barilla Whole Grain Rotini,16,oz,1.69
+Barilla Whole Grain Spaghetti,16,oz,1.69
+Best Yet Medium Egg Noodles,16,oz,1.89
+Best Yet Thick & Creamy Macaroni & Cheese,7.25,oz,0.79
+Exceptional Value Mac & Cheese Dinner,6.25,oz,0.69
+Exceptional Value Shells & Cheddar Dinner,12,oz,1.99
+Full Circle Gluten Free Penne Pasta,12,oz,1.69
+Pastalia Elbow Pasta,14,oz,0.79
+Pastalia Penne Pasta,14,oz,0.79
+Pastalia Spaghetti Pasta,14,oz,0.79
+Pastalia Ziti Pasta,14,oz,0.79
+WA Ramen Noodles,8.81,oz,0.99
+Best Yet No Salt Added Tomato Sauce,8,oz,0.49
+Best Yet Tomato Sauce,8,oz,0.49
+Del Monte Pasta Sauce Traditional,24,oz,1.29
+Del Monte Pasta Sauce Traditional,24,oz,1.29
+Del Monte Spagetti Sauce with Meat,24,oz,1.29
+Del Monte Spagetti Sauce with Meat,24,oz,1.29
+Furmano's Pizza Sauce Original,15,oz,1.49
+Newman's Own Marinara Sauce,24,oz,2.99
+Newman's Own Pasta Sauce Tomato & Basil Bombolina,24,oz,2.99
+Best Yet No Salt Added Tomato Sauce,8,oz,0.49
+Best Yet Tomato Sauce,8,oz,0.49
+Del Monte Pasta Sauce Traditional,24,oz,1.29
+Del Monte Pasta Sauce Traditional,24,oz,1.29
+Del Monte Spagetti Sauce with Meat,24,oz,1.29
+Del Monte Spagetti Sauce with Meat,24,oz,1.29
+Furmano's Pizza Sauce Original,15,oz,1.49
+Newman's Own Marinara Sauce,24,oz,2.99
+Newman's Own Pasta Sauce Tomato & Basil Bombolina,24,oz,2.99
+Best Yet No Salt Added Tomato Sauce,8,oz,0.49
+Best Yet Tomato Sauce,8,oz,0.49
+Del Monte Pasta Sauce Traditional,24,oz,1.29
+Del Monte Pasta Sauce Traditional,24,oz,1.29
+Del Monte Spagetti Sauce with Meat,24,oz,1.29
+Del Monte Spagetti Sauce with Meat,24,oz,1.29
+Furmano's Pizza Sauce Original,15,oz,1.49
+Newman's Own Marinara Sauce,24,oz,2.99
+Newman's Own Pasta Sauce Tomato & Basil Bombolina,24,oz,2.99
+Best Yet Bran Flakes,17.3,oz,2.29
+Best Yet Cereal Toasted Oats ,12,oz,1.99
+Best Yet Corn Flakes,18,oz,1.99
+Best Yet Honey Oats & Flakes,14.5,oz,2.49
+Best Yet Old Fashioned Oats,18,oz,1.99
+Best Yet Quick Oats,18,oz,1.99
+Best Yet Raisin Bran,18.7,oz,2.49
+Cheerios,8.9,oz,3.69
+Kellogg's Raisin Bran,16.6,oz,3.99
+Multigrain Cheerios,12,oz,4.69
+Quaker Quick 5-Minute Grits,24,oz,2.49
+Jeff's Granola Cinnamon Raisin,12,oz,2.99
+Jeff's Granola Maple Raisin,12,oz,2.99
+Rise and Shine Apple Cinnamon Oatmeal Cups,2.82,oz,1.29
+Rise and Shine Maple Oatmeal cups,2.82,oz,1.29
+Best Yet Bran Flakes,17.3,oz,2.29
+Best Yet Cereal Toasted Oats ,12,oz,1.99
+Best Yet Corn Flakes,18,oz,1.99
+Best Yet Honey Oats & Flakes,14.5,oz,2.49
+Best Yet Old Fashioned Oats,18,oz,1.99
+Best Yet Quick Oats,18,oz,1.99
+Best Yet Raisin Bran,18.7,oz,2.49
+Cheerios,8.9,oz,3.69
+Kellogg's Raisin Bran,16.6,oz,3.99
+Multigrain Cheerios,12,oz,4.69
+Quaker Quick 5-Minute Grits,24,oz,2.49
+Jeff's Granola Cinnamon Raisin,12,oz,2.99
+Jeff's Granola Maple Raisin,12,oz,2.99
+Rise and Shine Apple Cinnamon Oatmeal Cups,2.82,oz,1.29
+Rise and Shine Maple Oatmeal cups,2.82,oz,1.29
+Best Yet Bran Flakes,17.3,oz,2.29
+Best Yet Cereal Toasted Oats ,12,oz,1.99
+Best Yet Corn Flakes,18,oz,1.99
+Best Yet Honey Oats & Flakes,14.5,oz,2.49
+Best Yet Old Fashioned Oats,18,oz,1.99
+Best Yet Quick Oats,18,oz,1.99
+Best Yet Raisin Bran,18.7,oz,2.49
+Cheerios,8.9,oz,3.69
+Kellogg's Raisin Bran,16.6,oz,3.99
+Multigrain Cheerios,12,oz,4.69
+Quaker Quick 5-Minute Grits,24,oz,2.49
+Jeff's Granola Cinnamon Raisin,12,oz,2.99
+Jeff's Granola Maple Raisin,12,oz,2.99
+Rise and Shine Apple Cinnamon Oatmeal Cups,2.82,oz,1.29
+Rise and Shine Maple Oatmeal cups,2.82,oz,1.29
+Best Yet Classic Yellow Mustard,20,oz,1.49
+Best Yet Herb & Garlic Marinade,12.25,oz,1.69
+Best Yet Honey Mustard Dressing,16,fl oz,1.79
+Best Yet Hot Salsa Sauce,16,oz,1.99
+Best Yet Light Ranch Dressing,16,fl oz,1.99
+Best Yet Lite Italian Dressing,16,oz,1.69
+Best Yet Low Sodium Soy Sauce,10,fl oz,1.69
+Best Yet Mayonnaise,30,oz,2.49
+Best Yet Medium Salsa Sauce,16,oz,1.99
+Best Yet Original Steak Sauce,10,oz,1.99
+Best Yet Tartar Sauce ,12,fl oz,1.79
+Best Yet Teriyaki Sauce,10,oz,1.69
+Best Yet Tomato Ketchup,24,oz,1.49
+Best Yet Worcestershire Sauce,10,oz,1.59
+Culinary Tours Szechuan Peanut Sauce,11.8,oz,4.49
+Exceptional Value BBQ Sauce Hickory,18,oz,1.49
+Exceptional Value BBQ Sauce Original,18,oz,1.49
+Frank's Original Red Hot Sauce,12,fl oz,3.59
+French's Classic Yellow Mustard,12,oz,1.99
+Goya Mayonnaise,16,oz,2.49
+"Goya Pimiento Stuffed Olives, Reduced Sodium",6.75,oz,1.99
+"Goya Salad Olives, Reduced Sodium",7,oz,1.99
+Goya Salsa Picante Hot Sauce,12,fl oz,1.99
+Kikkoman Less Sodium Soy Sauce,10,fl oz,2.99
+La Triguena Chopped Garlic,8,oz,1.49
+Napoli Roasted Red Peppers,12,oz,1.99
+Newman's Own Medium Salsa,16,oz,2.99
+Newman's Own Mild Salsa,16,oz,2.99
+Red Devil Hot Sauce,12,oz,1.79
+Spur Tree Curry Seasoning,10,oz,3.29
+Spur Tree Jerk Seasoning,10,oz,3.29
+Dynasty Gyoza Dipping Sauce,5,oz,1.49
+Cindy's Citrus Beet Vinaigrette,11,fl oz,1.49
+Sky Valley Teriyaki Sauce,14.5,oz,1.99
+Best Yet Black Beans,15.5,oz,0.79
+Best Yet Cut Wax Beans,14.5,oz,0.89
+Best Yet Diced Tomatoes,14.5,oz,0.89
+Best Yet Garbanzo Beans,15.5,oz,0.89
+Best Yet Pinto Beans,15.5,oz,0.79
+Best Yet Tomato Paste,12,oz,0.69
+Best Yet Whole Kernel Sweet Corn,15.25,oz,0.79
+Best Yet Whole Peeled Tomatoes ,28,oz,1.79
+Goya Black Beans,15.5,oz,0.99
+Goya Black Beans Low Sodium,15.5,oz,0.99
+Goya Chick Peas Garbanzos,15.5,oz,0.99
+"Goya Chick Peas Garbanzos, Reduced Sodium",15.5,oz,0.99
+Goya Diced Tomatoes,14.5,oz,0.99
+Goya Green Pigeon Peas,15,oz,1.29
+Goya Red Kidney Beans ,15.5,oz,0.99
+Goya Small Red Beans,15.5,oz,0.99
+Goya Small White Beans,15.5,oz,1.19
+Goya Tomato Paste ,6,oz,0.89
+Napoli Crushed Tomato,28,oz,1.99
+Best Yet Black Beans,15.5,oz,0.79
+Best Yet Cut Wax Beans,14.5,oz,0.89
+Best Yet Diced Tomatoes,14.5,oz,0.89
+Best Yet Garbanzo Beans,15.5,oz,0.89
+Best Yet Pinto Beans,15.5,oz,0.79
+Best Yet Tomato Paste,12,oz,0.69
+Best Yet Whole Kernel Sweet Corn,15.25,oz,0.79
+Best Yet Whole Peeled Tomatoes ,28,oz,1.79
+Goya Black Beans,15.5,oz,0.99
+Goya Black Beans Low Sodium,15.5,oz,0.99
+Goya Chick Peas Garbanzos,15.5,oz,0.99
+"Goya Chick Peas Garbanzos, Reduced Sodium",15.5,oz,0.99
+Goya Diced Tomatoes,14.5,oz,0.99
+Goya Green Pigeon Peas,15,oz,1.29
+Goya Red Kidney Beans ,15.5,oz,0.99
+Goya Small Red Beans,15.5,oz,0.99
+Goya Small White Beans,15.5,oz,1.19
+Goya Tomato Paste ,6,oz,0.89
+Napoli Crushed Tomato,28,oz,1.99
+Best Yet Black Beans,15.5,oz,0.79
+Best Yet Cut Wax Beans,14.5,oz,0.89
+Best Yet Diced Tomatoes,14.5,oz,0.89
+Best Yet Garbanzo Beans,15.5,oz,0.89
+Best Yet Pinto Beans,15.5,oz,0.79
+Best Yet Tomato Paste,12,oz,0.69
+Best Yet Whole Kernel Sweet Corn,15.25,oz,0.79
+Best Yet Whole Peeled Tomatoes ,28,oz,1.79
+Goya Black Beans,15.5,oz,0.99
+Goya Black Beans Low Sodium,15.5,oz,0.99
+Goya Chick Peas Garbanzos,15.5,oz,0.99
+"Goya Chick Peas Garbanzos, Reduced Sodium",15.5,oz,0.99
+Goya Diced Tomatoes,14.5,oz,0.99
+Goya Green Pigeon Peas,15,oz,1.29
+Goya Red Kidney Beans ,15.5,oz,0.99
+Goya Small Red Beans,15.5,oz,0.99
+Goya Small White Beans,15.5,oz,1.19
+Goya Tomato Paste ,6,oz,0.89
+Napoli Crushed Tomato,28,oz,1.99
+Best Yet Apple Cider Vinegar,32,fl oz,1.59
+Best Yet Extra Virgin Olive Oil ,17,fl oz,3.49
+Best Yet Pure Olive Oil,25.5,fl oz,4.99
+Best Yet Red Wine Vinegar,16,fl oz,0.99
+Best Yet Vegetable Oil,48,fl oz,4.49
+Best Yet White Vinegar,32,fl oz,1.29
+Exceptional Value Canola Oil,48,oz,2.69
+Best Yet Apple Cider Vinegar,32,fl oz,1.59
+Best Yet Extra Virgin Olive Oil ,17,fl oz,3.49
+Best Yet Pure Olive Oil,25.5,fl oz,4.99
+Best Yet Red Wine Vinegar,16,fl oz,0.99
+Best Yet Vegetable Oil,48,fl oz,4.49
+Best Yet White Vinegar,32,fl oz,1.29
+Exceptional Value Canola Oil,48,oz,2.69
+Best Yet Apple Cider Vinegar,32,fl oz,1.59
+Best Yet Extra Virgin Olive Oil ,17,fl oz,3.49
+Best Yet Pure Olive Oil,25.5,fl oz,4.99
+Best Yet Red Wine Vinegar,16,fl oz,0.99
+Best Yet Vegetable Oil,48,fl oz,4.49
+Best Yet White Vinegar,32,fl oz,1.29
+Exceptional Value Canola Oil,48,oz,2.69
+Best Yet Dry Black Beans,16,oz,0.99
+Best Yet Light Red Kidney Beans,16,oz,1.49
+Best Yet Long Grain Brown Rice,32,oz,1.99
+Best Yet Long Grain White Rice ,2,lb,1.99
+Bombay Basmati Rice ,12,oz,1.99
+Canilla Extra Long Grain White Rice,32,oz,1.49
+Canilla Extra Long Grain White Rice,5,lb,4.49
+Goya Chick Peas Garbanzos ,16,oz,1.79
+Goya Coarse Corn Meal,24,oz,1.49
+Goya Dry Black Beans ,16,oz,1.49
+Goya Dry Pinto Beans,16,oz,1.99
+Goya Dry Red Kidney Beans,16,oz,1.99
+Goya Fine Corn Meal,24,oz,1.49
+Goya Lentils,16,oz,1.49
+Goya Medium Grain Brown Rice,16,oz,1.29
+Goya Medium Grain Brown Rice,32,oz,2.49
+Goya Medium Grain White Rice,16,oz,1.39
+Goya Medium Grain White Rice,5,lb,4.99
+Goya Red Lentils,16,oz,1.49
+Goya Yellow Split Peas,16,oz,1.29
+Madame Gougousse Parboiled Rice,3,lb,2.59
+Madame Gougousse 10 lb Parboiled Rice,10,lb,6.49
+Best Yet Dry Black Beans,16,oz,0.99
+Best Yet Light Red Kidney Beans,16,oz,1.49
+Best Yet Long Grain Brown Rice,32,oz,1.99
+Best Yet Long Grain White Rice ,2,lb,1.99
+Bombay Basmati Rice ,12,oz,1.99
+Canilla Extra Long Grain White Rice,32,oz,1.49
+Canilla Extra Long Grain White Rice,5,lb,4.49
+Goya Chick Peas Garbanzos ,16,oz,1.79
+Goya Coarse Corn Meal,24,oz,1.49
+Goya Dry Black Beans ,16,oz,1.49
+Goya Dry Pinto Beans,16,oz,1.99
+Goya Dry Red Kidney Beans,16,oz,1.99
+Goya Fine Corn Meal,24,oz,1.49
+Goya Lentils,16,oz,1.49
+Goya Medium Grain Brown Rice,16,oz,1.29
+Goya Medium Grain Brown Rice,32,oz,2.49
+Goya Medium Grain White Rice,16,oz,1.39
+Goya Medium Grain White Rice,5,lb,4.99
+Goya Red Lentils,16,oz,1.49
+Goya Yellow Split Peas,16,oz,1.29
+Madame Gougousse Parboiled Rice,3,lb,2.59
+Madame Gougousse 10 lb Parboiled Rice,10,lb,6.49
+Best Yet Dry Black Beans,16,oz,0.99
+Best Yet Light Red Kidney Beans,16,oz,1.49
+Best Yet Long Grain Brown Rice,32,oz,1.99
+Best Yet Long Grain White Rice ,2,lb,1.99
+Bombay Basmati Rice ,12,oz,1.99
+Canilla Extra Long Grain White Rice,32,oz,1.49
+Canilla Extra Long Grain White Rice,5,lb,4.49
+Goya Chick Peas Garbanzos ,16,oz,1.79
+Goya Coarse Corn Meal,24,oz,1.49
+Goya Dry Black Beans ,16,oz,1.49
+Goya Dry Pinto Beans,16,oz,1.99
+Goya Dry Red Kidney Beans,16,oz,1.99
+Goya Fine Corn Meal,24,oz,1.49
+Goya Lentils,16,oz,1.49
+Goya Medium Grain Brown Rice,16,oz,1.29
+Goya Medium Grain Brown Rice,32,oz,2.49
+Goya Medium Grain White Rice,16,oz,1.39
+Goya Medium Grain White Rice,5,lb,4.99
+Goya Red Lentils,16,oz,1.49
+Goya Yellow Split Peas,16,oz,1.29
+Madame Gougousse Parboiled Rice,3,lb,2.59
+Madame Gougousse 10 lb Parboiled Rice,10,lb,6.49
+Badia Adobo with Pepper,15,oz,2.99
+Badia Adobo with Pepper,7,oz,1.69
+Badia Adobo without Pepper,15,oz,2.99
+Badia Adobo without Pepper,7,oz,1.69
+Badia Chili Powder,2.5,oz,1.59
+Badia Cinnamon Powder,0.5,oz,0.69
+Badia Cinnamon Sticks,0.5,oz,1.59
+Badia Crushed Red Pepper,4.5,oz,2.29
+Badia Curry Powder,2,oz,1.59
+Badia Garlic Powder,3,oz,1.59
+Badia Ground Bay Leaves,0.5,oz,0.69
+Badia Ground Cayenne Pepper ,2,oz,1.59
+Badia Ground Cumin,1,oz,0.69
+Badia Ground Ginger,1.5,oz,1.59
+Badia Ground Oregano,1.5,oz,1.59
+Badia Ground Sage,1.25,oz,1.69
+Badia Onion Powder,2,oz,1.59
+Badia Rosemary,0.5,oz,0.69
+Badia Thyme Leaves ,0.5,oz,0.69
+Badia Whole Bay Leaves,0.2,oz,0.69
+Badia Whole Black Pepper,0.5,oz,0.69
+Best Yet Black Pepper Tin,4,oz,2.49
+Best Yet Crushed Red Pepper,1.5,oz,0.69
+Badia Paprika,2,oz,1.59
+Badia Whole Cloves,1.25,oz,1.99
+Badia Organic Turmeric,2,oz,2.69
+Badia Garlic Salt,4.5,oz,1.59
+Badia Lemon Pepper Seasoning,6.5,oz,3.49
+Badia Cajun Seasoning,2.75,oz,1.59
+Badia Italian Seasoning,1.25,oz,2.69
+Badia Seafood Seasoning,4.5,oz,2.69
+Badia Poultry Seasoning,5.5,oz,2.69
+Badia Steak Seasoning,6.5,oz,2.69
+Badia Tropical Sazon Green,6.75,oz,2.69
+Badia Garlic Powder,10.5,oz,3.69
+Badia Crushed Red Pepper,4.5,oz,2.69
+Badia Salt Grinder,4.25,oz,2.69
+Badia Black Pepper Grinder,2.25,oz,2.99
+Morton Kosher Salt,48,oz,3.69
+Garden of Eatin Taco Seasoning 1.4 oz,1.4,oz,0.49
+Best Yet All Purpose Flour ,32,oz,1.49
+Best Yet Baking Powder,10,oz,1.49
+Best Yet Baking Soda,1,lb,0.79
+Best Yet Complete Pancake Mix ,32,oz,2.39
+Best Yet Evaporated Milk,12,fl oz,0.99
+Best Yet Granulated Sugar,2,lb,1.89
+Best Yet Light Brown Sugar,32,oz,2.39
+Best Yet Plain Bread Crumbs,15,oz,1.59
+Heckers All Natural 100% Whole Wheat Flour,32,oz,2.39
+Madame Gougousse Coconut Milk Leche de Coco,13.5,fl oz,0.99
+Best Yet All Purpose Flour ,32,oz,1.49
+Best Yet Baking Powder,10,oz,1.49
+Best Yet Baking Soda,1,lb,0.79
+Best Yet Complete Pancake Mix ,32,oz,2.39
+Best Yet Evaporated Milk,12,fl oz,0.99
+Best Yet Granulated Sugar,2,lb,1.89
+Best Yet Light Brown Sugar,32,oz,2.39
+Best Yet Plain Bread Crumbs,15,oz,1.59
+Heckers All Natural 100% Whole Wheat Flour,32,oz,2.39
+Madame Gougousse Coconut Milk Leche de Coco,13.5,fl oz,0.99
+Best Yet All Purpose Flour ,32,oz,1.49
+Best Yet Baking Powder,10,oz,1.49
+Best Yet Baking Soda,1,lb,0.79
+Best Yet Complete Pancake Mix ,32,oz,2.39
+Best Yet Evaporated Milk,12,fl oz,0.99
+Best Yet Granulated Sugar,2,lb,1.89
+Best Yet Light Brown Sugar,32,oz,2.39
+Best Yet Plain Bread Crumbs,15,oz,1.59
+Heckers All Natural 100% Whole Wheat Flour,32,oz,2.39
+Madame Gougousse Coconut Milk Leche de Coco,13.5,fl oz,0.99
+Best Yet Honey Bear,12,oz,2.99
+Best Yet Unsweetened Applesauce 6-pack,6,oz,1.99
+HoneyTree's Pure Honey,12,oz,3.29
+Smucker's Low Sugar Grape Jelly,15.5,oz,2.99
+Smucker's Low Sugar Strawberry Jelly,15.5,oz,3.49
+"Teddie, Smooth & Salted, All Natural Peanut Butter",16,oz,2.99
+Teddie Peanut Butter Chunky,18,oz,1.99
+Teddie Peanut Butter Smooth,18,oz,1.99
+"Teddie, Chunky, All Natural Peanut Butter",16,oz,2.99
+"Teddie, Unsalted Smooth, All Natural Peanut Butter",16,oz,2.99
+Marrakesh Matbutcha Spread,10.5,oz,0.99
+Hero Blackberry Fruit Spread,12,oz,2.29
+Best Yet Honey Bear,12,oz,2.99
+Best Yet Unsweetened Applesauce 6-pack,6,oz,1.99
+HoneyTree's Pure Honey,12,oz,3.29
+Smucker's Low Sugar Grape Jelly,15.5,oz,2.99
+Smucker's Low Sugar Strawberry Jelly,15.5,oz,3.49
+"Teddie, Smooth & Salted, All Natural Peanut Butter",16,oz,2.99
+Teddie Peanut Butter Chunky,18,oz,1.99
+Teddie Peanut Butter Smooth,18,oz,1.99
+"Teddie, Chunky, All Natural Peanut Butter",16,oz,2.99
+"Teddie, Unsalted Smooth, All Natural Peanut Butter",16,oz,2.99
+Marrakesh Matbutcha Spread,10.5,oz,0.99
+Hero Blackberry Fruit Spread,12,oz,2.29
+Best Yet Honey Bear,12,oz,2.99
+Best Yet Unsweetened Applesauce 6-pack,6,oz,1.99
+HoneyTree's Pure Honey,12,oz,3.29
+Smucker's Low Sugar Grape Jelly,15.5,oz,2.99
+Smucker's Low Sugar Strawberry Jelly,15.5,oz,3.49
+"Teddie, Smooth & Salted, All Natural Peanut Butter",16,oz,2.99
+Teddie Peanut Butter Chunky,18,oz,1.99
+Teddie Peanut Butter Smooth,18,oz,1.99
+"Teddie, Chunky, All Natural Peanut Butter",16,oz,2.99
+"Teddie, Unsalted Smooth, All Natural Peanut Butter",16,oz,2.99
+Marrakesh Matbutcha Spread,10.5,oz,0.99
+Hero Blackberry Fruit Spread,12,oz,2.29
+Best Yet Beef Broth,32,fl oz,1.69
+Best Yet Chicken Broth,32,oz,1.69
+Best Yet Reduced Sodium Chicken Broth ,32,oz,1.69
+Campbell's Chunky Chicken & Rice Soup,18.8,oz,2.69
+Campbell's Chunky Savory Vegetable Soup,18.8,oz,2.69
+Campbell's Homestyle Chicken Noodle Soup,10.5,oz,1.89
+Progresso Hearty Tomato Soup,19,oz,2.59
+Progresso Minestrone Soup,19,oz,2.49
+Progresso Reduced Sodium Minestrone Soup,19,oz,2.59
+Progresso Tuscan-Style White Bean Soup,18.5,oz,2.59
+Imagine Foods Low Sodium Vegetable Broth,32,fl oz,1.79
+Best Yet Beef Broth,32,fl oz,1.69
+Best Yet Chicken Broth,32,oz,1.69
+Best Yet Reduced Sodium Chicken Broth ,32,oz,1.69
+Campbell's Chunky Chicken & Rice Soup,18.8,oz,2.69
+Campbell's Chunky Savory Vegetable Soup,18.8,oz,2.69
+Campbell's Homestyle Chicken Noodle Soup,10.5,oz,1.89
+Progresso Hearty Tomato Soup,19,oz,2.59
+Progresso Minestrone Soup,19,oz,2.49
+Progresso Reduced Sodium Minestrone Soup,19,oz,2.59
+Progresso Tuscan-Style White Bean Soup,18.5,oz,2.59
+Imagine Foods Low Sodium Vegetable Broth,32,fl oz,1.79
+Best Yet Beef Broth,32,fl oz,1.69
+Best Yet Chicken Broth,32,oz,1.69
+Best Yet Reduced Sodium Chicken Broth ,32,oz,1.69
+Campbell's Chunky Chicken & Rice Soup,18.8,oz,2.69
+Campbell's Chunky Savory Vegetable Soup,18.8,oz,2.69
+Campbell's Homestyle Chicken Noodle Soup,10.5,oz,1.89
+Progresso Hearty Tomato Soup,19,oz,2.59
+Progresso Minestrone Soup,19,oz,2.49
+Progresso Reduced Sodium Minestrone Soup,19,oz,2.59
+Progresso Tuscan-Style White Bean Soup,18.5,oz,2.59
+Imagine Foods Low Sodium Vegetable Broth,32,fl oz,1.79
+Best Yet Chunk Lite Tuna in Water,5,oz,0.99
+Crown Prince Flat Anchovies,2,oz,1.79
+Best Yet Chunk Lite Tuna in Water,5,oz,0.99
+Crown Prince Flat Anchovies,2,oz,1.79
+Best Yet Chunk Lite Tuna in Water,5,oz,0.99
+Crown Prince Flat Anchovies,2,oz,1.79
+Calise Bakery Kaiser Whole Wheat Rolls,15,oz,2.99
+Holsum English Muffins,12,oz,1.99
+Zeppy's Plain Bagels,20,oz,2.49
+Zeppy's Bagels Blueberry,1,each,2.49
+Zeppy's Bagels Everything,1,each,2.49
+Penn Street Dinner Rolls 12 count,16,oz,3.29
+Calise Bakery Kaiser Whole Wheat Rolls,15,oz,2.99
+Holsum English Muffins,12,oz,1.99
+Zeppy's Plain Bagels,20,oz,2.49
+Zeppy's Bagels Blueberry,1,each,2.49
+Zeppy's Bagels Everything,1,each,2.49
+Penn Street Dinner Rolls 12 count,16,oz,3.29
+Calise Bakery Kaiser Whole Wheat Rolls,15,oz,2.99
+Holsum English Muffins,12,oz,1.99
+Zeppy's Plain Bagels,20,oz,2.49
+Zeppy's Bagels Blueberry,1,each,2.49
+Zeppy's Bagels Everything,1,each,2.49
+Penn Street Dinner Rolls 12 count,16,oz,3.29
+Jessica's Tuscan Wheat Sliced Bread,20,oz,1.99
+Jessica's Tuscan White Sliced Bread,20,oz,1.99
+Jessica's Sourdough Sliced Bread,24,oz,1.99
+Stone and Skillet Original English Muffins,10,oz,1.99
+Holsum Split Top Wheat Bread,20,oz,2.49
+Holsum White Bread,20,oz,2.49
+Jessica's Tuscan Wheat Sliced Bread,20,oz,1.99
+Jessica's Tuscan White Sliced Bread,20,oz,1.99
+Jessica's Sourdough Sliced Bread,24,oz,1.99
+Stone and Skillet Original English Muffins,10,oz,1.99
+Holsum Split Top Wheat Bread,20,oz,2.49
+Holsum White Bread,20,oz,2.49
+Jessica's Tuscan Wheat Sliced Bread,20,oz,1.99
+Jessica's Tuscan White Sliced Bread,20,oz,1.99
+Jessica's Sourdough Sliced Bread,24,oz,1.99
+Stone and Skillet Original English Muffins,10,oz,1.99
+Holsum Split Top Wheat Bread,20,oz,2.49
+Holsum White Bread,20,oz,2.49
+"Best Yet Soft Flour Tortillas 6""",10,ct,0.99
+Chi Chi's Whole Wheat Fajita Style Tortillas,16,oz,2.29
+"Best Yet Soft Flour Tortillas 6""",10,ct,0.99
+Chi Chi's Whole Wheat Fajita Style Tortillas,16,oz,2.29
+"Best Yet Soft Flour Tortillas 6""",10,ct,0.99
+Chi Chi's Whole Wheat Fajita Style Tortillas,16,oz,2.29
+Cafe Caribe Coffee,10,oz,2.89
+Down East 100% Colombian Ground Coffee,11,oz,5.99
+Down East 100% Colombian Ground Coffee ,11,oz,4.99
+Down East Cinnamon Hazelnut Ground Coffee,11,oz,5.99
+Down East Cinnamon Hazelnut Ground Coffee,11,oz,4.99
+Down East Dark Roast Ground Coffee,11,oz,5.99
+Down East Dark Roast Ground Coffee,11,oz,4.99
+Down East Morning Blend Ground Coffee,11,oz,5.99
+Down East Morning Blend Ground Coffee,11,oz,4.99
+Equal Exchange French Vanilla,12,oz,3.99
+Loco Coffee Cold Brew Coffee with Oat milk,12,oz,0.99
+Cafe Caribe Coffee,10,oz,2.89
+Down East 100% Colombian Ground Coffee,11,oz,5.99
+Down East 100% Colombian Ground Coffee ,11,oz,4.99
+Down East Cinnamon Hazelnut Ground Coffee,11,oz,5.99
+Down East Cinnamon Hazelnut Ground Coffee,11,oz,4.99
+Down East Dark Roast Ground Coffee,11,oz,5.99
+Down East Dark Roast Ground Coffee,11,oz,4.99
+Down East Morning Blend Ground Coffee,11,oz,5.99
+Down East Morning Blend Ground Coffee,11,oz,4.99
+Equal Exchange French Vanilla,12,oz,3.99
+Loco Coffee Cold Brew Coffee with Oat milk,12,oz,0.99
+Cafe Caribe Coffee,10,oz,2.89
+Down East 100% Colombian Ground Coffee,11,oz,5.99
+Down East 100% Colombian Ground Coffee ,11,oz,4.99
+Down East Cinnamon Hazelnut Ground Coffee,11,oz,5.99
+Down East Cinnamon Hazelnut Ground Coffee,11,oz,4.99
+Down East Dark Roast Ground Coffee,11,oz,5.99
+Down East Dark Roast Ground Coffee,11,oz,4.99
+Down East Morning Blend Ground Coffee,11,oz,5.99
+Down East Morning Blend Ground Coffee,11,oz,4.99
+Equal Exchange French Vanilla,12,oz,3.99
+Loco Coffee Cold Brew Coffee with Oat milk,12,oz,0.99
+Best Yet Black Cherry Seltzer ,1,each,0.69
+Best Yet Lemon Lime Seltzer ,1,each,0.69
+Best Yet Original Seltzer,1,each,0.69
+Best Yet Raspberry Seltzer,1,each,0.69
+Polar Raspberry Lime Seltzer,12,oz,0.69
+Polar Seltzer Black Cherry,1,each,0.89
+Polar Seltzer Black Cherry,12,fl oz,0.69
+Polar Seltzer Black Cherry Case,12,fl oz,4.99
+Polar Seltzer Lemon,12,fl oz,0.69
+Polar Seltzer Lemon Case,12,fl oz,4.99
+Polar Seltzer Lime,20,fl oz,0.69
+Polar Seltzer Original,1,each,0.89
+Polar Seltzer Original,20,fl oz,0.69
+Polar Seltzer Original,12,fl oz,0.69
+Polar Seltzer Original Case,12,fl oz,4.99
+Polar Seltzer Pineapple Pomelo,1,each,0.89
+Polar Seltzer Raspberry Lime,1,each,0.89
+Polar Seltzer Raspberry Lime,20,fl oz,0.69
+Polar Seltzer Raspberry Lime Case,12,fl oz,4.99
+Polar Seltzer Ruby Red Grapefruit ,1,each,0.89
+Polar Seltzer Strawberry Watermelon,1,each,0.89
+Polar Tart Cherry Limeade Can,12,oz,0.69
+Polar Tart Cherry Limeade 8 Pack,12,oz,4.99
+Polar Start fruit Lemonade Can,12,oz,0.69
+Polar Star Fruit Lemonade 8 Pack,12,oz,4.99
+Polar Blood Orange Lemonade Can,12,oz,0.69
+Polar Blood Orange Lemonade 8 Pack,12,oz,4.99
+Best Yet Green Tea ,48,ct,2.49
+Exceptional Value Tea Bags,100,ct,1.99
+Celestial Seasoning Green Tea Small Pack,6,ct,0.2
+Celestial Seasoning Black Tea with Energy Small Pack,4,ct,0.2
+Celestial Seasonings English Breakfast Small Pack,6,ct,0.2
+Best Yet Green Tea ,48,ct,2.49
+Exceptional Value Tea Bags,100,ct,1.99
+Celestial Seasoning Green Tea Small Pack,6,ct,0.2
+Celestial Seasoning Black Tea with Energy Small Pack,4,ct,0.2
+Celestial Seasonings English Breakfast Small Pack,6,ct,0.2
+Best Yet Green Tea ,48,ct,2.49
+Exceptional Value Tea Bags,100,ct,1.99
+Celestial Seasoning Green Tea Small Pack,6,ct,0.2
+Celestial Seasoning Black Tea with Energy Small Pack,4,ct,0.2
+Celestial Seasonings English Breakfast Small Pack,6,ct,0.2
+Purified water,1,each,3.99
+Purified water,1,each,3.99
+Purified water,1,each,3.99
+American Wrap Aluminum Foil,1,each,0.99
+"Cavalier Gallon Bags, Zipper Seal",15,ct,1.49
+Cavalier Plastic Wrap,1,each,0.99
+"Cavalier Sandwich Bags, Zipper Seal",35,ct,1.29
+Cavalier Tall Kitchen Trash Bag,15,ct,0.99
+Green Heritage Toilet Paper Roll,1,ct,0.69
+Nature's Own Green Label Paper Plates,70,ct,0.99
+Daily Table Reusable Tote Bags ,1,each,0.99
+"Everyday Value Paper Towel, 3pk",1,each,2.29
+American Wrap Aluminum Foil,1,each,0.99
+"Cavalier Gallon Bags, Zipper Seal",15,ct,1.49
+Cavalier Plastic Wrap,1,each,0.99
+"Cavalier Sandwich Bags, Zipper Seal",35,ct,1.29
+Cavalier Tall Kitchen Trash Bag,15,ct,0.99
+Green Heritage Toilet Paper Roll,1,ct,0.69
+Nature's Own Green Label Paper Plates,70,ct,0.99
+Daily Table Reusable Tote Bags ,1,each,0.99
+"Everyday Value Paper Towel, 3pk",1,each,2.29
+American Wrap Aluminum Foil,1,each,0.99
+"Cavalier Gallon Bags, Zipper Seal",15,ct,1.49
+Cavalier Plastic Wrap,1,each,0.99
+"Cavalier Sandwich Bags, Zipper Seal",35,ct,1.29
+Cavalier Tall Kitchen Trash Bag,15,ct,0.99
+Green Heritage Toilet Paper Roll,1,ct,0.69
+Nature's Own Green Label Paper Plates,70,ct,0.99
+Daily Table Reusable Tote Bags ,1,each,0.99
+"Everyday Value Paper Towel, 3pk",1,each,2.29
+First Force Concentrated Ultra Citrus Grove Dish Detergent,28,fl oz,0.99
+Lucky Kitchen Citrus Handsoap,13.5,fl oz,1.59
+Lucky Lavender Liquid Hand Soap,13.5,fl oz,1.59
+Mistolin Lavender Scented Multipurpose Cleaner,15,fl oz,0.99
+Alba Lip Balm 25 SPF,15,oz,0.49
+First Force Concentrated Ultra Citrus Grove Dish Detergent,28,fl oz,0.99
+Lucky Kitchen Citrus Handsoap,13.5,fl oz,1.59
+Lucky Lavender Liquid Hand Soap,13.5,fl oz,1.59
+Mistolin Lavender Scented Multipurpose Cleaner,15,fl oz,0.99
+Alba Lip Balm 25 SPF,15,oz,0.49
+First Force Concentrated Ultra Citrus Grove Dish Detergent,28,fl oz,0.99
+Lucky Kitchen Citrus Handsoap,13.5,fl oz,1.59
+Lucky Lavender Liquid Hand Soap,13.5,fl oz,1.59
+Mistolin Lavender Scented Multipurpose Cleaner,15,fl oz,0.99
+Alba Lip Balm 25 SPF,15,oz,0.49
