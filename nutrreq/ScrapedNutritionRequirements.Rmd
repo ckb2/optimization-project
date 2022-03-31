@@ -1,0 +1,186 @@
+---
+title: "ScrapedNutritionRequirements"
+author: "Ye Shen"
+date: "3/31/2022"
+output: html_document
+---
+#README
+This document scrapes the DRI tables and then cleans the data for use. In the last section, it also provides info on added sugar limits if we want to use this constraint.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(rvest)
+library(tidyverse)
+library(janitor)
+```
+
+Tables of Dietary Reference Intakes (DRI) are from [Institute of Medicine](https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx)
+
+Added sugar came from [Dietary Guideline for Americans 2020-2025] (https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guidelines_for_Americans_2020-2025.pdf#page=31) 
+
+## Elements
+### Recommended Dietary Allowances and Adequate Intakes, Elements
+```{r}
+## scraping data from the NIH websites
+url_elements<-"https://www.ncbi.nlm.nih.gov/books/NBK545442/table/appJ_tab3/?report=objectonly"
+
+elements<-url_elements%>%
+          read_html()%>%
+          html_nodes(xpath='//*[@id="__appJ_tab3_lrgtbl__"]/table')%>%
+          html_table()
+elements_tb<-elements[[1]]
+
+## write to csv and manually change the group labels rows to one column
+write_excel_csv(elements_tb, "elementsRDA.csv")
+## read in the csv file
+elements_tb<-read_csv("elementsRDA_manual.csv")
+## removing characters from cells that should be numbers
+remove<-c("\\*","a",",")
+elements_tb[-1:-2]<-apply(elements_tb[-1:-2],2,str_remove_all,paste(remove,collapse = "|"))
+## Setting numeric variables
+elements_tb<-elements_tb%>%
+                mutate(across(3:17,as.numeric))
+saveRDS(elements_tb, "cleaned/elementsRDA_final.rds")
+elements_rda_tb<-readRDS("cleaned/elementsRDA_final.rds")
+
+
+```
+
+### Tolerable Upper Intake Levels, Elements
+```{r}
+url_elements_uil<-"https://www.ncbi.nlm.nih.gov/books/NBK545442/table/appJ_tab9/?report=objectonly"
+
+
+
+elements_uil<-url_elements_uil%>%
+          read_html()%>%
+          html_nodes(xpath='//*[@id="__appJ_tab9_lrgtbl__"]/table')%>%
+          html_table()
+
+elements_uil_tb<-elements_uil[[1]]
+
+## write to csv and manually change the group labels rows to one column
+write_excel_csv(elements_uil_tb, "elementsUIL.csv")
+## read in the csv file
+elements_uil_tb<-read_csv("elementsUIL_manual.csv")
+## removing characters from cells that should be numbers
+elements_uil_tb[-1:-2]<-apply(elements_uil_tb[-1:-2],2,str_remove_all,",")
+## coding NAs
+elements_uil_tb<-elements_uil_tb%>%
+                  mutate(across(.cols = everything(),na_if,"ND"))%>%
+                   mutate(across(.cols = everything(),na_if,"NDh"))
+## Setting numeric variables
+elements_uil_tb<-elements_uil_tb%>%
+                mutate(across(3:23,as.numeric))
+saveRDS(elements_uil_tb, "cleaned/elementsUIL_final.rds")
+```
+
+## Vitamins
+
+### Recommended Dietary Allowances and Adequate Intakes, Vitamins
+```{r}
+url_vitamins<-"https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t2/?report=objectonly"
+
+
+
+vitamins<-url_vitamins%>%
+          read_html()%>%
+          html_nodes(xpath='//*[@id="__summarytables.t2_lrgtbl__"]/table')%>%
+          html_table()
+
+vitamins_tb<-vitamins[[1]]
+
+## write to csv and manually change the group labels rows to one column
+write_excel_csv(vitamins_tb, "vitaminsRDA.csv")
+## read in the csv file
+vitamins_tb<-read_csv("vitaminsRDA_manual.csv")
+## removing characters from cells that should be numbers
+remove<-c("\\*",",","h")
+vitamins_tb[-1:-2]<-apply(vitamins_tb[-1:-2],2,str_remove_all,paste(remove,collapse = "|"))
+## Setting numeric variables
+vitamins_tb<-vitamins_tb%>%
+                mutate(across(3:16,as.numeric))
+saveRDS(vitamins_tb, "cleaned/vitaminsRDA_final.rds")
+vitamins_rda_tb<-readRDS("cleaned/vitaminsRDA_final.rds")
+
+```
+
+### Tolerable Upper Intake Levels, Vitamins
+```{r}
+url_vitamins_uil<-"https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t7/?report=objectonly"
+
+
+
+vitamins_uil<-url_vitamins_uil%>%
+          read_html()%>%
+          html_nodes(xpath='//*[@id="__summarytables.t7_lrgtbl__"]/table')%>%
+          html_table()
+
+vitamins_uil_tb<-vitamins_uil[[1]]
+
+## write to csv and manually change the group labels rows to one column
+write_excel_csv(vitamins_uil_tb, "vitaminsUIL.csv")
+## read in the csv file
+vitamins_uil_tb<-read_csv("vitaminsUIL_manual.csv")
+## removing characters from cells that should be numbers
+remove<-c(",","e")
+vitamins_uil_tb[-1:-2]<-apply(vitamins_uil_tb[-1:-2],2,str_remove_all,paste(remove,collapse = "|"))
+
+## coding NAs
+vitamins_uil_tb<-vitamins_uil_tb%>%
+                  mutate(across(.cols = everything(),na_if,"ND"))
+## Setting numeric variables
+vitamins_uil_tb<-vitamins_uil_tb%>%
+                mutate(across(3:17,as.numeric))
+saveRDS(vitamins_uil_tb, "cleaned/vitaminsUIL_final.rds")
+```
+
+## Macronutrients
+### Recommended Dietary Allowances and Adequate Intakes, Total Water and Macronutrients
+```{r}
+url_macronutrients<-"https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t4/?report=objectonly"
+
+
+
+macronutrients<-url_macronutrients%>%
+          read_html()%>%
+          html_nodes(xpath='//*[@id="__summarytables.t4_lrgtbl__"]/table')%>%
+          html_table()
+
+macronutrients_tb<-macronutrients[[1]]
+
+## write to csv and manually change the group labels rows to one column
+write_excel_csv(macronutrients_tb, "macronutrientsRDA.csv")
+## read in the csv file
+macronutrients_tb<-read_csv("macronutrientsRDA_manual.csv")
+## removing characters from cells that should be numbers
+remove<-c("\\*",",","c")
+macronutrients_tb[-1:-2]<-apply(macronutrients_tb[-1:-2],2,str_remove_all,paste(remove,collapse = "|"))
+## Setting numeric variables
+macronutrients_tb<-macronutrients_tb%>%
+                mutate(across(3:8,as.numeric))
+saveRDS(macronutrients_tb, "cleaned/macronutrientsRDA_final.rds")
+macronutrients_rda_tb<-readRDS("cleaned/macronutrientsRDA_final.rds")
+```
+
+### Acceptable Macronutrient Distribution Ranges (Percent of energy range)
+```{r}
+url_macronutrients_ar<-"https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t5/?report=objectonly"
+
+macronutrients_ar<-url_macronutrients_ar%>%
+          read_html()%>%
+          html_nodes(xpath='//*[@id="__summarytables.t5_lrgtbl__"]/table')%>%
+          html_table()
+
+macronutrients_ar_tb<-macronutrients_ar[[1]][-1,]
+macronutrients_ar_tb<-as.tibble(t(macronutrients_ar_tb))%>%
+                        janitor::row_to_names(row_number=1)
+colnames(macronutrients_ar_tb)[1]<-"Group"
+saveRDS(macronutrients_ar_tb, "cleaned/macronutrientsAR_final.rds")
+macronutrients_ar_tb<-readRDS("cleaned/macronutrientsAR_final.rds")
+
+```
+
+### Added Sugar
+The Dietary Guidelines for Americans 2020–2025 recommends Americans 2 years and older keep their intake of added sugars to less than 10% of their total daily calories. Children younger than 2 years should not be fed foods and beverages with added sugars at all.
+
+
