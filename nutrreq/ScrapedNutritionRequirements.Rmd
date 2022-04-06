@@ -4,18 +4,60 @@ author: "Ye Shen"
 date: "3/31/2022"
 output: html_document
 ---
-#README
-This document scrapes the DRI tables and then cleans the data for use. In the last section, it also provides info on added sugar limits if we want to use this constraint.
+# README
+This document scrapes the DRI tables and then cleans the data for use. It also provides info on energy converter and added sugar limits in plain text.
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, eval=FALSE)
 library(rvest)
 library(tidyverse)
 library(janitor)
 ```
 
+
+
+# Energy converter (The Atwater general factor system)
+  * protein: 4 kcal/g
+  * fat: 9 kcal/g
+  * carbohydrates: 4 kcal/g
+
+Citation: Food and Agriculture Organization of the United Nations (FAO). 2002. Food energy - methods of analysis and conversion factors. FAO FOOD AND NUTRITION PAPER 77. [link] (https://www.fao.org/3/y5022e/y5022e04.htm#fn9)
+
+
+# Added Sugar
+Added sugar came from [Dietary Guideline for Americans 2020-2025] (https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guidelines_for_Americans_2020-2025.pdf#page=31) 
+
+The Dietary Guidelines for Americans 2020–2025 recommends Americans 2 years and older keep their intake of added sugars to less than 10% of their total daily calories. Children younger than 2 years should not be fed foods and beverages with added sugars at all.
+
+
+
+# Dietary Reference Intakes (DRI)
 Tables of Dietary Reference Intakes (DRI) are from [Institute of Medicine](https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx)
 
-Added sugar came from [Dietary Guideline for Americans 2020-2025] (https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guidelines_for_Americans_2020-2025.pdf#page=31) 
+Citation: National Research Council (US) Subcommittee on the Tenth Edition of the Recommended Dietary Allowances. Recommended Dietary Allowances: 10th Edition. Washington (DC): National Academies Press (US); 1989. 3, Energy. Available from: https://www.ncbi.nlm.nih.gov/books/NBK234932/
+
+## Energy
+### Average Energy Allowance (kcal)
+```{r}
+url_energy<-"https://www.ncbi.nlm.nih.gov/books/NBK234938/table/ttt00007/?report=objectonly"
+
+energy<-url_energy%>%
+          read_html()%>%
+          html_nodes(xpath='//*[@id="__ttt00007_lrgtbl__"]/table')%>%
+          html_table()
+energy_tb<-energy[[1]]
+## write to csv and manually change the group labels rows to one column
+write_excel_csv(energy_tb, "energy.csv")
+## read in the csv file
+energy_tb<-read_csv("energy_manual.csv")
+## Setting numeric variables
+energy_tb<-energy_tb%>%
+              mutate(across(3:8,as.numeric))
+saveRDS(energy_tb, "cleaned/energy_final.rds")
+energy_tb<-readRDS("cleaned/energy_final.rds")
+
+```
+
+
 
 ## Elements
 ### Recommended Dietary Allowances and Adequate Intakes, Elements
@@ -180,7 +222,5 @@ macronutrients_ar_tb<-readRDS("cleaned/macronutrientsAR_final.rds")
 
 ```
 
-### Added Sugar
-The Dietary Guidelines for Americans 2020–2025 recommends Americans 2 years and older keep their intake of added sugars to less than 10% of their total daily calories. Children younger than 2 years should not be fed foods and beverages with added sugars at all.
 
 
