@@ -1,5 +1,5 @@
 ---
-title: "ScrapedNutritionRequirements"
+title: "NutritionRequirementsInfo"
 author: "Ye Shen"
 date: "3/31/2022"
 output: html_document
@@ -37,6 +37,7 @@ Citation: National Research Council (US) Subcommittee on the Tenth Edition of th
 
 ## Energy
 ### Average Energy Allowance (kcal)
+  * Note: Energy age groups are slightly different from the rest of the DRIs for elements, vitamins, and macronutrients.
 ```{r}
 url_energy<-"https://www.ncbi.nlm.nih.gov/books/NBK234938/table/ttt00007/?report=objectonly"
 

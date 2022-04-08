@@ -1,4 +1,4 @@
-﻿Category,Age (years) or Condition,MedianWeight(kg),MedianWeight(lb),MedianHeight(cm),MedianHeight(in),REE(kcal/day),Multiples of REE,Per kg,Per day
+﻿Group,Age_Energy,MedianWeight(kg),MedianWeight(lb),MedianHeight(cm),MedianHeight(in),REE(kcal/day),Multiples of REE,Per kg,Per day
 Infants,0.0–0.5,6,13,60,24,320,,108,650
 Infants,0.5–1.0,9,20,71,28,500,,98,850
 Children,1–3,13,29,90,35,740,,102,"1,300"
@@ -14,8 +14,8 @@ Females,15–18,55,120,163,64,"1,370",1.6,40,"2,200"
 Females,19–24,58,128,164,65,"1,350",1.6,38,"2,200"
 Females,25–50,63,138,163,64,"1,380",1.55,36,"2,200"
 Females,51+,65,143,160,63,"1,280",1.5,30,"1,900"
-Pregnant,1st trimester (additional calories),,,,,,,,0
-Pregnant,2nd trimester  (additional calories),,,,,,,,300
-Pregnant,3rd trimester  (additional calories),,,,,,,,300
-Lactating,1st 6 months  (additional calories),,,,,,,,500
-Lactating,2nd 6 months  (additional calories),,,,,,,,500
+Pregnancy,1st trimester (additional calories),,,,,,,,0
+Pregnancy,2nd trimester  (additional calories),,,,,,,,300
+Pregnancy,3rd trimester  (additional calories),,,,,,,,300
+Lactation,1st 6 months  (additional calories),,,,,,,,500
+Lactation,2nd 6 months  (additional calories),,,,,,,,500
