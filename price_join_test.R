@@ -1,6 +1,7 @@
 library(tidyverse)
 library(stringdist)
 library(furrr)
+library(tm)
 
 # Add column of cleaned items
 daily_table_prices <- daily_table_prices %>%
@@ -17,8 +18,7 @@ tibble(my_plate_recipes[sample.int(1073)[[1]],][['Ingredients']][[1]]) %>%
          Item=if_else(is.na(UOM), ., Item),
          UOM=if_else(is.na(UOM), "each", UOM)
          ) %>%
-  rename(Original=".") %>%
-  select(Item)
+  rename(Original=".")
   
 # Reformat into table with one row per ingredient -------------------------
 
@@ -35,22 +35,105 @@ match_ingredient <- function(ingredient) {
   ingredient <- unlist(str_split(ingredient, "\\W+"))
   
   daily_table_prices %>%
-    mutate(MatchScore = map(ItemCleaned, function(x) sum(ain(ingredient, unlist(str_split(x, "\\W+")), method="lv", maxDist=1))),
+    mutate(MatchScore = map(ItemCleaned, function(x) sum(ain(ingredient, unlist(str_split(x, "\\W+")), method="lv", maxDist=1))/sapply(strsplit(x, " "), length)),
            MatchScore = unlist(MatchScore)
     ) %>%
     filter(MatchScore > 0) %>%
     slice_max(MatchScore) %>%
-    distinct()
+    distinct() %>%
+    slice_min(Price, with_ties = F) %>%
+    pull(ItemCleaned)
 }
 
 # Check to see how many ingredients we can match
 
+## TODO: There are many issues with the matching (usually overmatching). Need to debug.
+
+# Plan: Match My Plate ingredients to Daily table cleaned items. Filter out Daily Table recipes that aren't matched.
+
+extra_stopwords <- c(
+  "low",
+  "chopped",
+  "sliced",
+  "cups",
+  "pounds",
+  "cup",
+  "pound",
+  "ounces",
+  "ounce",
+  "oz",
+  "tablespoon",
+  "teaspoon",
+  "teaspoons",
+  "tablespoons",
+  "use",
+  "diced",
+  "cut",
+  "chunks",
+  "peeled",
+  "grated",
+  "minced",
+  "melted",
+  "slices",
+  "cooked",
+  "tsp",
+  "divided",
+  "ground",
+  "fresh",
+  "uncooked",
+  "trimmed",
+  "shredded",
+  "finely",
+  "quartered",
+  "boiled",
+  "small",
+  "medium",
+  "large",
+  "lengthwise",
+  "rinsed",
+  "removed",
+  "melted",
+  "thinly",
+  "thickly",
+  "cut",
+  "piece",
+  "pieces",
+  "optional",
+  "crushed",
+  "taste",
+  "inch",
+  "inches",
+  "half",
+  "third",
+  "halvess",
+  "thirds",
+  "used",
+  "use",
+  "mashed",
+  "mash",
+  "serve",
+  "served",
+  "peeled",
+  "pinch",
+  "dash",
+  "added",
+  "finely",
+  "fine",
+  "may",
+  "part",
+  "drain",
+  "drained",
+  "baked",
+  "portion",
+  "portions",
+  "take"
+)
+full_stopwords <- c(stopwords("english"), extra_stopwords)
+
+
 # Need to run multithreaded, otherwise way too slow. 
 # Change depending on the number of cores your computer has.
 # CAUTION: Takes 90 seconds on an M1 Max
-
-## TODO: There are many issues with the matching (usually overmatching). Need to debug.
-
 plan(multisession, workers = 10)
 
 test <- my_plate_recipes %>%
@@ -58,6 +141,18 @@ test <- my_plate_recipes %>%
   rename(Ingredient=".") %>%
   mutate(
     Ingredient = str_replace_all(Ingredient, "\\d+", ""),
-    Ingredient = str_replace_all(Ingredient, "[[:punct:]]", " ")
+    Ingredient = str_replace_all(Ingredient, "[[:punct:]]", " "),
+    Ingredient = tolower(Ingredient),
+    Ingredient = removeWords(Ingredient, full_stopwords),
+    Ingredient = str_squish(Ingredient)
          ) %>%
-  mutate(Match=future_map(Ingredient, match_ingredient))
+  mutate(Match=future_map(Ingredient, match_ingredient)) 
+
+# See how many recipes have all matched ingredients
+test %>%
+  unnest(Match, keep_empty = T) %>%
+  group_by(Name) %>%
+  filter(!any(is.na(Match))) %>%
+  ungroup() %>%
+  summarize(n())
+         
