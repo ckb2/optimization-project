@@ -1,6 +1,11 @@
-nutrients;lowerbound;upperbound
-carb;20;90
-protein;20;100
-fat;10;50
-VitA;2;5
-VitB;2;6
+nutrients;person;lowerbound;upperbound
+carb;1;20;90
+protein;1;20;100
+fat;1;10;50
+VitA;1;2;5
+VitB;1;2;6
+carb;2;20;90
+protein;2;20;100
+fat;2;10;50
+VitA;2;2;5
+VitB;2;2;6
