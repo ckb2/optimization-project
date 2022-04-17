@@ -1,5 +1,5 @@
 recipe;need;quantity
-chicken with potatoes;chicken;3
-chicken with potatoes;potatoes;6
-beef with rice;beef;8
-beef with rice;rice;12
+chicken_with_potatoes;chicken;3
+chicken_with_potatoes;potatoes;6
+beef_with_rice;beef;8
+beef_with_rice;rice;12
