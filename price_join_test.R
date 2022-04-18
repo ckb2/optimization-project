@@ -136,23 +136,125 @@ full_stopwords <- c(stopwords("english"), extra_stopwords)
 # CAUTION: Takes 90 seconds on an M1 Max
 plan(multisession, workers = 10)
 
-test <- my_plate_recipes %>%
+recipes_matched <- my_plate_recipes %>%
   unnest(cols=Ingredients) %>%
-  rename(Ingredient=".") %>%
+  rename(OrigIngredient=".") %>%
   mutate(
-    Ingredient = str_replace_all(Ingredient, "\\d+", ""),
-    Ingredient = str_replace_all(Ingredient, "[[:punct:]]", " "),
-    Ingredient = tolower(Ingredient),
-    Ingredient = removeWords(Ingredient, full_stopwords),
-    Ingredient = str_squish(Ingredient)
+    CleanIngredient = str_replace_all(OrigIngredient, "\\d+", ""),
+    CleanIngredient = str_replace_all(CleanIngredient, "[[:punct:]]", " "),
+    CleanIngredient = tolower(CleanIngredient),
+    CleanIngredient = removeWords(CleanIngredient, full_stopwords),
+    CleanIngredient = str_squish(CleanIngredient)
          ) %>%
-  mutate(Match=future_map(Ingredient, match_ingredient)) 
+  mutate(Match=future_map(CleanIngredient, match_ingredient)) %>%
+  mutate(Qty=str_extract(OrigIngredient, "^\\d* *\\d+\\/*\\d*"), 
+         UOM=str_match(OrigIngredient, "^\\d* *\\d+\\/*\\d* (cup|can|package|slices|dash|pinch|tablespoon|teaspoon|pound|ounce)")[,2],
+         Item=str_match(OrigIngredient, "(?<=pound |pounds |can |cans |cups |cup |tablespoon |tablespoons |slices |slice |teaspoon |ounce |ounces |pound |pounds |teaspoons )[\\w\\d \\(\\),-\\.\\/%]+$")[,1],
+         Item=if_else(is.na(Item), str_match(OrigIngredient, "^\\d* *\\d+\\/*\\d*([\\w\\d \\(\\),-\\.\\/%])")[,2], Item),
+         Item=if_else(is.na(UOM), OrigIngredient, Item),
+         UOM=if_else(is.na(UOM), "each", UOM)
+  )
 
 # See how many recipes have all matched ingredients
-test %>%
+recipes_matched %>%
   unnest(Match, keep_empty = T) %>%
   group_by(Name) %>%
   filter(!any(is.na(Match))) %>%
+  distinct(Name) %>%
   ungroup() %>%
   summarize(n())
-         
+
+
+# Export formatted csv of recipe constraints ------------------------------
+
+# Convert everything to either grams or each. Assume a density of 1.
+recipes_matched %>%
+  select(UOM) %>%
+  distinct(UOM)
+
+mixedToFloat <- function(x){
+  # https://stackoverflow.com/a/10676800
+  is.integer  <- grepl("^\\d+$", x)
+  is.fraction <- grepl("^\\d+\\/\\d+$", x)
+  is.mixed    <- grepl("^\\d+ \\d+\\/\\d+$", x)
+  # stopifnot(all(is.integer | is.fraction | is.mixed))
+  
+  numbers <- strsplit(x, "[ /]")
+  
+  ifelse(is.integer,  as.numeric(sapply(numbers, `[`, 1)),
+         ifelse(is.fraction, as.numeric(sapply(numbers, `[`, 1)) /
+                  as.numeric(sapply(numbers, `[`, 2)),
+                as.numeric(sapply(numbers, `[`, 1)) +
+                  as.numeric(sapply(numbers, `[`, 2)) /
+                  as.numeric(sapply(numbers, `[`, 3))))
+}
+
+recipes_matched %>%
+  unnest(Match, keep_empty = T) %>%
+  group_by(Name) %>%
+  filter(!any(is.na(Match))) %>%
+  mutate(Name=unlist(Name)) %>%
+  select(Name, Servings, OrigIngredient, Match, Qty, UOM) %>%
+  mutate(
+    Qty = mixedToFloat(Qty),
+    Qty = if_else(is.na(Qty), 1, Qty),
+    SI_Qty = if_else(str_detect(UOM, "tablespoon"), 14.78672 * Qty, NA_real_),
+    SI_Qty = if_else(str_detect(UOM, "teaspoon"), 4.928906 * Qty, SI_Qty),
+    SI_Qty = if_else(str_detect(UOM, "cup"), 236.5875 * Qty, SI_Qty),
+    SI_Qty = if_else(str_detect(UOM, "pound"), 453.5924 * Qty, SI_Qty),
+    SI_Qty = if_else(str_detect(UOM, "ounce"), 28.34952 * Qty, SI_Qty),
+    SI_Qty = if_else(str_detect(UOM, "dash|pinch"), 1.0 * Qty, SI_Qty),
+    SI_Qty = if_else(str_detect(UOM, "each|can|package|slice"), as.numeric(Qty), SI_Qty),
+    SI_UOM = if_else(str_detect(UOM, "tablespoon|teaspoon|cup|pound|ounce|dash|pinch"), "g", UOM),
+    SI_UOM = if_else(str_detect(UOM, "each|can|package|slice"), "each", SI_UOM)
+  ) %>%
+  mutate(
+    SI_Qty_Per_Serving = SI_Qty / as.numeric(Servings)
+  ) %>%
+  select(Name:UOM, SI_Qty_Per_Serving, SI_UOM) %>%
+  write_csv("recipes_constr.csv")
+
+
+# Export price list -------------------------------------------------------
+
+daily_table_prices %>%
+  distinct(Units)
+
+daily_table_prices %>%
+  mutate(Qty = if_else(is.na(Qty), 1, Qty)) %>%
+  mutate(SI_Qty = if_else(str_detect(Units, "lb"), 453.5924 * Qty, NA_real_),
+         SI_Qty = if_else(str_detect(Units, "each|ct"), 1.0 * Qty, SI_Qty),
+         SI_Qty = if_else(str_detect(Units, "oz"), 28.34952 * Qty, SI_Qty),
+         SI_Qty = if_else(str_detect(Units, "gal"), 3785.4 * Qty, SI_Qty),
+         SI_Qty = if_else(str_detect(Units, "fl oz"), 28.41306 * Qty, SI_Qty),
+         SI_UOM = if_else(str_detect(Units, "lb|oz|gal|fl oz"), "g", "each")
+         ) %>%
+  write_csv("price_ing.csv")
+
+
+# Recipe nutritional info -------------------------------------------------
+
+recipes_matched %>%
+  unnest(Match, keep_empty = T) %>%
+  group_by(Name) %>%
+  filter(!any(is.na(Match))) %>%
+  mutate(Name=unlist(Name)) %>%
+  distinct(Name, NutritionalInfo) %>%
+  unnest(NutritionalInfo) %>%
+  filter(Nutrients!="Nutrients", Nutrients!="Added Sugars included", Nutrients!="Minerals", Nutrients!="Vitamins") %>%
+  ungroup() %>%
+  distinct() %>%
+  mutate(
+    Qty = str_extract(Amount, "\\d+.?\\d*"),
+    UOM = str_extract(Amount, "mg|mcg|g"),
+    UOM = if_else(str_detect(Nutrients, "Calories"), "kcal", UOM),
+    Qty = as.numeric(Qty),
+    Qty = if_else(str_detect(Amount, "N/A"), 0, Qty),
+    UOM = if_else(is.na(UOM), "mg", UOM) # Some are missing units, all appear to be mg
+  ) %>%
+  mutate(
+    Nutrients = paste0(Nutrients, " (", UOM, ")")
+  ) %>%
+  select(Name, Nutrients, Qty) %>%
+  pivot_wider(names_from = Nutrients, values_from = Qty, values_fn = max) %>%
+  write_csv("data_recipes.csv")
