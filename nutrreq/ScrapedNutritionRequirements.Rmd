@@ -55,6 +55,9 @@ energy_tb<-energy_tb%>%
               mutate(across(3:8,as.numeric))
 saveRDS(energy_tb, "cleaned/energy_final.rds")
 energy_tb<-readRDS("cleaned/energy_final.rds")
+#filter to household examples demographics manually
+write_excel_csv(energy_tb, "NutrReq4HouseholdEx/energy_final.csv")
+
 
 ```
 
@@ -84,6 +87,16 @@ elements_tb<-elements_tb%>%
                 mutate(across(3:17,as.numeric))
 saveRDS(elements_tb, "cleaned/elementsRDA_final.rds")
 elements_rda_tb<-readRDS("cleaned/elementsRDA_final.rds")
+
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+elements_rda_tb<-elements_rda_tb%>%
+              filter((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="9–13 y")| (Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="19–30 y")| (Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y")| (Group=="Females"&Age=="> 70 y"))%>%
+                  mutate(house_1=ifelse((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y"),1,0),
+                         house_2=ifelse((Group=="Males"&Age=="9–13 y")|(Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y"),1,0),
+                         house_3=ifelse((Group=="Females"&Age=="> 70 y"),1,0),
+                         house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
+
+saveRDS(elements_rda_tb, "NutrReq4HouseholdEx/elementsLowerBound_final.rds")
 
 
 ```
@@ -115,6 +128,18 @@ elements_uil_tb<-elements_uil_tb%>%
 elements_uil_tb<-elements_uil_tb%>%
                 mutate(across(3:23,as.numeric))
 saveRDS(elements_uil_tb, "cleaned/elementsUIL_final.rds")
+elements_uil_tb<-readRDS("cleaned/elementsUIL_final.rds")
+
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+elements_uil_tb<-elements_uil_tb%>%
+              filter((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="9–13 y")| (Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="19–30 y")| (Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y")| (Group=="Females"&Age=="> 70 y"))%>%
+                  mutate(house_1=ifelse((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y"),1,0),
+                         house_2=ifelse((Group=="Males"&Age=="9–13 y")|(Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y"),1,0),
+                         house_3=ifelse((Group=="Females"&Age=="> 70 y"),1,0),
+                         house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
+
+saveRDS(elements_uil_tb, "NutrReq4HouseholdEx/elementsUpperBound_final.rds")
+
 ```
 
 ## Vitamins
@@ -144,6 +169,16 @@ vitamins_tb<-vitamins_tb%>%
                 mutate(across(3:16,as.numeric))
 saveRDS(vitamins_tb, "cleaned/vitaminsRDA_final.rds")
 vitamins_rda_tb<-readRDS("cleaned/vitaminsRDA_final.rds")
+
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+vitamins_rda_tb<-vitamins_rda_tb%>%
+              filter((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="9–13 y")| (Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="19–30 y")| (Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y")| (Group=="Females"&Age=="> 70 y"))%>%
+                  mutate(house_1=ifelse((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y"),1,0),
+                         house_2=ifelse((Group=="Males"&Age=="9–13 y")|(Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y"),1,0),
+                         house_3=ifelse((Group=="Females"&Age=="> 70 y"),1,0),
+                         house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
+
+saveRDS(vitamins_rda_tb, "NutrReq4HouseholdEx/vitaminsLowerBound_final.rds")
 
 ```
 
@@ -175,14 +210,25 @@ vitamins_uil_tb<-vitamins_uil_tb%>%
 vitamins_uil_tb<-vitamins_uil_tb%>%
                 mutate(across(3:17,as.numeric))
 saveRDS(vitamins_uil_tb, "cleaned/vitaminsUIL_final.rds")
+
+vitamins_uil_tb<-readRDS("cleaned/vitaminsUIL_final.rds")
+
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+vitamins_uil_tb<-vitamins_uil_tb%>%
+              filter((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="9–13 y")| (Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="19–30 y")| (Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y")| (Group=="Females"&Age=="> 70 y"))%>%
+                  mutate(house_1=ifelse((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y"),1,0),
+                         house_2=ifelse((Group=="Males"&Age=="9–13 y")|(Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y"),1,0),
+                         house_3=ifelse((Group=="Females"&Age=="> 70 y"),1,0),
+                         house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
+
+saveRDS(vitamins_uil_tb, "NutrReq4HouseholdEx/vitaminsUpperBound_final.rds")
+
 ```
 
 ## Macronutrients
 ### Recommended Dietary Allowances and Adequate Intakes, Total Water and Macronutrients
 ```{r}
 url_macronutrients<-"https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t4/?report=objectonly"
-
-
 
 macronutrients<-url_macronutrients%>%
           read_html()%>%
@@ -203,6 +249,16 @@ macronutrients_tb<-macronutrients_tb%>%
                 mutate(across(3:8,as.numeric))
 saveRDS(macronutrients_tb, "cleaned/macronutrientsRDA_final.rds")
 macronutrients_rda_tb<-readRDS("cleaned/macronutrientsRDA_final.rds")
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+macronutrients_rda_tb<-macronutrients_rda_tb%>%
+              filter((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="9–13 y")| (Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="19–30 y")| (Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y")| (Group=="Females"&Age=="> 70 y"))%>%
+                  mutate(house_1=ifelse((Group=="Children"&Age=="4–8 y")|(Group=="Males"&Age=="14–18 y")|(Group=="Males"&Age=="31–50 y")| (Group=="Females"&Age=="9–13 y")|(Group=="Females"&Age=="31–50 y")| (Group=="Females"&Age=="51–70 y"),1,0),
+                         house_2=ifelse((Group=="Males"&Age=="9–13 y")|(Group=="Females"&Age=="9–13 y")| (Group=="Females"&Age=="19–30 y"),1,0),
+                         house_3=ifelse((Group=="Females"&Age=="> 70 y"),1,0),
+                         house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
+
+saveRDS(macronutrients_rda_tb, "NutrReq4HouseholdEx/macronutrientsLowerBound_final.rds")
+
 ```
 
 ### Acceptable Macronutrient Distribution Ranges (Percent of energy range)
@@ -218,10 +274,13 @@ macronutrients_ar_tb<-macronutrients_ar[[1]][-1,]
 macronutrients_ar_tb<-as.tibble(t(macronutrients_ar_tb))%>%
                         janitor::row_to_names(row_number=1)
 colnames(macronutrients_ar_tb)[1]<-"Group"
+
 saveRDS(macronutrients_ar_tb, "cleaned/macronutrientsAR_final.rds")
 macronutrients_ar_tb<-readRDS("cleaned/macronutrientsAR_final.rds")
 
-```
+write_excel_csv(macronutrients_ar_tb, "NutrReq4HouseholdEx/macronutrientsAR_final.csv")
 
+
+```
 
 

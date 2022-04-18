@@ -1,0 +1,21 @@
+﻿"Group","Age_Energy","MedianWeight(kg)","MedianWeight(lb)","MedianHeight(cm)","MedianHeight(in)","REE(kcal/day)","Multiples of REE","Per kg","Per day"
+"Infants","0.0–0.5",6,13,60,24,320,NA,108,650
+"Infants","0.5–1.0",9,20,71,28,500,NA,98,850
+"Children","1–3",13,29,90,35,740,NA,102,1300
+"Children","4–6",20,44,112,44,950,NA,90,1800
+"Children","7–10",28,62,132,52,1130,NA,70,2000
+"Males","11–14",45,99,157,62,1440,1.7,55,2500
+"Males","15–18",66,145,176,69,1760,1.67,45,3000
+"Males","19–24",72,160,177,70,1780,1.67,40,2900
+"Males","25–50",79,174,176,70,1800,1.6,37,2900
+"Males","51+",77,170,173,68,1530,1.5,30,2300
+"Females","11–14",46,101,157,62,1310,1.67,47,2200
+"Females","15–18",55,120,163,64,1370,1.6,40,2200
+"Females","19–24",58,128,164,65,1350,1.6,38,2200
+"Females","25–50",63,138,163,64,1380,1.55,36,2200
+"Females","51+",65,143,160,63,1280,1.5,30,1900
+"Pregnancy","1st trimester (additional calories)",NA,NA,NA,NA,NA,NA,NA,0
+"Pregnancy","2nd trimester  (additional calories)",NA,NA,NA,NA,NA,NA,NA,300
+"Pregnancy","3rd trimester  (additional calories)",NA,NA,NA,NA,NA,NA,NA,300
+"Lactation","1st 6 months  (additional calories)",NA,NA,NA,NA,NA,NA,NA,500
+"Lactation","2nd 6 months  (additional calories)",NA,NA,NA,NA,NA,NA,NA,500
