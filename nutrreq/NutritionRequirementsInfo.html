@@ -215,7 +215,9 @@ energy_tb&lt;-read_csv(&quot;energy_manual.csv&quot;)
 energy_tb&lt;-energy_tb%&gt;%
               mutate(across(3:8,as.numeric))
 saveRDS(energy_tb, &quot;cleaned/energy_final.rds&quot;)
-energy_tb&lt;-readRDS(&quot;cleaned/energy_final.rds&quot;)</code></pre>
+energy_tb&lt;-readRDS(&quot;cleaned/energy_final.rds&quot;)
+#filter to household examples demographics manually
+write_excel_csv(energy_tb, &quot;NutrReq4HouseholdEx/energy_final.csv&quot;)</code></pre>
 </div>
 </div>
 <div id="elements" class="section level2">
@@ -242,7 +244,19 @@ elements_tb[-1:-2]&lt;-apply(elements_tb[-1:-2],2,str_remove_all,paste(remove,co
 elements_tb&lt;-elements_tb%&gt;%
                 mutate(across(3:17,as.numeric))
 saveRDS(elements_tb, &quot;cleaned/elementsRDA_final.rds&quot;)
-elements_rda_tb&lt;-readRDS(&quot;cleaned/elementsRDA_final.rds&quot;)</code></pre>
+elements_rda_tb&lt;-readRDS(&quot;cleaned/elementsRDA_final.rds&quot;)
+
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+elements_rda_tb&lt;-elements_rda_tb%&gt;%
+              filter((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;))%&gt;%
+                  mutate(house_1=ifelse((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;),1,0),
+                         house_2=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;),1,0),
+                         house_3=ifelse((Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;),1,0),
+                         house_4=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;), 2,0))
+
+saveRDS(elements_rda_tb, &quot;NutrReq4HouseholdEx/elementsLowerBound_final.rds&quot;)
+elements_rda_tb&lt;-readRDS( &quot;NutrReq4HouseholdEx/elementsLowerBound_final.rds&quot;)
+write_excel_csv(elements_rda_tb,&quot;NutrReq4HouseholdEx/elementsLowerBound_final.csv&quot;)</code></pre>
 </div>
 <div id="tolerable-upper-intake-levels-elements" class="section level3">
 <h3>Tolerable Upper Intake Levels, Elements</h3>
@@ -270,7 +284,20 @@ elements_uil_tb&lt;-elements_uil_tb%&gt;%
 ## Setting numeric variables
 elements_uil_tb&lt;-elements_uil_tb%&gt;%
                 mutate(across(3:23,as.numeric))
-saveRDS(elements_uil_tb, &quot;cleaned/elementsUIL_final.rds&quot;)</code></pre>
+saveRDS(elements_uil_tb, &quot;cleaned/elementsUIL_final.rds&quot;)
+elements_uil_tb&lt;-readRDS(&quot;cleaned/elementsUIL_final.rds&quot;)
+
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+elements_uil_tb&lt;-elements_uil_tb%&gt;%
+              filter((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;))%&gt;%
+                  mutate(house_1=ifelse((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;),1,0),
+                         house_2=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;),1,0),
+                         house_3=ifelse((Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;),1,0),
+                         house_4=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;), 2,0))
+
+saveRDS(elements_uil_tb, &quot;NutrReq4HouseholdEx/elementsUpperBound_final.rds&quot;)
+elements_uil_tb&lt;-readRDS( &quot;NutrReq4HouseholdEx/elementsUpperBound_final.rds&quot;)
+write_excel_csv(elements_uil_tb,&quot;NutrReq4HouseholdEx/elementsUpperBound_final.csv&quot;)</code></pre>
 </div>
 </div>
 <div id="vitamins" class="section level2">
@@ -299,7 +326,19 @@ vitamins_tb[-1:-2]&lt;-apply(vitamins_tb[-1:-2],2,str_remove_all,paste(remove,co
 vitamins_tb&lt;-vitamins_tb%&gt;%
                 mutate(across(3:16,as.numeric))
 saveRDS(vitamins_tb, &quot;cleaned/vitaminsRDA_final.rds&quot;)
-vitamins_rda_tb&lt;-readRDS(&quot;cleaned/vitaminsRDA_final.rds&quot;)</code></pre>
+vitamins_rda_tb&lt;-readRDS(&quot;cleaned/vitaminsRDA_final.rds&quot;)
+
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+vitamins_rda_tb&lt;-vitamins_rda_tb%&gt;%
+              filter((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;))%&gt;%
+                  mutate(house_1=ifelse((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;),1,0),
+                         house_2=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;),1,0),
+                         house_3=ifelse((Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;),1,0),
+                         house_4=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;), 2,0))
+
+saveRDS(vitamins_rda_tb, &quot;NutrReq4HouseholdEx/vitaminsLowerBound_final.rds&quot;)
+vitamins_rda_tb&lt;-readRDS( &quot;NutrReq4HouseholdEx/vitaminsLowerBound_final.rds&quot;)
+write_excel_csv(vitamins_rda_tb,&quot;NutrReq4HouseholdEx/vitaminsLowerBound_final.csv&quot;)</code></pre>
 </div>
 <div id="tolerable-upper-intake-levels-vitamins" class="section level3">
 <h3>Tolerable Upper Intake Levels, Vitamins</h3>
@@ -328,7 +367,21 @@ vitamins_uil_tb&lt;-vitamins_uil_tb%&gt;%
 ## Setting numeric variables
 vitamins_uil_tb&lt;-vitamins_uil_tb%&gt;%
                 mutate(across(3:17,as.numeric))
-saveRDS(vitamins_uil_tb, &quot;cleaned/vitaminsUIL_final.rds&quot;)</code></pre>
+saveRDS(vitamins_uil_tb, &quot;cleaned/vitaminsUIL_final.rds&quot;)
+
+vitamins_uil_tb&lt;-readRDS(&quot;cleaned/vitaminsUIL_final.rds&quot;)
+
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+vitamins_uil_tb&lt;-vitamins_uil_tb%&gt;%
+              filter((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;))%&gt;%
+                  mutate(house_1=ifelse((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;),1,0),
+                         house_2=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;),1,0),
+                         house_3=ifelse((Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;),1,0),
+                         house_4=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;), 2,0))
+
+saveRDS(vitamins_uil_tb, &quot;NutrReq4HouseholdEx/vitaminsUpperBound_final.rds&quot;)
+vitamins_uil_tb&lt;-readRDS( &quot;NutrReq4HouseholdEx/vitaminsUpperBound_final.rds&quot;)
+write_excel_csv(vitamins_uil_tb,&quot;NutrReq4HouseholdEx/vitaminsUpperBound_final.csv&quot;)</code></pre>
 </div>
 </div>
 <div id="macronutrients" class="section level2">
@@ -336,8 +389,6 @@ saveRDS(vitamins_uil_tb, &quot;cleaned/vitaminsUIL_final.rds&quot;)</code></pre>
 <div id="recommended-dietary-allowances-and-adequate-intakes-total-water-and-macronutrients" class="section level3">
 <h3>Recommended Dietary Allowances and Adequate Intakes, Total Water and Macronutrients</h3>
 <pre class="r"><code>url_macronutrients&lt;-&quot;https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t4/?report=objectonly&quot;
-
-
 
 macronutrients&lt;-url_macronutrients%&gt;%
           read_html()%&gt;%
@@ -357,7 +408,19 @@ macronutrients_tb[-1:-2]&lt;-apply(macronutrients_tb[-1:-2],2,str_remove_all,pas
 macronutrients_tb&lt;-macronutrients_tb%&gt;%
                 mutate(across(3:8,as.numeric))
 saveRDS(macronutrients_tb, &quot;cleaned/macronutrientsRDA_final.rds&quot;)
-macronutrients_rda_tb&lt;-readRDS(&quot;cleaned/macronutrientsRDA_final.rds&quot;)</code></pre>
+macronutrients_rda_tb&lt;-readRDS(&quot;cleaned/macronutrientsRDA_final.rds&quot;)
+## filter to household examples demographics and add count variables of household members in example 1, 2, 3, or 4.
+macronutrients_rda_tb&lt;-macronutrients_rda_tb%&gt;%
+              filter((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)| (Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;))%&gt;%
+                  mutate(house_1=ifelse((Group==&quot;Children&quot;&amp;Age==&quot;4–8 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;14–18 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;31–50 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;51–70 y&quot;),1,0),
+                         house_2=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;9–13 y&quot;)|(Group==&quot;Females&quot;&amp;Age==&quot;9–13 y&quot;)| (Group==&quot;Females&quot;&amp;Age==&quot;19–30 y&quot;),1,0),
+                         house_3=ifelse((Group==&quot;Females&quot;&amp;Age==&quot;&gt; 70 y&quot;),1,0),
+                         house_4=ifelse((Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;)|(Group==&quot;Males&quot;&amp;Age==&quot;19–30 y&quot;), 2,0))
+
+saveRDS(macronutrients_rda_tb, &quot;NutrReq4HouseholdEx/macronutrientsLowerBound_final.rds&quot;)
+
+macronutrients_rda_tb&lt;-readRDS( &quot;NutrReq4HouseholdEx/macronutrientsLowerBound_final.rds&quot;)
+write_excel_csv(macronutrients_rda_tb,&quot;NutrReq4HouseholdEx/macronutrientsLowerBound_final.csv&quot;)</code></pre>
 </div>
 <div id="acceptable-macronutrient-distribution-ranges-percent-of-energy-range" class="section level3">
 <h3>Acceptable Macronutrient Distribution Ranges (Percent of energy range)</h3>
@@ -372,8 +435,11 @@ macronutrients_ar_tb&lt;-macronutrients_ar[[1]][-1,]
 macronutrients_ar_tb&lt;-as.tibble(t(macronutrients_ar_tb))%&gt;%
                         janitor::row_to_names(row_number=1)
 colnames(macronutrients_ar_tb)[1]&lt;-&quot;Group&quot;
+
 saveRDS(macronutrients_ar_tb, &quot;cleaned/macronutrientsAR_final.rds&quot;)
-macronutrients_ar_tb&lt;-readRDS(&quot;cleaned/macronutrientsAR_final.rds&quot;)</code></pre>
+macronutrients_ar_tb&lt;-readRDS(&quot;cleaned/macronutrientsAR_final.rds&quot;)
+
+write_excel_csv(macronutrients_ar_tb, &quot;NutrReq4HouseholdEx/macronutrientsAR_final.csv&quot;)</code></pre>
 </div>
 </div>
 </div>

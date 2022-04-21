@@ -97,7 +97,8 @@ elements_rda_tb<-elements_rda_tb%>%
                          house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
 
 saveRDS(elements_rda_tb, "NutrReq4HouseholdEx/elementsLowerBound_final.rds")
-
+elements_rda_tb<-readRDS( "NutrReq4HouseholdEx/elementsLowerBound_final.rds")
+write_excel_csv(elements_rda_tb,"NutrReq4HouseholdEx/elementsLowerBound_final.csv")
 
 ```
 
@@ -139,6 +140,8 @@ elements_uil_tb<-elements_uil_tb%>%
                          house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
 
 saveRDS(elements_uil_tb, "NutrReq4HouseholdEx/elementsUpperBound_final.rds")
+elements_uil_tb<-readRDS( "NutrReq4HouseholdEx/elementsUpperBound_final.rds")
+write_excel_csv(elements_uil_tb,"NutrReq4HouseholdEx/elementsUpperBound_final.csv")
 
 ```
 
@@ -179,6 +182,8 @@ vitamins_rda_tb<-vitamins_rda_tb%>%
                          house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
 
 saveRDS(vitamins_rda_tb, "NutrReq4HouseholdEx/vitaminsLowerBound_final.rds")
+vitamins_rda_tb<-readRDS( "NutrReq4HouseholdEx/vitaminsLowerBound_final.rds")
+write_excel_csv(vitamins_rda_tb,"NutrReq4HouseholdEx/vitaminsLowerBound_final.csv")
 
 ```
 
@@ -222,7 +227,8 @@ vitamins_uil_tb<-vitamins_uil_tb%>%
                          house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
 
 saveRDS(vitamins_uil_tb, "NutrReq4HouseholdEx/vitaminsUpperBound_final.rds")
-
+vitamins_uil_tb<-readRDS( "NutrReq4HouseholdEx/vitaminsUpperBound_final.rds")
+write_excel_csv(vitamins_uil_tb,"NutrReq4HouseholdEx/vitaminsUpperBound_final.csv")
 ```
 
 ## Macronutrients
@@ -258,6 +264,9 @@ macronutrients_rda_tb<-macronutrients_rda_tb%>%
                          house_4=ifelse((Group=="Males"&Age=="19–30 y")|(Group=="Males"&Age=="19–30 y"), 2,0))
 
 saveRDS(macronutrients_rda_tb, "NutrReq4HouseholdEx/macronutrientsLowerBound_final.rds")
+
+macronutrients_rda_tb<-readRDS( "NutrReq4HouseholdEx/macronutrientsLowerBound_final.rds")
+write_excel_csv(macronutrients_rda_tb,"NutrReq4HouseholdEx/macronutrientsLowerBound_final.csv")
 
 ```
 
