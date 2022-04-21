@@ -1,5 +1,5 @@
-recipe;type;carb;protein;fat;VitA;VitB
-chicken_with_potatoes;lunch/dinner;20;30;10;1;1
-beef_with_rice;lunch/dinner;35;25;15;2;3
-oatmeal;breakfast;10;10;10;1;1
-pancakes;breakfast;9;8;7;1;1
+recipe;type;calories;carb;protein;fat;VitA;VitB
+chicken_with_potatoes;lunch/dinner;70;20;30;10;1;1
+beef_with_rice;lunch/dinner;73;35;25;15;2;3
+oatmeal;breakfast;20;10;10;10;1;1
+pancakes;breakfast;23;9;8;7;1;1
