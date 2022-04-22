@@ -1,0 +1,11 @@
+﻿"Group","Age","Arsenica","Boron (mg/d)","Calcium (mg/d)","Chromium","Copper (μg/d)","Fluoride (mg/d)","Iodine (μg/d)","Iron (mg/d)","Magnesium (mg/d)b","Manganese (mg/d)","Molybdenum (μg/d)","Nickel (mg/d)","Phosphorus (g/d)","Potassium","Selenium (μg/d)","Siliconc","Sulfate","Vanadium (mg/d)d","Zinc (mg/d)","Sodiume","Chloride (g/d)","house_1","house_2","house_3","house_4"
+"Children","4–8 y",NA,6,2500,NA,3000,2.2,300,40,110,3,600,0.3,3,NA,150,NA,NA,NA,12,NA,2.9,1,0,0,0
+"Males","9–13 y",NA,11,3000,NA,5000,10,600,40,350,6,1100,0.6,4,NA,280,NA,NA,NA,23,NA,3.4,0,1,0,0
+"Males","14–18 y",NA,17,NA,NA,NA,10,900,45,350,9,NA,1,4,NA,400,NA,NA,NA,34,NA,3.6,1,0,0,0
+"Males","19–30 y",NA,20,2500,NA,10000,10,1100,45,350,11,2000,1,4,NA,400,NA,NA,1.8,40,NA,3.6,0,0,0,2
+"Males","31–50 y",NA,20,2500,NA,10000,10,1100,45,350,11,2000,1,4,NA,400,NA,NA,1.8,40,NA,3.6,1,0,0,0
+"Females","9–13 y",NA,11,3000,NA,5000,10,600,40,350,6,1100,0.6,4,NA,280,NA,NA,NA,23,NA,3.4,1,1,0,0
+"Females","19–30 y",NA,20,2500,NA,10000,10,1100,45,350,11,2000,1,4,NA,400,NA,NA,1.8,40,NA,3.6,0,1,0,0
+"Females","31–50 y",NA,20,2500,NA,10000,10,1100,45,350,11,2000,1,4,NA,400,NA,NA,1.8,40,NA,3.6,1,0,0,0
+"Females","51–70 y",NA,20,2000,NA,10000,10,1100,45,350,11,2000,1,4,NA,400,NA,NA,1.8,40,NA,3.6,1,0,0,0
+"Females","> 70 y",NA,20,2000,NA,10000,10,1100,45,350,11,2000,1,3,NA,400,NA,NA,1.8,40,NA,3.6,0,0,1,0

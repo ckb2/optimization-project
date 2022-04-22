@@ -1,5 +1,7 @@
-ingredient;price
-chicken;4
-potatoes;3
-beef;4
-rice;2
+ingredient;price;unit
+chicken;4;oz
+potatoes;3;each
+beef;4;oz
+rice;2;oz
+oats;3;ct
+milk;4;fl oz
