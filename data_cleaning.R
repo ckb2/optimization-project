@@ -30,6 +30,10 @@ tibble(my_plate_recipes[sample.int(1073)[[1]],][['Ingredients']][[1]]) %>%
 # words in each daily table item name that are present in the ingredient name.
 # Report the maximum score and its corresponding match
 
+force_matches <- tibble(
+  WrongMatch = c
+)
+
 match_ingredient <- function(ingredient) {
   
   ingredient <- unlist(str_split(ingredient, "\\W+"))
