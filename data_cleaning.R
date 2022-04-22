@@ -258,8 +258,60 @@ recipes_matched %>%
     Qty = if_else(is.na(Qty), 0, Qty)
   ) %>%
   mutate(
-    Nutrients = paste0(Nutrients, " (", UOM, ")")
+    Nutrients = paste0(Nutrients, " (", UOM, ")"),
+    Qty = if_else(
+      Nutrients=="Copper (mg)", Qty*1000, Qty
+    ),
+    Qty = if_else(
+      Nutrients=="Iron (g)", Qty*1000, Qty
+    ),
+    Qty = if_else(
+      Nutrients=="Phosphorus (mcg)", Qty/1000, Qty
+    ),
+    Qty = if_else(
+      Nutrients=="Selenium (mg)", Qty*1000, Qty
+    ),
+    Qty = if_else(
+      Nutrients=="Vitamin B12 (mg)", Qty*1000, Qty
+    ),
+    Qty = if_else(
+      Nutrients=="Vitamin D (mg)", Qty*1000, Qty
+    ),
+    Qty = if_else(
+      Nutrients=="Zinc (mcg)", Qty/1000, Qty
+    ),
+    Nutrients = str_replace(Nutrients, 
+                            c("Copper (mg)", "Iron (g)", "Phosphorus (mcg)", "Selenium (mg)", "Vitamin B12 (mg)", "Vitamin D (mg)", "Zinc (mcg)"), 
+                            c("Copper (mcg)", "Iron (mg)", "Phosphorus (mg)", "Selenium (mcg)", "Vitamin B12 (mcg)", "Vitamin D (mcg)", "Zinc (mg)")
+                            )
   ) %>%
   select(Name, Nutrients, Qty) %>%
   pivot_wider(names_from = Nutrients, values_from = Qty, values_fn = max, values_fill = 0) %>%
   write_csv("data_recipes.csv")
+
+# Get list of unique nutrients
+recipes_matched %>%
+  unnest(Match, keep_empty = T) %>%
+  group_by(Name) %>%
+  filter(!any(is.na(Match))) %>%
+  mutate(Name=unlist(Name)) %>%
+  distinct(Name, NutritionalInfo) %>%
+  unnest(NutritionalInfo) %>%
+  filter(Nutrients!="Nutrients", Nutrients!="Added Sugars included", Nutrients!="Minerals", Nutrients!="Vitamins") %>%
+  ungroup() %>%
+  distinct() %>%
+  mutate(
+    Qty = str_extract(Amount, "\\d+.?\\d*"),
+    UOM = str_extract(Amount, "mg|mcg|g"),
+    UOM = if_else(str_detect(Nutrients, "Calories"), "kcal", UOM),
+    Qty = as.numeric(Qty),
+    Qty = if_else(str_detect(Amount, "N/A"), 0, Qty),
+    UOM = if_else(is.na(UOM), "mg", UOM), # Some are missing units, all appear to be mg,
+    Qty = if_else(is.na(Qty), 0, Qty)
+  ) %>%
+  mutate(
+    Nutrients = paste0(Nutrients, " (", UOM, ")")
+  ) %>%
+  select(Nutrients) %>%
+  distinct() %>%
+  write_csv("nutrients.csv")
