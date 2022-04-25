@@ -1,5 +1,5 @@
 nutrients;person;lowerbound;upperbound
-Calories;1;1650;2200
+Calories;1;1840;2200
 Protein;1;46;0
 Carb;1;130;0
 Fat;1;0;0
@@ -27,7 +27,7 @@ VitaminB6;1;1.3;0
 Folate;1;0;0
 VitaminB12;1;2.4;0
 Choline;1;425;0
-Calories;2;2175;2900
+Calories;2;2240;2900
 Protein;2;56;0
 Carb;2;130;0
 Fat;2;0;0
