@@ -286,6 +286,7 @@ recipes_matched %>%
                             )
   ) %>%
   select(Name, Nutrients, Qty) %>%
+  filter(!(Nutrients %in% c("Copper (mg)", "Iron (g)", "Phosphorus (mcg)", "Selenium (mg)", "Vitamin B12 (mg)", "Vitamin D (mg)", "Zinc (mcg)"))) %>%
   pivot_wider(names_from = Nutrients, values_from = Qty, values_fn = max, values_fill = 0) %>%
   write_csv("data_recipes.csv")
 
