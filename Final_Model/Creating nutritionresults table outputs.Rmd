@@ -26,11 +26,6 @@ recnut3<-read_delim("OptimizationModel_Household3/data_recipes.csv")%>%
 recnut4<-read_delim("OptimizationModel_Household4/data_recipes.csv")%>%
   rename(Recipe=recipe)
 
-nutr1<-read_delim("OptimizationModel_Household1/data_nutrients.csv")
-nutr2<-read_delim("OptimizationModel_Household2/data_nutrients.csv")
-nutr3<-read_delim("OptimizationModel_Household3/data_nutrients.csv")
-nutr4<-read_delim("OptimizationModel_Household4/data_nutrients.csv")
-
 ```
 # merge model output recipes + serving sizes with data on recipes + nutrients
 ```{r}
