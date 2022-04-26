@@ -1,46 +1,64 @@
 Recipe,Meal,Day,Person,Servings
-Apple-Stuffed Squash,1,3,1,3.5384615384615383
-Apple-Stuffed Squash,1,3,2,3.605769230769231
-Apple-Stuffed Squash,1,3,3,3.173076923076923
-Baked Pork Chops,2,3,1,3.478946130322276
-Baked Pork Chops,2,3,2,3.545121736062103
-Baked Pork Chops,2,3,3,3.1197071277346504
-Banana Cupcakes,1,1,1,2.1800947867298577
-Banana Cupcakes,1,1,2,2.221563981042654
-Banana Cupcakes,1,1,3,1.9549763033175356
-Black Beans,2,5,1,2.8750000000000004
-Black Beans,2,5,2,2.9296875
-Black Beans,2,5,3,2.5781250000000004
-Easy Oven Packet Caribbean Tilapia with Pears and Carnival Roasted Potatoes,3,4,1,1.7382448124881023
-Easy Oven Packet Caribbean Tilapia with Pears and Carnival Roasted Potatoes,3,4,2,1.7713092518560822
-Easy Oven Packet Caribbean Tilapia with Pears and Carnival Roasted Potatoes,3,4,3,1.5587521416333525
-Microwave Baked Apple,1,4,1,2.1296296296296298
-Microwave Baked Apple,1,4,2,2.1701388888888893
-Microwave Baked Apple,1,4,3,1.9097222222222225
-Old Fashioned Bread Pudding,1,2,1,1.0543533203816498
-Old Fashioned Bread Pudding,1,2,2,1.0744089541932567
-Old Fashioned Bread Pudding,1,2,3,0.9454798796900635
-Old Fashioned Bread Pudding,1,5,1,1.1948051948051945
-Old Fashioned Bread Pudding,1,5,2,1.2175324675324672
-Old Fashioned Bread Pudding,1,5,3,1.0714285714285916
-Orange Pork Chops,2,1,1,2.6165437757459755
-Orange Pork Chops,2,1,2,2.86354054481597
-Orange Pork Chops,2,1,3,2.519915679438054
-Oven Roasted Chicken,3,2,1,1.6746257392316295
-Oven Roasted Chicken,3,2,2,1.7064800331844068
-Oven Roasted Chicken,3,2,3,1.5017024292022778
-Quick Chili,3,5,1,2.4864864864864873
-Quick Chili,3,5,2,2.533783783783784
-Quick Chili,3,5,3,2.229729729729709
-Rainbow Bell Pepper Boats with Garbanzo Beans and Kale,3,3,1,1.8098094565984477
-Rainbow Bell Pepper Boats with Garbanzo Beans and Kale,3,3,2,1.8442351799576573
-Rainbow Bell Pepper Boats with Garbanzo Beans and Kale,3,3,3,1.6229269583627384
-Roast Chicken,2,4,1,2.3059838822260295
-Roast Chicken,2,4,2,2.3498477060727203
-Roast Chicken,2,4,3,2.067865981343994
-Spinach and Meat Cakes,3,1,1,1.3989861769926686
-Spinach and Meat Cakes,3,1,2,1.3044260705052209
-Spinach and Meat Cakes,3,1,3,1.147894942044594
-Vegetable Chili,2,2,1,2.3700234192037466
-Vegetable Chili,2,2,2,2.4151053864168612
-Vegetable Chili,2,2,3,2.125292740046839
+Apple-Stuffed Squash,1,2,1,3.538461538461539
+Apple-Stuffed Squash,1,2,2,3.6057692307692317
+Apple-Stuffed Squash,1,2,3,3.173076923076924
+Apple-Stuffed Squash,1,4,1,3.5384615384615383
+Apple-Stuffed Squash,1,4,2,3.605769230769231
+Apple-Stuffed Squash,1,4,3,3.173076923076923
+Apple-Stuffed Squash,1,6,1,3.5384615384615383
+Apple-Stuffed Squash,1,6,2,3.605769230769231
+Apple-Stuffed Squash,1,6,3,3.173076923076923
+Baked Pork Chops,2,4,1,3.4789461303222775
+Baked Pork Chops,2,4,2,3.545121736062103
+Baked Pork Chops,2,4,3,3.119707127734651
+Banana Cupcakes,1,7,1,2.1800947867298577
+Banana Cupcakes,1,7,2,1.9131962245887548
+Banana Cupcakes,1,7,3,1.9549763033175356
+Black Beans,2,1,1,2.875
+Black Beans,2,1,2,2.9296875
+Black Beans,2,1,3,2.578125
+Easy Oven Packet Caribbean Tilapia with Pears and Carnival Roasted Potatoes,3,3,1,1.6453014342676902
+Easy Oven Packet Caribbean Tilapia with Pears and Carnival Roasted Potatoes,3,3,2,1.6765979289412605
+Easy Oven Packet Caribbean Tilapia with Pears and Carnival Roasted Potatoes,3,3,3,1.475406177468309
+Fiesta Lettuce Wraps and Pepper Boats,3,6,1,1.5771428571428572
+Fiesta Lettuce Wraps and Pepper Boats,3,6,2,1.6071428571428572
+Fiesta Lettuce Wraps and Pepper Boats,3,6,3,1.4142857142857144
+Microwave Baked Apple,1,3,1,2.1296296296296298
+Microwave Baked Apple,1,3,2,2.170138888888889
+Microwave Baked Apple,1,3,3,1.9097222222222223
+Microwave Baked Apple,1,5,1,2.1296296296296298
+Microwave Baked Apple,1,5,2,2.170138888888889
+Microwave Baked Apple,1,5,3,1.9097222222222223
+Old Fashioned Bread Pudding,1,1,1,1.1948051948051945
+Old Fashioned Bread Pudding,1,1,2,1.2175324675324672
+Old Fashioned Bread Pudding,1,1,3,1.0714285714285712
+Orange Pork Chops,2,7,1,2.558460570551915
+Orange Pork Chops,2,7,2,2.92162375001003
+Orange Pork Chops,2,7,3,2.519915679438055
+Oven Fried Fish,3,2,1,2.7326732673267324
+Oven Fried Fish,3,2,2,2.7846534653465347
+Oven Fried Fish,3,2,3,2.4504950495049505
+Oven Roasted Chicken,2,3,1,2.162709040052371
+Oven Roasted Chicken,2,3,2,2.20384752722728
+Oven Roasted Chicken,2,3,3,1.9393858239600068
+Quick Chili,3,1,1,2.4864864864864864
+Quick Chili,3,1,2,2.5337837837837838
+Quick Chili,3,1,3,2.22972972972973
+Rainbow Bell Pepper Boats with Garbanzo Beans and Kale,3,4,1,1.8098094565984473
+Rainbow Bell Pepper Boats with Garbanzo Beans and Kale,3,4,2,1.8442351799576573
+Rainbow Bell Pepper Boats with Garbanzo Beans and Kale,3,4,3,1.622926958362738
+Roast Chicken,3,5,1,2.322496657518823
+Roast Chicken,3,5,2,2.366674583069453
+Roast Chicken,3,5,3,2.0826736331011184
+Spinach and Meat Cakes,3,7,1,1.4346712834517648
+Spinach and Meat Cakes,3,7,2,1.4104960764900745
+Spinach and Meat Cakes,3,7,3,1.1478949420445939
+Tuna Pasta,2,5,1,1.9275913025121385
+Tuna Pasta,2,5,2,1.9642574414186202
+Tuna Pasta,2,5,3,1.728546548448385
+Tuscan Potato Skillet,2,6,1,2.670967741935484
+Tuscan Potato Skillet,2,6,2,2.721774193548387
+Tuscan Potato Skillet,2,6,3,2.3951612903225805
+Vegetable Chili,2,2,1,1.939110070257611
+Vegetable Chili,2,2,2,1.9759953161592503
+Vegetable Chili,2,2,3,1.7388758782201403
