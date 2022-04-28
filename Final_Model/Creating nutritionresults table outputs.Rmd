@@ -1,0 +1,53 @@
+---
+title: "Creating nutritionresults csv table outputs"
+author: "Ye Shen"
+date: "4/26/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+house1<-read_csv("OptimizationModel_Household1/menu.csv")
+house2<-read_csv("OptimizationModel_Household2/menu.csv")
+house3<-read_csv("OptimizationModel_Household3/menu.csv")
+house4<-read_csv("OptimizationModel_Household4/menu.csv")
+
+
+recnut1<-read_delim("OptimizationModel_Household1/data_recipes.csv")%>%
+  rename(Recipe=recipe)
+recnut2<-read_delim("OptimizationModel_Household2/data_recipes.csv")%>%
+  rename(Recipe=recipe)
+recnut3<-read_delim("OptimizationModel_Household3/data_recipes.csv")%>%
+  rename(Recipe=recipe)
+recnut4<-read_delim("OptimizationModel_Household4/data_recipes.csv")%>%
+  rename(Recipe=recipe)
+
+```
+# merge model output recipes + serving sizes with data on recipes + nutrients
+```{r}
+nutrout1<-house1%>%
+            left_join(recnut1, by="Recipe")%>%
+            mutate(across(6:33, ~.x*Servings))
+
+nutrout2<-house2%>%
+            left_join(recnut1, by="Recipe")%>%
+            mutate(across(6:33, ~.x*Servings))
+
+nutrout3<-house3%>%
+            left_join(recnut1, by="Recipe")%>%
+            mutate(across(6:33, ~.x*Servings))
+
+nutrout4<-house4%>%
+            left_join(recnut1, by="Recipe")%>%
+            mutate(across(6:33, ~.x*Servings))
+write_excel_csv(nutrout1, "OptimizationModel_Household1/nutritionresults.csv")
+write_excel_csv(nutrout2, "OptimizationModel_Household2/nutritionresults.csv")
+write_excel_csv(nutrout3, "OptimizationModel_Household3/nutritionresults.csv")
+write_excel_csv(nutrout4, "OptimizationModel_Household4/nutritionresults.csv")
+
+```
+
