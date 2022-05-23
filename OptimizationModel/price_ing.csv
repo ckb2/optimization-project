@@ -1,7 +1,560 @@
 ingredient;price;unit
-chicken;4;oz
-potatoes;3;each
-beef;4;oz
-rice;2;oz
-oats;3;ct
-milk;4;fl oz
+Baby Carrots;0.002843963;g
+Baby Spinach;0.004387199;g
+Beets;0.00152119;g
+Broccoli;0.002843963;g
+Brussels Sprouts;0.003284887;g
+Butternut Squash;0.001741652;g
+Carrots;0.00152119;g
+Cauliflower;3.29;each
+Celery Bunch;1.49;each
+Collard Greens;0.004166736;g
+Cucumber;0.69;each
+Eggplant;0.003284887;g
+Garlic;0.009898755;g
+Ginger Root;0.004387199;g
+Grape Tomatoes;1.99;each
+Green Asparagus Bunch;3.69;each
+Green Bell Peppers;0.003284887;g
+Green Cabbage;0.00152119;g
+Jalapeno Peppers;0.004387199;g
+Kale;0.002843963;g
+Leeks;0.002843963;g
+Little Leaf Farms Baby Crispy Green Leaf Lettuce;0.017548798;g
+Little Leaf Farms Baby Red & Green Leaf Lettuce;0.017548798;g
+Little Leaf Farms Baby Spring Mix;0.017548798;g
+Organic Baby Carrots;0.005048585;g
+Portobello Mushrooms;0.003946274;g
+Red Bell Peppers;0.004387199;g
+Red Cabbage;0.00152119;g
+Red Onions;0.003725812;g
+Red Potatoes;0.001300727;g
+Romaine Lettuce Hearts;1.663333333;each
+Russet Chef Potatoes;0.002182576;g
+Scallions / Green Onions (bunch);1.49;each
+Serrano Chili;0.004387199;g
+Yuca;0.002182576;g
+Chayote;0.002843963;g
+Malanga Eddoe;0.003725812;g
+Sweet Potatoes;0.00152119;g
+Tomato Medley;0.008783217;g
+Tomatoes on the Vine;0.004387199;g
+White Mushrooms;0.007019519;g
+Yellow Onions;0.001741652;g
+Yellow Bell Peppers;0.006591821;g
+Zucchini Squash;0.002182576;g
+Beefsteak Tomatoes;0.002182576;g
+Baby White Potato 24oz;0.005864297;g
+Loose Yukon Gold Potato;0.002182576;g
+Potatoes 5lb bag;0.001097902;g
+Russet Potatoes 5lb bag;0.001097902;g
+Baby Bok Choy;0.003284887;g
+White Onions;0.003284887;g
+Orange Bell Peppers;0.006591821;g
+Asian Pears;0.003725812;g
+Avocados;0.99;each
+Bananas;0.000859803;g
+Blood Oranges;0.79;each
+Blueberries (11 oz);0.007343398;g
+Cantaloupe Melon;1.99;each
+Clementines (3 lb bag);0.003667022;g
+Fuji Apples;0.00350535;g
+Gala Apples;0.00350535;g
+Granny Smith Apples;0.00350535;g
+Grapefruit;0.99;each
+Green Pears;0.002843963;g
+Green Seedless Grapes;0.00548951;g
+Honeycrisp Apples;0.00350535;g
+Kiwi;0.39;each
+Lemons;0.39;each
+Limes;0.69;each
+Mangoes;1.29;each
+Navel Oranges;0.79;each
+Papayas;0.003284887;g
+Pineapple;2.29;each
+Plantains;0.39;each
+Raspberries;0.014638696;g
+Red Pears;0.002843963;g
+Red Seeded Grapes;0.007253208;g
+Red Seedless Grapes;0.004387199;g
+Cara Cara;0.79;each
+Strawberries;0.006591821;g
+Blackberries;0.019341891;g
+Pink Lady Apples;0.00350535;g
+Cilantro Bunch;0.79;each
+Parsley;0.79;each
+Daily Table Bean And Cheese Burrito;1.99;each
+Daily Table Chicken Caesar Wrap;3.49;each
+Daily Table Chicken Salad With Apple;0.005489511;g
+Daily Table Egg Salad;0.005489511;g
+Daily Table Jerk Chicken;2.29;each
+Daily Table Quiche Half;2.99;each
+Daily Table Roasted Whole Chicken;4.99;each
+Daily Table Tuna Salad;0.008774399;g
+Daily Table Tuna Salad Wrap;2.49;each
+Daily Table Turkey Sandwich with Avocado Crema;2.99;each
+Cheese Flatbread;1.99;each
+Daily Table Chicken and Shrimp Gumbo;2.99;each
+Daily Table Cheese Ravioli With Butternut Squash Sauce;2.99;each
+Daily Table Chicken Sriracha Ranch Wrap;3.49;each
+Daily Table Caprese Sandwich;3.49;each
+Daily Table BBQ Chicken with Collards and Broccoli Slaw;3.99;each
+Daily Table Jerk White Fish Meal;3.99;each
+Daily Table Roasted Chicken with Brown Rice & Veggies;1.99;each
+Daily Table Szechuan Beef Bowl;3.99;each
+Daily Table Chicken Sausage Pasta Marinara;2.99;each
+Daily Table Chicken Chile Verde;2.99;each
+Daily Table Caribbean Curry Fish;2.99;each
+Daily Table The Works Salad;3.99;each
+Daily Table Garden Salad;1.99;each
+Daily Table Moroccan Chickpea Kale Salad;3.49;each
+Asian Edamame Salad;2.99;each
+Daily Table Beef Chili;0.005864297;g
+Daily Table Chicken Soup with Rice;0.004394548;g
+Daily Table Roasted Red Pepper and Tomato Soup;0.003659674;g
+Daily Table Spicy Vegan 3 Bean Chili;0.004394548;g
+Daily Table White Bean & Kale Soup;0.004394548;g
+Daily Table Red Curry Butternut Squash Soup with Coconut and Lemongrass;1.99;each
+Daily Table Minestrone 24 oz;0.004394548;g
+Daily Table Garlic Roasted Potatoes;1.49;each
+Daily Table Macaroni Tuna Salad;0.0043872;g
+Daily Table Potato Salad;0.0043872;g
+Daily Table Apple Turnover;1.99;each
+Sweet Potato Pie - 9 Half Pie;3.49;each
+Beef Sirloin Tip Steak;0.019819556;g
+Beef Stew Meat;0.011001066;g
+Butterball Original Turkey Bacon;0.008789096;g
+Ground Beef 80 Lean;0.00945783;g
+Ground Pork;0.007694132;g
+Jamestown Sliced Bacon;0.010339681;g
+Pork Chops;0.006591821;g
+Smithfield Maple Boneless Ham Steak;2.99;each
+Shady Brook Farms 85% Ground Turkey;0.008123187;g
+Butterball Turkey Polska Kielbasa;0.008037425;g
+Beef Hamburger Patties 85/15;6.99;each
+Pork Spare Ribs;0.006591806;g
+Chicken Breast;0.006591821;g
+Chicken Drumsticks;0.003064425;g
+Chicken Tenders;0.008135057;g
+Chicken Thighs Bone-In;0.003064425;g
+Chicken Thighs Boneless Skinless;0.002204622;g
+Chicken Wings;0.008796444;g
+Al Fresco Spicy Jalapeno Chicken Sausage;0.016001554;g
+Al Fresco Sweet Italian Chicken Sausage;0.016001554;g
+Al Fresco Roasted Pepper and Asiago Chicken Sausage;4.99;each
+Al Fresco Sweet Apple Chicken Sausage;0.016001554;g
+Fresh Haddock;0.013205689;g
+Fresh Salmon Farm Raised;0.013205689;g
+Fresh Swordfish Line Caught;0.013205689;g
+Hood 1% Milk;0.00105405;g
+Hood 1% Lowfat Milk;0.001315581;g
+Hood 2% Reduced Fat Milk;0.00105405;g
+Hood 2%  Milk;0.001315581;g
+Hood Whole Milk;0.00105405;g
+Hood Whole Milk;0.001315581;g
+Extra Large Brown Eggs;0.190833333;each
+Extra Large White Eggs;0.2075;each
+Large Brown Eggs;0.165833333;each
+Large White Eggs;0.190833333;each
+Almond Breeze Original Unsweetened Almondmilk;0.001843927;g
+Almond Breeze Vanilla Unsweetened Almondmilk;0.001843927;g
+Lactaid 2% Reduced Fat Milk;0.0021081;g
+Lactaid Whole Milk;0.0021081;g
+Planet Oat Original Oat Milk;0.002497497;g
+Planet Oat Vanilla Oat Milk;0.002497497;g
+Rolling Hills Farm Organic Soy Milk;0.001579754;g
+Rolling Hills Farm Organic Vanilla Soy Milk;0.001579754;g
+Cabot Salted Butter;0.008796445;g
+Cabot Unsalted Butter;0.008796445;g
+Cloverdale Salted Butter;0.006150898;g
+Cloverdale Unsalted Butter;0.006150898;g
+Grassland Salted Butter;0.007694134;g
+Hood All Natural Sour Cream;0.0043872;g
+Hood Country Style Cottage Cheese;0.005489511;g
+Hood Half and Half Ultra-Pasteurized;0.003717481;g
+Hood Ultra Pasteurized Light Cream;0.004377388;g
+La Yogurt Blueberry Nonfat Yogurt;0.003468607;g
+La Yogurt Peach Nonfat Yogurt;0.003468607;g
+La Yogurt Plain Fat Free Unsweetened Yogurt;0.002744755;g
+La Yogurt Plain Lowfat Unsweetened Yogurt;0.002744755;g
+La Yogurt Plain Whole Milk Unsweetened Yogurt;0.002744755;g
+La Yogurt Strawberry Nonfat Yogurt;0.003468607;g
+La Yogurt Vanilla Fat Free Yogurt;0.002744755;g
+La Yogurt Vanilla Nonfat Yogurt;0.003468607;g
+BelGioioso Fontina Cheese;0.01759289;g
+BelGioioso Fresh Mozzarella Cheese Ball;0.01759289;g
+Belgioioso Parmesan Cheese Wedge;0.01759289;g
+Capra Goat Cheese;0.01911513;g
+Dutch Farms Mozzarella Cheese Bar;0.010979022;g
+Dutch Farms Sharp Cheddar Cheese Block;0.010979022;g
+Dutch Farms White Sharp Cheddar Cheese Block;0.010979022;g
+Eiffel Tower Baby Brie;0.020106161;g
+Que Gusto Cotija Cheese;0.014074312;g
+Que Gusto Fresco Cheese;0.012310614;g
+Dutch Farms Colby Block Cheese;0.010979022;g
+Dutch Farms Shredded Cheddar Jack Cheese;0.011860871;g
+Dutch Farms Shredded Mexican Cheese Blend;0.011860871;g
+Dutch Farms Shredded Parmesan Cheese;0.02051769;g
+Dutch Farms Shredded Pizza Cheese Blend;0.011860871;g
+American Heritage Traditional Smooth & Creamy Cream Cheese;0.007451625;g
+Dutch Farms String Cheese;0.012310614;g
+Dutch Farms Feta;0.023721742;g
+Chavrie Goat Cheese;0.035185781;g
+Dutch Farms Gouda Cheese Slices;0.015814495;g
+Dutch Farms Gouda Cheese Slices;0.014638696;g
+Dutch Farms Mozzarella Cheese Slices;0.015814495;g
+Dutch Farms Provolone Cheese Slices;0.015814495;g
+Dutch Farms Swiss Cheese Slices;0.015814495;g
+Great Lakes Mild Cheddar Cheese Slices;0.008803792;g
+Great Lakes Mozzarella Cheese Slices;0.008803792;g
+Great Lakes Pepperjack Cheese Slices;0.008803792;g
+Great Lakes White Cheddar Cheese Slices;0.008803792;g
+Cool Mints Pepper Mint;0.029101022;g
+Cool Mints Wintergreen;0.029101022;g
+Best Yet Dry Roasted Peanuts;0.005489511;g
+Best Yet Honey Roasted Peanuts;0.005489511;g
+Best Yet Lightly Salted Roasted Peanuts;0.005489511;g
+Blue Diamond Bold Sriracha Almonds;0.023457187;g
+Blue Diamond Honey Roasted Almonds;0.023457187;g
+Daily Table Freedom Trail Mix;0.008789096;g
+Daily Table Patriots Trail Mix;0.010258845;g
+Daily Table Raisins;0.006731448;g
+Daily Table Raw Almonds;0.014668091;g
+Daily Table Raw Cashews;0.017607588;g
+Daily Table Roasted & Salted Almonds;0.014668091;g
+Daily Table Roasted & Salted Cashews;0.018489437;g
+Daily Table Roasted & Salted Peanuts;0.007319348;g
+Daily Table Roasted & Salted Pistachios;0.01759289;g
+Daily Table Roasted Almonds No Salt;0.014668091;g
+Daily Table Roasted Cashews No Salt;0.018489437;g
+Daily Table Smoked Almonds;0.016137839;g
+Daily Table Walnuts;0.016270117;g
+Wonderful In-Shell Pistachio;0.023280817;g
+Spectrum Organic Chia Seeds;0.008789096;g
+Annie's Cheddar Bunnies;0.016414152;g
+Athenos Baked Whole Wheat Pita Chips;0.009759131;g
+Athenos Original Baked Pita Chips;0.009759131;g
+Cheez It Original;0.011350252;g
+Club Crackers Multi Grain;0.011082136;g
+Club Crackers Original;0.010273221;g
+Quaker Lightly Salted Rice Cakes;0.02359489;g
+Ocean Spray Reduced Sugar Craisins;0.017566435;g
+Best Yet Corn Chips;0.007019519;g
+Best Yet White Round Tortilla Chips;0.00539963;g
+Chex Mix Cheddar;0.012053618;g
+Chex Mix Traditional;0.012053618;g
+Skinny Pop;0.89;each
+PopChips BBQ;0.010511642;g
+Terra Sweet Potato Chips No Salt;0.011699199;g
+Barnana Lime Plantain Chips;0.017548798;g
+Poptime;0.011699199;g
+Skinny Pop Microwave Butter Popcorn;0.00835657;g
+Cuetara  Campechana Cookies;0.005394129;g
+Cuetara Maria Cookies;0.004938355;g
+Stauffer's Ginger Snaps;0.005769813;g
+Stauffer's Lemon Snaps;0.005769813;g
+Jose Ole Chicken Taquitos;0.010564553;g
+Marie Callender's Chicken Pot Pie;0.009135957;g
+MorningStar Farms Garden Veggie Burgers 4ct;0.014815066;g
+Nancy's Florentine Quiche;0.014638696;g
+Tower Isle's Jamaican Patties;0.011734473;g
+Best Yet Frozen Cut Corn;0.003284888;g
+Best Yet Frozen Cut Green Beans;0.002843963;g
+Best Yet Frozen Cut Leaf Spinach;0.003725813;g
+Best Yet Frozen Green Peas;0.003284888;g
+Best Yet Frozen Stir Fry Vegetables;0.003725813;g
+Cornerstone Blackberries Frozen;0.006591822;g
+Cornerstone Blueberries Frozen;0.006591822;g
+Cornerstone Mango Chunks Frozen;0.005489511;g
+Cornerstone Pineapple Chunks Frozen;0.006591822;g
+Cornerstone Sliced Peaches Frozen;0.006591822;g
+Cornerstone Triple Berry Blend Frozen;0.006591822;g
+Cornerstone Whole Strawberries Frozen;0.006591822;g
+Regal Nonpareil Broccoli Florets;0.003295911;g
+Regal Nonpareil California Blend Veggies Frozen;0.003295911;g
+Regal Nonpareil Cut Okra Frozen;0.003295911;g
+Regal Nonpareil Frozen Green Beans;0.002744755;g
+Buona Vita Italian Style Meatballs (Chicken & Beef);0.007043035;g
+Ga Whiting Fillets;0.006602844;g
+Gorton's Natural Catch Grilled Fillets Garlic Butter;0.017338893;g
+Signature Select Uncooked Chicken Wing 4#;0.004954889;g
+Frozen Beef Strip Steak;0.013205689;g
+Best Yet 31/40 Cooked Shrimp P&D 1lb;0.017614934;g
+Best Yet 31/40 Raw Shrimp 1lb;0.015410311;g
+Frozen Strip Steaks;0.013205615;g
+Marcello Shaved Steak;0.017607588;g
+Kellogg's Eggo Homestyle Waffles;0.008287948;g
+Pillsbury Bacon Toaster Scrambles;0.014648494;g
+Chang Shing Firm Tofu;0.003899733;g
+Chang Shing Pressed Tofu;0.005849599;g
+Ball Park Bun Size Franks Hot Dogs;0.009382875;g
+Healthy Ones Deli Thin Sliced Honey Ham;0.017586592;g
+Hillshire Farms Ultra Thin Roast Beef;3.99;each
+Hillshire Farm Honey Ham Lower Sodium;0.01759289;g
+Cacique Homestyle Hot Salsa;0.006591822;g
+Cacique Traditional Mild Salsa;0.006591822;g
+Cindy's Citrus Beet Vinaigrette;0.004377388;g
+Athenos Original Hummus;0.011539626;g
+Barilla Whole Grain Rotini;0.003725813;g
+Barilla Whole Grain Spaghetti;0.003725813;g
+Best Yet Medium Egg Noodles;0.004166737;g
+Best Yet Thick & Creamy Macaroni & Cheese;0.003843646;g
+Exceptional Value Mac & Cheese Dinner;0.003894246;g
+Exceptional Value Shells & Cheddar Dinner;0.005849599;g
+Full Circle Gluten Free Penne Pasta;0.00496775;g
+Pastalia Elbow Pasta;0.00199046;g
+Pastalia Penne Pasta;0.00199046;g
+Pastalia Spaghetti Pasta;0.00199046;g
+Pastalia Ziti Pasta;0.00199046;g
+WA Ramen Noodles;0.003963817;g
+Best Yet No Salt Added Tomato Sauce;0.00216053;g
+Best Yet Tomato Sauce;0.00216053;g
+Del Monte Pasta Sauce Traditional;0.001895976;g
+Del Monte Spagetti Sauce with Meat;0.001895976;g
+Furmano's Pizza Sauce Original;0.003503881;g
+Newman's Own Marinara Sauce;0.004394548;g
+Newman's Own Pasta Sauce Tomato & Basil Bombolina;0.004394548;g
+Best Yet Bran Flakes;0.004669213;g
+Best Yet Cereal Toasted Oats;0.005849599;g
+Best Yet Corn Flakes;0.003899733;g
+Best Yet Honey Oats & Flakes;0.006057391;g
+Best Yet Old Fashioned Oats;0.003899733;g
+Best Yet Quick Oats;0.003899733;g
+Best Yet Raisin Bran;0.004696908;g
+Cheerios;0.014624824;g
+Kellogg's Raisin Bran;0.008478501;g
+Multigrain Cheerios;0.013786242;g
+Quaker Quick 5 Minute Grits;0.003659674;g
+Jeff's Granola Cinnamon Raisin;0.008789096;g
+Jeff's Granola Maple Raisin;0.008789096;g
+Rise and Shine Apple Cinnamon Oatmeal Cups;0.016135963;g
+Rise and Shine Maple Oatmeal cups;0.016135963;g
+Best Yet Classic Yellow Mustard;0.00262791;g
+Best Yet Herb & Garlic Marinade;0.004866368;g
+Best Yet Honey Mustard Dressing;0.00393745;g
+Best Yet Hot Salsa Sauce;0.0043872;g
+Best Yet Light Ranch Dressing;0.004377388;g
+Best Yet Lite Italian Dressing;0.003725813;g
+Best Yet Low Sodium Soy Sauce;0.005947969;g
+Best Yet Mayonnaise;0.002927739;g
+Best Yet Medium Salsa Sauce;0.0043872;g
+Best Yet Original Steak Sauce;0.007019519;g
+Best Yet Tartar Sauce;0.005249933;g
+Best Yet Teriyaki Sauce;0.0059613;g
+Best Yet Tomato Ketchup;0.002189925;g
+Best Yet Worcestershire Sauce;0.005608561;g
+Culinary Tours Szechuan Peanut Sauce;0.013422043;g
+Exceptional Value BBQ Sauce Hickory;0.002919901;g
+Exceptional Value BBQ Sauce Original;0.002919901;g
+Frank's Original Red Hot Sauce;0.010529196;g
+French's Classic Yellow Mustard;0.005849599;g
+Goya Mayonnaise;0.005489511;g
+Goya Pimiento Stuffed Olives Reduced Sodium;0.010399288;g
+Goya Salad Olives Reduced Sodium;0.010027885;g
+Goya Salsa Picante Hot Sauce;0.005836518;g
+Kikkoman Less Sodium Soy Sauce;0.01052333;g
+La Triguena Chopped Garlic;0.006569776;g
+Napoli Roasted Red Peppers;0.005849599;g
+Newman's Own Medium Salsa;0.006591822;g
+Newman's Own Mild Salsa;0.006591822;g
+Red Devil Hot Sauce;0.0052617;g
+Spur Tree Curry Seasoning;0.011605135;g
+Spur Tree Jerk Seasoning;0.011605135;g
+Dynasty Gyoza Dipping Sauce;0.010511642;g
+Cindy's Citrus Beet Vinaigrette;0.004767334;g
+Sky Valley Teriyaki Sauce;0.004841048;g
+Best Yet Black Beans;0.001797834;g
+Best Yet Cut Wax Beans;0.002165092;g
+Best Yet Diced Tomatoes;0.002165092;g
+Best Yet Garbanzo Beans;0.002025408;g
+Best Yet Pinto Beans;0.001797834;g
+Best Yet Tomato Paste;0.002028253;g
+Best Yet Whole Kernel Sweet Corn;0.001827307;g
+Best Yet Whole Peeled Tomatoes;0.002255014;g
+Goya Black Beans;0.002252982;g
+Goya Black Beans Low Sodium;0.002252982;g
+Goya Chick Peas Garbanzos;0.002252982;g
+Goya Chick Peas Garbanzos Reduced Sodium;0.002252982;g
+Goya Diced Tomatoes;0.00240836;g
+Goya Green Pigeon Peas;0.003033561;g
+Goya Red Kidney Beans;0.002252982;g
+Goya Small Red Beans;0.002252982;g
+Goya Small White Beans;0.00270813;g
+Goya Tomato Paste;0.005232305;g
+Napoli Crushed Tomato;0.002506971;g
+Best Yet Apple Cider Vinegar;0.001748756;g
+Best Yet Extra Virgin Olive Oil;0.007225343;g
+Best Yet Pure Olive Oil;0.006887195;g
+Best Yet Red Wine Vinegar;0.002177696;g
+Best Yet Vegetable Oil;0.003292207;g
+Best Yet White Vinegar;0.001418802;g
+Exceptional Value Canola Oil;0.001976812;g
+Best Yet Dry Black Beans;0.002182577;g
+Best Yet Light Red Kidney Beans;0.003284888;g
+Best Yet Long Grain Brown Rice;0.0021936;g
+Best Yet Long Grain White Rice;0.002193599;g
+Bombay Basmati Rice;0.005849599;g
+Canilla Extra Long Grain White Rice;0.001642444;g
+Canilla Extra Long Grain White Rice;0.001979751;g
+Goya Chick Peas Garbanzos;0.003946275;g
+Goya Coarse Corn Meal;0.002189925;g
+Goya Dry Black Beans;0.003284888;g
+Goya Dry Pinto Beans;0.0043872;g
+Goya Dry Red Kidney Beans;0.0043872;g
+Goya Fine Corn Meal;0.002189925;g
+Goya Lentils;0.003284888;g
+Goya Medium Grain Brown Rice;0.002843963;g
+Goya Medium Grain Brown Rice;0.002744755;g
+Goya Medium Grain White Rice;0.003064426;g
+Goya Medium Grain White Rice;0.002200213;g
+Goya Red Lentils;0.003284888;g
+Goya Yellow Split Peas;0.002843963;g
+Madame Gougousse Parboiled Rice;0.001903324;g
+Madame Gougousse 10 lb Parboiled Rice;0.0014308;g
+Badia Adobo with Pepper;0.007031277;g
+Badia Adobo with Pepper;0.008516143;g
+Badia Adobo without Pepper;0.007031277;g
+Badia Adobo without Pepper;0.008516143;g
+Badia Chili Powder;0.022434242;g
+Badia Cinnamon Powder;0.048678073;g
+Badia Cinnamon Sticks;0.112171211;g
+Badia Crushed Red Pepper;0.017950529;g
+Badia Curry Powder;0.028042803;g
+Badia Garlic Powder;0.018695202;g
+Badia Ground Bay Leaves;0.048678073;g
+Badia Ground Cayenne Pepper;0.028042803;g
+Badia Ground Cumin;0.024339036;g
+Badia Ground Ginger;0.037390404;g
+Badia Ground Oregano;0.037390404;g
+Badia Ground Sage;0.047690402;g
+Badia Onion Powder;0.028042803;g
+Badia Rosemary;0.048678073;g
+Badia Thyme Leaves;0.048678073;g
+Badia Whole Bay Leaves;0.121695182;g
+Badia Whole Black Pepper;0.048678073;g
+Best Yet Black Pepper Tin;0.021958044;g
+Best Yet Crushed Red Pepper;0.016226024;g
+Badia Paprika;0.028042803;g
+Badia Whole Cloves;0.056156154;g
+Badia Organic Turmeric;0.047443484;g
+Badia Garlic Salt;0.012463468;g
+Badia Lemon Pepper Seasoning;0.018939406;g
+Badia Cajun Seasoning;0.020394766;g
+Badia Italian Seasoning;0.075909574;g
+Badia Seafood Seasoning;0.021085993;g
+Badia Poultry Seasoning;0.017252176;g
+Badia Steak Seasoning;0.014597995;g
+Badia Tropical Sazon Green;0.014057329;g
+Badia Garlic Powder;0.012396279;g
+Badia Crushed Red Pepper;0.021085993;g
+Badia Salt Grinder;0.022326345;g
+Badia Black Pepper Grinder;0.046875181;g
+Morton Kosher Salt;0.002711686;g
+Garden of Eatin Taco Seasoning 1.4 oz;0.012345888;g
+Best Yet All Purpose Flour;0.001642444;g
+Best Yet Baking Powder;0.005255821;g
+Best Yet Baking Soda;0.001741652;g
+Best Yet Complete Pancake Mix;0.002634524;g
+Best Yet Evaporated Milk;0.002903594;g
+Best Yet Granulated Sugar;0.002083368;g
+Best Yet Light Brown Sugar;0.002634524;g
+Best Yet Plain Bread Crumbs;0.00373904;g
+Heckers All Natural 100% Whole Wheat Flour;0.002634524;g
+Madame Gougousse Coconut Milk Leche de Coco;0.002580973;g
+Best Yet Honey Bear;0.008789096;g
+Best Yet Unsweetened Applesauce 6-pack;0.011699199;g
+HoneyTree's Pure Honey;0.009670946;g
+Smucker's Low Sugar Grape Jelly;0.006804462;g
+Smucker's Low Sugar Strawberry Jelly;0.007942332;g
+Teddie Smooth & Salted All Natural Peanut Butter;0.006591822;g
+Teddie Peanut Butter Chunky;0.003899733;g
+Teddie Peanut Butter Smooth;0.003899733;g
+Teddie Chunky All Natural Peanut Butter;0.006591822;g
+Teddie Unsalted Smooth All Natural Peanut Butter;0.006591822;g
+Marrakesh Matbutcha Spread;0.003325831;g
+Hero Blackberry Fruit Spread;0.006731448;g
+Best Yet Beef Broth;0.00185874;g
+Best Yet Chicken Broth;0.001862906;g
+Best Yet Reduced Sodium Chicken Broth;0.001862906;g
+Campbell's Chunky Chicken & Rice Soup;0.005047179;g
+Campbell's Chunky Savory Vegetable Soup;0.005047179;g
+Campbell's Homestyle Chicken Noodle Soup;0.006349314;g
+Progresso Hearty Tomato Soup;0.004808399;g
+Progresso Minestrone Soup;0.004622746;g
+Progresso Reduced Sodium Minestrone Soup;0.004808399;g
+Progresso Tuscan-Style White Bean Soup;0.004938355;g
+Imagine Foods Low Sodium Vegetable Broth;0.001968725;g
+Best Yet Chunk Lite Tuna in Water;0.006984245;g
+Crown Prince Flat Anchovies;0.031570199;g
+Calise Bakery Kaiser Whole Wheat Rolls;0.007031277;g
+Holsum English Muffins;0.005849599;g
+Zeppy's Plain Bagels;0.004391609;g
+Zeppy's Bagels Blueberry;2.49;each
+Zeppy's Bagels Everything;2.49;each
+Penn Street Dinner Rolls 12 count;0.007253209;g
+Jessica's Tuscan Wheat Sliced Bread;0.00350976;g
+Jessica's Tuscan White Sliced Bread;0.00350976;g
+Jessica's Sourdough Sliced Bread;0.0029248;g
+Stone and Skillet Original English Muffins;0.007019519;g
+Holsum Split Top Wheat Bread;0.004391609;g
+Holsum White Bread;0.004391609;g
+Best Yet Soft Flour Tortillas 6;0.099;each
+Chi Chi's Whole Wheat Fajita Style Tortillas;0.005048586;g
+Cafe Caribe Coffee;0.010194176;g
+Down East 100% Colombian Ground Coffee;0.019208278;g
+Down East 100% Colombian Ground Coffee;0.016001554;g
+Down East Cinnamon Hazelnut Ground Coffee;0.019208278;g
+Down East Cinnamon Hazelnut Ground Coffee;0.016001554;g
+Down East Dark Roast Ground Coffee;0.019208278;g
+Down East Dark Roast Ground Coffee;0.016001554;g
+Down East Morning Blend Ground Coffee;0.019208278;g
+Down East Morning Blend Ground Coffee;0.016001554;g
+Equal Exchange French Vanilla;0.011728594;g
+Loco Coffee Cold Brew Coffee with Oat milk;0.002910102;g
+Best Yet Black Cherry Seltzer;0.69;each
+Best Yet Lemon Lime Seltzer;0.69;each
+Best Yet Original Seltzer;0.69;each
+Best Yet Raspberry Seltzer;0.69;each
+Polar Raspberry Lime Seltzer;0.002028253;g
+Polar Seltzer Black Cherry;0.89;each
+Polar Seltzer Black Cherry;0.002023717;g
+Polar Seltzer Black Cherry Case;0.014635289;g
+Polar Seltzer Lemon;0.002023717;g
+Polar Seltzer Lemon Case;0.014635289;g
+Polar Seltzer Lime;0.00121423;g
+Polar Seltzer Original;0.89;each
+Polar Seltzer Original;0.00121423;g
+Polar Seltzer Original;0.002023717;g
+Polar Seltzer Original Case;0.014635289;g
+Polar Seltzer Pineapple Pomelo;0.89;each
+Polar Seltzer Raspberry Lime;0.89;each
+Polar Seltzer Raspberry Lime;0.00121423;g
+Polar Seltzer Raspberry Lime Case;0.014635289;g
+Polar Seltzer Ruby Red Grapefruit;0.89;each
+Polar Seltzer Strawberry Watermelon;0.89;each
+Polar Tart Cherry Limeade Can;0.002028253;g
+Polar Tart Cherry Limeade 8 Pack;0.014668091;g
+Polar Start fruit Lemonade Can;0.002028253;g
+Polar Star Fruit Lemonade 8 Pack;0.014668091;g
+Polar Blood Orange Lemonade Can;0.002028253;g
+Polar Blood Orange Lemonade 8 Pack;0.014668091;g
+Best Yet Green Tea;0.051875;each
+Exceptional Value Tea Bags;0.0199;each
+Celestial Seasoning Green Tea Small Pack;0.033333333;each
+Celestial Seasoning Black Tea with Energy Small Pack;0.05;each
+Celestial Seasonings English Breakfast Small Pack;0.033333333;each
+Purified Water;3.99;each
+American Wrap Aluminum Foil;0.99;each
+Cavalier Gallon Bags Zipper Seal;0.099333333;each
+Cavalier Plastic Wrap;0.99;each
+Cavalier Sandwich Bags Zipper Seal;0.036857143;each
+Cavalier Tall Kitchen Trash Bag;0.066;each
+Green Heritage Toilet Paper Roll;0.69;each
+Nature's Own Green Label Paper Plates;0.014142857;each
+Daily Table Reusable Tote Bags;0.99;each
+Everyday Value Paper Towel 3pk;2.29;each
+First Force Concentrated Ultra Citrus Grove Dish Detergent;0.001244398;g
+Lucky Kitchen Citrus Handsoap;0.004145199;g
+Lucky Lavender Liquid Hand Soap;0.004145199;g
+Mistolin Lavender Scented Multipurpose Cleaner;0.002322875;g
+Alba Lip Balm 25 SPF;0.001152283;g

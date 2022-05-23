@@ -120,12 +120,12 @@ Basic Custard,4,1 egg,large brown eggs,1,each,0.25,each,TRUE,,,TRUE
 Basic Custard,4,2 tablespoons sugar,best yet granulated sugar,2,tablespoon,7.39336,g,TRUE,,,TRUE
 Basic Custard,4,1 cup skim milk (or reconstituted non-fat dry milk),hood whole milk,1,cup,59.146875,g,TRUE,,,TRUE
 Basic Custard,4,"1/2 vanilla (1/2 teaspoon, optional)",equal exchange french vanilla,0.5,each,0.125,each,TRUE,,,TRUE
-Beef & Noodles,4,"3/4 pound ground beef, 85% lean",ground beef 80  lean,0.75,pound,85.048575,g,,TRUE,TRUE,
+Beef & Noodles,4,"3/4 pound ground beef, 85% lean",ground beef 80 lean,0.75,pound,85.048575,g,,TRUE,TRUE,
 Beef & Noodles,4,1 1/2 cups water (can take up to 2 cups water),purified water,1.5,cup,88.7203125,g,,TRUE,TRUE,
 Beef & Noodles,4,"2 cups egg noodles, uncooked (or any shaped pasta)",best yet medium egg noodles,2,cup,118.29375,g,,TRUE,TRUE,
 Beef & Noodles,4,7 portions of Eating Smart Seasoning Mix (1/2 cup or 8 Tablespoons),badia cajun seasoning,7,each,1.75,each,,TRUE,TRUE,
 Beef & Noodles,4,salt (optional),badia garlic salt,1,each,0.25,each,,TRUE,TRUE,
-Beef & Potatoes,4,1 pound ground beef (90% lean),ground beef 80  lean,1,pound,113.3981,g,,TRUE,TRUE,
+Beef & Potatoes,4,1 pound ground beef (90% lean),ground beef 80 lean,1,pound,113.3981,g,,TRUE,TRUE,
 Beef & Potatoes,4,1 1/3 cups water,purified water,1.333333333,cup,78.8625,g,,TRUE,TRUE,
 Beef & Potatoes,4,"7 medium potatoes, peeled and thinly sliced",red potatoes,7,each,1.75,each,,TRUE,TRUE,
 Beef & Potatoes,4,12 tablespoons Eating Smart Seasoning Mix (3/4 cup),badia cajun seasoning,12,tablespoon,44.36016,g,,TRUE,TRUE,
@@ -170,7 +170,7 @@ Blueberry Muffins,12,1 teaspoon vanilla,equal exchange french vanilla,1,teaspoon
 Blueberry Muffins,12,2 cups flour,best yet all purpose flour,2,cup,39.43125,g,TRUE,,,TRUE
 Blueberry Muffins,12,2 teaspoons baking powder,best yet baking powder,2,teaspoon,0.821484333,g,TRUE,,,TRUE
 Blueberry Muffins,12,1/2 teaspoon salt,badia garlic salt,0.5,teaspoon,0.205371083,g,TRUE,,,TRUE
-Blueberry Muffins,12,2 cups blueberries (fresh or frozen),cornerstone blueberries  frozen,2,cup,39.43125,g,TRUE,,,TRUE
+Blueberry Muffins,12,2 cups blueberries (fresh or frozen),cornerstone blueberries frozen,2,cup,39.43125,g,TRUE,,,TRUE
 Braised Chicken Thighs with Spinach,4,4 6-ounce bone in chicken thighs (skin removed),chicken thighs bone in,1,each,0.25,each,,TRUE,TRUE,
 Braised Chicken Thighs with Spinach,4,1 teaspoon vegetable oil,best yet vegetable oil,1,teaspoon,1.2322265,g,,TRUE,TRUE,
 Braised Chicken Thighs with Spinach,4,1 teaspoon salt,badia garlic salt,1,teaspoon,1.2322265,g,,TRUE,TRUE,
@@ -224,7 +224,7 @@ Butternut Squash with Black Beans,6,1/4 cup red wine vinegar,best yet red wine v
 Butternut Squash with Black Beans,6,1/4 cup water,purified water,0.25,cup,9.8578125,g,,TRUE,TRUE,
 Butternut Squash with Black Beans,6,"2 cans black beans (16 ounces each, rinsed and drained)",goya black beans,2,can,0.333333333,each,,TRUE,TRUE,
 Butternut Squash with Black Beans,6,1/2 teaspoon oregano,badia ground oregano,0.5,teaspoon,0.410742167,g,,TRUE,TRUE,
-Cabbage Roll Casserole,8,1/2 pound ground beef (90% lean),ground beef 80  lean,0.5,pound,28.349525,g,,TRUE,TRUE,
+Cabbage Roll Casserole,8,1/2 pound ground beef (90% lean),ground beef 80 lean,0.5,pound,28.349525,g,,TRUE,TRUE,
 Cabbage Roll Casserole,8,1 onion (chopped),yellow onions,1,each,0.125,each,,TRUE,TRUE,
 Cabbage Roll Casserole,8,1 garlic clove (minced),garlic,1,each,0.125,each,,TRUE,TRUE,
 Cabbage Roll Casserole,8,"1 can diced tomatoes, low-sodium (16 ounces)",beefsteak tomatoes,1,can,0.125,each,,TRUE,TRUE,
@@ -270,7 +270,7 @@ Carrot Raisin Salad,4,"4 carrot (medium, peeled and grated)",carrots,4,each,1,ea
 Carrot Raisin Salad,4,1/4 cup raisins,daily table raisins,0.25,cup,14.78671875,g,,TRUE,TRUE,
 Carrot Raisin Salad,4,2 teaspoons sugar,best yet granulated sugar,2,teaspoon,2.464453,g,,TRUE,TRUE,
 Carrot Raisin Salad,4,"1 lemon, juiced",lemons,1,each,0.25,each,,TRUE,TRUE,
-Chapatis Flatbread,6,2 cups whole wheat flour,heckers all natural 100  whole wheat flour,2,cup,78.8625,g,,TRUE,TRUE,
+Chapatis Flatbread,6,2 cups whole wheat flour,heckers all natural 100 whole wheat flour,2,cup,78.8625,g,,TRUE,TRUE,
 Chapatis Flatbread,6,2/3 cup water (warm),purified water,0.666666667,cup,26.2875,g,,TRUE,TRUE,
 Chapatis Flatbread,6,2 teaspoons vegetable oil,best yet vegetable oil,2,teaspoon,1.642968667,g,,TRUE,TRUE,
 Chapatis Flatbread,6,1 dash salt,badia garlic salt,1,dash,0.166666667,g,,TRUE,TRUE,
@@ -291,7 +291,7 @@ Chicken and Dumpling Soup,8,1/2 teaspoon black peppercorns,goya black beans,0.5,
 Chicken and Dumpling Soup,8,1 teaspoon dried thyme,badia thyme leaves,1,teaspoon,0.61611325,g,,TRUE,TRUE,
 Chicken and Dumpling Soup,8,2 bay leaves,badia ground bay leaves,2,each,0.25,each,,TRUE,TRUE,
 Chicken and Dumpling Soup,8,"2 cups fresh spinach leaves, coarsely chopped",baby spinach,2,cup,59.146875,g,,TRUE,TRUE,
-Chicken and Dumpling Soup,8,1 cup whole wheat flour,heckers all natural 100  whole wheat flour,1,cup,29.5734375,g,,TRUE,TRUE,
+Chicken and Dumpling Soup,8,1 cup whole wheat flour,heckers all natural 100 whole wheat flour,1,cup,29.5734375,g,,TRUE,TRUE,
 Chicken and Dumpling Soup,8,1 cup all-purpose flour,best yet all purpose flour,1,cup,29.5734375,g,,TRUE,TRUE,
 Chicken and Dumpling Soup,8,3/4 cup skim milk,hood whole milk,0.75,cup,22.18007813,g,,TRUE,TRUE,
 Chicken and Dumpling Soup,8,"1 egg, large",large brown eggs,1,each,0.125,each,,TRUE,TRUE,
@@ -617,7 +617,7 @@ Fruit and Yogurt Breakfast Shake,2,3/4 cup pineapple juice,pineapple,0.75,cup,88
 Fruit and Yogurt Breakfast Shake,2,"1/2 cup yogurt, low-fat vanilla",la yogurt vanilla fat free yogurt,0.5,cup,59.146875,g,TRUE,,,
 Fruit and Yogurt Breakfast Shake,2,1/2 cup strawberries (remove stems and rinse),strawberries,0.5,cup,59.146875,g,TRUE,,,
 Fruit Salad with Yogurt,4,2 cups strawberries (sliced),strawberries,2,cup,118.29375,g,TRUE,,,
-Fruit Salad with Yogurt,4,1 cup blueberries (rinsed),blueberries  11 oz ,1,cup,59.146875,g,TRUE,,,
+Fruit Salad with Yogurt,4,1 cup blueberries (rinsed),blueberries 11 oz ,1,cup,59.146875,g,TRUE,,,
 Fruit Salad with Yogurt,4,"1 cup pineapple chunks (canned, or fresh)",pineapple,1,cup,59.146875,g,TRUE,,,
 Fruit Salad with Yogurt,4,3 tablespoons pineapple juice,pineapple,3,tablespoon,11.09004,g,TRUE,,,
 Fruit Salad with Yogurt,4,2 cups plain low-fat yogurt,la yogurt plain fat free unsweetened yogurt,2,cup,118.29375,g,TRUE,,,
@@ -656,7 +656,7 @@ Garlic Bok Choy,3,1 bok choy (1 pound),baby bok choy,1,each,0.333333333,each,,TR
 Garlic Bok Choy,3,"5 cloves garlic (use 4-6 cloves, minced or 1 to 1 1/2 teaspoons of garlic powder)",garlic,5,each,1.666666667,each,,TRUE,TRUE,
 Garlic Bok Choy,3,2 teaspoons vegetable oil,best yet vegetable oil,2,teaspoon,3.285937333,g,,TRUE,TRUE,
 Garlic Bok Choy,3,1/2 teaspoon salt,badia garlic salt,0.5,teaspoon,0.821484333,g,,TRUE,TRUE,
-Garlic Ginger Ramen with Beef,6,1/2 pound lean ground beef (15% fat or less),ground beef 80  lean,0.5,pound,37.79936667,g,,TRUE,TRUE,
+Garlic Ginger Ramen with Beef,6,1/2 pound lean ground beef (15% fat or less),ground beef 80 lean,0.5,pound,37.79936667,g,,TRUE,TRUE,
 Garlic Ginger Ramen with Beef,6,2 cups water,purified water,2,cup,78.8625,g,,TRUE,TRUE,
 Garlic Ginger Ramen with Beef,6,"2 packages instant ramen-style noodles, broken into small pieces (3 ounces each)",wa ramen noodles,2,package,0.333333333,each,,TRUE,TRUE,
 Garlic Ginger Ramen with Beef,6,"1 package frozen stir-fry vegetables, any type (16 ounces)",best yet frozen stir fry vegetables,1,package,0.166666667,each,,TRUE,TRUE,
@@ -846,8 +846,8 @@ Lisa's Famous Dessert,8,"1 instant pudding mix, banana or vanilla (3.5 ounce)",b
 Lisa's Famous Dessert,8,"2 cups milk, non-fat or low-fat",planet oat original oat milk,2,cup,59.146875,g,,,,TRUE
 Lisa's Famous Dessert,8,"1 yogurt, fat-free (8 ounce, or non-dairy whipped topping)",la yogurt vanilla fat free yogurt,1,each,0.125,each,,,,TRUE
 Lisa's Famous Dessert,8,"2 banana (sliced, or other sliced fruit)",bananas,2,each,0.25,each,,,,TRUE
-Lite Fried Okra,4,"2 cups okra (fresh, sliced)",regal nonpareil cut okra  frozen,2,cup,118.29375,g,,TRUE,TRUE,
-Mango Salsa,8,"1 mango (peeled, pitted and diced (or 1 cup thawed frozen chunks))",cornerstone mango chunks  frozen,1,each,0.125,each,,TRUE,TRUE,
+Lite Fried Okra,4,"2 cups okra (fresh, sliced)",regal nonpareil cut okra frozen,2,cup,118.29375,g,,TRUE,TRUE,
+Mango Salsa,8,"1 mango (peeled, pitted and diced (or 1 cup thawed frozen chunks))",cornerstone mango chunks frozen,1,each,0.125,each,,TRUE,TRUE,
 Mango Salsa,8,"1 tablespoon onion, red (diced)",red onions,1,tablespoon,1.84834,g,,TRUE,TRUE,
 Mango Salsa,8,"cilantro (1 Tablespoon, optional, fresh or dried)",cilantro bunch,1,each,0.125,each,,TRUE,TRUE,
 Mango Salsa,8,1/4 teaspoon salt,badia garlic salt,0.25,teaspoon,0.154028313,g,,TRUE,TRUE,
@@ -1001,7 +1001,7 @@ Pico de Gallo,6,3 jalapeno pepper (seeded and chopped),jalapeno peppers,3,each,0
 Pico de Gallo,6,2 tablespoons lime juice,limes,2,tablespoon,4.928906667,g,,TRUE,TRUE,
 Pico de Gallo,6,2 cloves garlic (minced),garlic,2,each,0.333333333,each,,TRUE,TRUE,
 Pico de Gallo,6,1/4 teaspoon salt,badia garlic salt,0.25,teaspoon,0.205371083,g,,TRUE,TRUE,
-Pineapple Chicken,5,"2 1/2 pounds chicken, boneless skinless",chicken thighs boneless  skinless,2.5,pound,226.7962,g,,TRUE,TRUE,
+Pineapple Chicken,5,"2 1/2 pounds chicken, boneless skinless",chicken thighs boneless skinless,2.5,pound,226.7962,g,,TRUE,TRUE,
 Pineapple Chicken,5,1/4 teaspoon salt,badia garlic salt,0.25,teaspoon,0.2464453,g,,TRUE,TRUE,
 Pineapple Chicken,5,1/8 teaspoon pepper,jalapeno peppers,0.125,teaspoon,0.12322265,g,,TRUE,TRUE,
 Pineapple Chicken,5,1 can pineapple (20 oz. can crushed or chunks),pineapple,1,can,0.2,each,,TRUE,TRUE,
@@ -1029,7 +1029,7 @@ Potato Cakes,7,2 tablespoons vegetable oil,best yet vegetable oil,2,tablespoon,4
 Quick Black Bean Salad,6,1 can black beans (15 ounces),goya black beans,1,can,0.166666667,each,,TRUE,TRUE,
 Quick Black Bean Salad,6,1 1/2 10-ounce packages frozen corn,best yet frozen cut corn,1.5,each,0.25,each,,TRUE,TRUE,
 Quick Black Bean Salad,6,1/2 cup salsa,cacique homestyle hot salsa,0.5,cup,19.715625,g,,TRUE,TRUE,
-Quick Chili,4,"1/2 pound ground beef, 90% lean",ground beef 80  lean,0.5,pound,56.69905,g,,TRUE,TRUE,
+Quick Chili,4,"1/2 pound ground beef, 90% lean",ground beef 80 lean,0.5,pound,56.69905,g,,TRUE,TRUE,
 Quick Chili,4,"1 can kidney beans (15 1/2 ounces, with liquid)",goya red kidney beans,1,can,0.25,each,,TRUE,TRUE,
 Quick Chili,4,"1 cup tomato sauce, unsalted",best yet tomato sauce,1,cup,59.146875,g,,TRUE,TRUE,
 Quick Chili,4,"1 tablespoon onion, instant minced",yellow onions,1,tablespoon,3.69668,g,,TRUE,TRUE,
@@ -1161,7 +1161,7 @@ Saut√©ed Cauliflower Rice,4,2 tablespoons chopped fresh parsley or cilantro (
 Savory Meatloaf Muffins,6,1 egg,large brown eggs,1,each,0.166666667,each,,TRUE,TRUE,
 Savory Meatloaf Muffins,6,1/2 cup non-fat milk,planet oat original oat milk,0.5,cup,19.715625,g,,TRUE,TRUE,
 Savory Meatloaf Muffins,6,3/4 cup oats,best yet quick oats,0.75,cup,29.5734375,g,,TRUE,TRUE,
-Savory Meatloaf Muffins,6,1 pound lean ground beef,ground beef 80  lean,1,pound,75.59873333,g,,TRUE,TRUE,
+Savory Meatloaf Muffins,6,1 pound lean ground beef,ground beef 80 lean,1,pound,75.59873333,g,,TRUE,TRUE,
 Savory Meatloaf Muffins,6,3 tablespoons onion (chopped),yellow onions,3,tablespoon,7.39336,g,,TRUE,TRUE,
 Savory Meatloaf Muffins,6,1/2 teaspoon salt,badia garlic salt,0.5,teaspoon,0.410742167,g,,TRUE,TRUE,
 Savory Meatloaf Muffins,6,1/2 cup cheese (any variety) (grated),cheese flatbread,0.5,cup,19.715625,g,,TRUE,TRUE,
@@ -1183,7 +1183,7 @@ Shirini,6,1/2 cup water,purified water,0.5,cup,19.715625,g,,TRUE,TRUE,
 Shirini,6,"4 winter squash (1 1/4 pounds of butternut, acorn, or pumpkin)",butternut squash,4,each,0.666666667,each,,TRUE,TRUE,
 Shirini,6,1/2 cup chopped walnuts,daily table walnuts,0.5,cup,19.715625,g,,TRUE,TRUE,
 Shirini,6,1/2 teaspoon cinnamon (optional),badia cinnamon powder,0.5,teaspoon,0.410742167,g,,TRUE,TRUE,
-Skillet Pasta Dinner,6,"1/2 pound ground turkey, 85% lean (or ground sausage or beef)",ground beef 80  lean,0.5,pound,37.79936667,g,,TRUE,TRUE,
+Skillet Pasta Dinner,6,"1/2 pound ground turkey, 85% lean (or ground sausage or beef)",ground beef 80 lean,0.5,pound,37.79936667,g,,TRUE,TRUE,
 Skillet Pasta Dinner,6,"1 medium onion, chopped",yellow onions,1,each,0.166666667,each,,TRUE,TRUE,
 Skillet Pasta Dinner,6,"2 garlic cloves, minced (approximately 1 teaspoon)",garlic,2,each,0.333333333,each,,TRUE,TRUE,
 Skillet Pasta Dinner,6,1 can tomato sauce (8 ounce),best yet tomato sauce,1,can,0.166666667,each,,TRUE,TRUE,
@@ -1204,7 +1204,7 @@ Slow Cooker Beef Stew,6,3 potatoes (diced),red potatoes,3,each,0.5,each,,TRUE,TR
 Slow Cooker Beef Stew,6,1 onion (chopped),yellow onions,1,each,0.166666667,each,,TRUE,TRUE,
 Slow Cooker Beef Stew,6,1 celery stalk (sliced),celery bunch,1,each,0.166666667,each,,TRUE,TRUE,
 Slow Cooker Beef Stew,6,"Add herbs as desired: bay leaf, basil, oregano, etc",baby carrots,1,each,0.166666667,each,,TRUE,TRUE,
-Slow Cooker Hamburger Stew,4,"1 pound ground beef, 90% lean",ground beef 80  lean,1,pound,113.3981,g,,TRUE,TRUE,
+Slow Cooker Hamburger Stew,4,"1 pound ground beef, 90% lean",ground beef 80 lean,1,pound,113.3981,g,,TRUE,TRUE,
 Slow Cooker Hamburger Stew,4,1/2 cup onion (chopped),yellow onions,0.5,cup,29.5734375,g,,TRUE,TRUE,
 Slow Cooker Hamburger Stew,4,1 cup carrot (chopped),carrots,1,cup,59.146875,g,,TRUE,TRUE,
 Slow Cooker Hamburger Stew,4,2 cups potatoes (chopped),red potatoes,2,cup,118.29375,g,,TRUE,TRUE,
@@ -1243,7 +1243,7 @@ Spanish Baked Fish,4,1/2 teaspoon garlic powder,garlic,0.5,teaspoon,0.61611325,g
 Spanish Baked Fish,4,2 teaspoons chili powder,badia chili powder,2,teaspoon,2.464453,g,,TRUE,TRUE,
 Spanish Baked Fish,4,1 teaspoon oregano,badia ground oregano,1,teaspoon,1.2322265,g,,TRUE,TRUE,
 Spanish Baked Fish,4,1/8 teaspoon cumin (ground),badia ground cumin,0.125,teaspoon,0.154028313,g,,TRUE,TRUE,
-Spinach and Meat Cakes,6,"1 pound ground beef, or turkey, 7% fat (93% lean)",ground beef 80  lean,1,pound,75.59873333,g,,TRUE,TRUE,
+Spinach and Meat Cakes,6,"1 pound ground beef, or turkey, 7% fat (93% lean)",ground beef 80 lean,1,pound,75.59873333,g,,TRUE,TRUE,
 Spinach and Meat Cakes,6,16 ounces frozen spinach chopped (may substitute a 2 bunches of fresh spinach),baby spinach,16,ounce,75.59872,g,,TRUE,TRUE,
 Spinach and Meat Cakes,6,"1/2 onion (small, finely chopped)",yellow onions,0.5,each,0.083333333,each,,TRUE,TRUE,
 Spinach and Meat Cakes,6,2 garlic cloves (minced),garlic,2,each,0.333333333,each,,TRUE,TRUE,
@@ -1263,7 +1263,7 @@ Spring Vegetable Soup,4,1/2 cup canned artichoke hearts (drained and chopped),ro
 Spring Vegetable Soup,4,1 cup green peas (frozen or fresh),green pears,1,cup,59.146875,g,,TRUE,TRUE,
 Spring Vegetable Soup,4,2 1/2 cups vegetable juice (low-sodium),imagine foods low sodium vegetable broth,2.5,cup,147.8671875,g,,TRUE,TRUE,
 Spring Vegetable Soup,4,1 cup water,purified water,1,cup,59.146875,g,,TRUE,TRUE,
-Spring Vegetable Soup,4,2 teaspoons dried basil,newman s own pasta sauce tomato   basil bombolina,2,teaspoon,2.464453,g,,TRUE,TRUE,
+Spring Vegetable Soup,4,2 teaspoons dried basil,newman s own pasta sauce tomato  basil bombolina,2,teaspoon,2.464453,g,,TRUE,TRUE,
 Spring Vegetable Soup,4,"salt and pepper (freshly ground black pepper, optional, to taste)",jalapeno peppers,1,each,0.25,each,,TRUE,TRUE,
 Stir Fried Beef,6,1 1/2 pounds steak (sirloin),beef sirloin tip steak,1.5,pound,113.3981,g,,TRUE,TRUE,
 Stir Fried Beef,6,2 teaspoons vegetable oil,best yet vegetable oil,2,teaspoon,1.642968667,g,,TRUE,TRUE,
@@ -1383,7 +1383,7 @@ Vegetarian Collard Greens,6,salt and black pepper (to taste),badia whole black p
 Veggie Bean Wrap,4,2 green or red bell pepper (seeded and chopped),green bell peppers,2,each,0.5,each,,TRUE,TRUE,
 Veggie Bean Wrap,4,1 onion (peeled and sliced),yellow onions,1,each,0.25,each,,TRUE,TRUE,
 Veggie Bean Wrap,4,"1 can black beans, 50% less salt (15 ounce, drained and rinsed)",goya black beans,1,can,0.25,each,,TRUE,TRUE,
-Veggie Bean Wrap,4,2 mango (chopped),cornerstone mango chunks  frozen,2,each,0.5,each,,TRUE,TRUE,
+Veggie Bean Wrap,4,2 mango (chopped),cornerstone mango chunks frozen,2,each,0.5,each,,TRUE,TRUE,
 Veggie Bean Wrap,4,"1 lime, juiced",limes,1,each,0.25,each,,TRUE,TRUE,
 Veggie Bean Wrap,4,1/2 cup fresh cilantro (chopped),cilantro bunch,0.5,cup,29.5734375,g,,TRUE,TRUE,
 Veggie Bean Wrap,4,1 avocado (peeled and diced),avocados,1,each,0.25,each,,TRUE,TRUE,
@@ -1393,7 +1393,7 @@ Very Berry Muesli,5,1 cup old fashioned rolled oats (raw),best yet old fashioned
 Very Berry Muesli,5,1/2 cup fat free milk (or 1% milk),hood whole milk,0.5,cup,23.65875,g,,TRUE,TRUE,
 Very Berry Muesli,5,"1/2 cup dried fruit (try raisins, apricots, dates)",daily table raisins,0.5,cup,23.65875,g,,TRUE,TRUE,
 Very Berry Muesli,5,"1/2 cup apple, chopped (about 1/3 of a medium apple)",fuji apples,0.5,cup,23.65875,g,,TRUE,TRUE,
-Very Berry Muesli,5,1/2 cup frozen blueberries,cornerstone blueberries  frozen,0.5,cup,23.65875,g,,TRUE,TRUE,
+Very Berry Muesli,5,1/2 cup frozen blueberries,cornerstone blueberries frozen,0.5,cup,23.65875,g,,TRUE,TRUE,
 Very Berry Muesli,5,1/4 cup toasted walnuts (chopped),daily table walnuts,0.25,cup,11.829375,g,,TRUE,TRUE,
 Waldorf Salad,6,1/4 cup walnuts (chopped),daily table walnuts,0.25,cup,9.8578125,g,,TRUE,TRUE,
 Waldorf Salad,6,2 apples (cored and diced),fuji apples,2,each,0.333333333,each,,TRUE,TRUE,
@@ -1402,7 +1402,7 @@ Waldorf Salad,6,1/2 cup raisins,daily table raisins,0.5,cup,19.715625,g,,TRUE,TR
 Waldorf Salad,6,"1/4 cup plain yogurt, non-fat",la yogurt plain fat free unsweetened yogurt,0.25,cup,9.8578125,g,,TRUE,TRUE,
 Waldorf Salad,6,1/2 teaspoon sugar,best yet granulated sugar,0.5,teaspoon,0.410742167,g,,TRUE,TRUE,
 Waldorf Salad,6,1 teaspoon lemon juice,lemons,1,teaspoon,0.821484333,g,,TRUE,TRUE,
-Whole Grain Strawberry Pancakes,7,1 1/2 cups whole wheat flour,heckers all natural 100  whole wheat flour,1.5,cup,50.69732143,g,TRUE,TRUE,TRUE,
+Whole Grain Strawberry Pancakes,7,1 1/2 cups whole wheat flour,heckers all natural 100 whole wheat flour,1.5,cup,50.69732143,g,TRUE,TRUE,TRUE,
 Whole Grain Strawberry Pancakes,7,3 tablespoons sugar,best yet granulated sugar,3,tablespoon,6.337165714,g,TRUE,TRUE,TRUE,
 Whole Grain Strawberry Pancakes,7,1 teaspoon baking powder,best yet baking powder,1,teaspoon,0.704129429,g,TRUE,TRUE,TRUE,
 Whole Grain Strawberry Pancakes,7,1/2 teaspoon baking soda,best yet baking soda,0.5,teaspoon,0.352064714,g,TRUE,TRUE,TRUE,
@@ -1418,7 +1418,7 @@ Whole Wheat Garlic Bread Sticks,6,2 tablespoons olive oil,best yet pure olive oi
 Whole Wheat Garlic Bread Sticks,6,1/2 teaspoon garlic powder,garlic,0.5,teaspoon,0.410742167,g,TRUE,TRUE,TRUE,
 Whole Wheat Garlic Bread Sticks,6,"1 teaspoon Italian seasoning (or as needed, to sprinkle on)",badia italian seasoning,1,teaspoon,0.821484333,g,TRUE,TRUE,TRUE,
 Whole Wheat Muffins,12,1 cup flour (all purpose),best yet all purpose flour,1,cup,19.715625,g,TRUE,TRUE,TRUE,
-Whole Wheat Muffins,12,1 cup whole wheat flour,heckers all natural 100  whole wheat flour,1,cup,19.715625,g,TRUE,TRUE,TRUE,
+Whole Wheat Muffins,12,1 cup whole wheat flour,heckers all natural 100 whole wheat flour,1,cup,19.715625,g,TRUE,TRUE,TRUE,
 Whole Wheat Muffins,12,1/2 teaspoon salt,badia garlic salt,0.5,teaspoon,0.205371083,g,TRUE,TRUE,TRUE,
 Whole Wheat Muffins,12,2 teaspoons baking powder,best yet baking powder,2,teaspoon,0.821484333,g,TRUE,TRUE,TRUE,
 Whole Wheat Muffins,12,"1/4 cup brown sugar (firmly packed, or white sugar)",best yet light brown sugar,0.25,cup,4.92890625,g,TRUE,TRUE,TRUE,
@@ -1430,7 +1430,7 @@ Whole Wheat Muffins,12,1 tablespoon sugar,best yet granulated sugar,1,tablespoon
 Whole Wheat Muffins,12,1/2 teaspoon cinnamon (ground),badia cinnamon powder,0.5,teaspoon,0.205371083,g,TRUE,TRUE,TRUE,
 Yogurt Berry Parfait,4,"2 cups yogurt (low-fat or fat-free, plain or vanilla*)",la yogurt vanilla fat free yogurt,2,cup,118.29375,g,TRUE,,,TRUE
 Yogurt Berry Parfait,4,1 cup banana (sliced),bananas,1,cup,59.146875,g,TRUE,,,TRUE
-Yogurt Berry Parfait,4,1/2 cup blueberries (fresh),blueberries  11 oz ,0.5,cup,29.5734375,g,TRUE,,,TRUE
+Yogurt Berry Parfait,4,1/2 cup blueberries (fresh),blueberries 11 oz ,0.5,cup,29.5734375,g,TRUE,,,TRUE
 Yogurt Berry Parfait,4,"1/2 cup strawberries (fresh, sliced)",strawberries,0.5,cup,29.5734375,g,TRUE,,,TRUE
 Yogurt Berry Parfait,4,"other optional fruit (raspberries, peaches, pineapple and/or mangos)",mangoes,1,each,0.25,each,TRUE,,,TRUE
 Yogurt Berry Parfait,4,1 cup granola,jeff s granola cinnamon raisin,1,cup,59.146875,g,TRUE,,,TRUE
@@ -1462,7 +1462,7 @@ Zucchini Bread,16,1/4 cup vegetable oil,best yet vegetable oil,0.25,cup,3.696679
 Zucchini Bread,16,2 cups zucchini (grated),zucchini squash,2,cup,29.5734375,g,TRUE,TRUE,TRUE,TRUE
 Zucchini Bread,16,1/2 teaspoon vanilla,equal exchange french vanilla,0.5,teaspoon,0.154028313,g,TRUE,TRUE,TRUE,TRUE
 Zucchini Bread,16,1 1/2 cups flour (all purpose),best yet all purpose flour,1.5,cup,22.18007813,g,TRUE,TRUE,TRUE,TRUE
-Zucchini Bread,16,1 1/2 cups whole wheat flour,heckers all natural 100  whole wheat flour,1.5,cup,22.18007813,g,TRUE,TRUE,TRUE,TRUE
+Zucchini Bread,16,1 1/2 cups whole wheat flour,heckers all natural 100 whole wheat flour,1.5,cup,22.18007813,g,TRUE,TRUE,TRUE,TRUE
 Zucchini Bread,16,1 teaspoon salt,badia garlic salt,1,teaspoon,0.308056625,g,TRUE,TRUE,TRUE,TRUE
 Zucchini Bread,16,2 teaspoons baking soda,best yet baking soda,2,teaspoon,0.61611325,g,TRUE,TRUE,TRUE,TRUE
 Zucchini Bread,16,2 teaspoons cinnamon,badia cinnamon powder,2,teaspoon,0.61611325,g,TRUE,TRUE,TRUE,TRUE

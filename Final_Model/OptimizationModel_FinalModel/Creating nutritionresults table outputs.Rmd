@@ -1,0 +1,29 @@
+---
+title: "Creating Table Outputs on Nutrition Intake"
+output: html_document
+---
+### This rmd file produces the "nutritionresults.csv" output: nutrition intake by household member + day of the week + meal for a household example.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+Read model output "menu.csv" and data input "data_recipes.csv"
+```{r,message=FALSE}
+
+house<-read_csv("menu.csv")
+
+recnut<-read_delim("data_recipes.csv")%>%
+  rename(Recipe=recipe)
+
+```
+Merge model output recipes + serving sizes with data inputs on recipes + nutrients to produce nutrition outputs
+```{r}
+nutrout<-house%>%
+            left_join(recnut, by="Recipe")%>%
+            mutate(across(6:33, ~.x*Servings))
+
+write_excel_csv(nutrout, "nutritionresults.csv")
+
+```
+
